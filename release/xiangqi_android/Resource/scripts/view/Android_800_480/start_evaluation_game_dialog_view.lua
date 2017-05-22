@@ -1,0 +1,19 @@
+start_evaluation_game_dialog_view=
+{
+	name="start_evaluation_game_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=140250821,x=0,y=0,width=720,height=868,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="common/decoration/start_evaluation_dec.png"
+	},
+	{
+		name="close_btn",type=2,typeName="Button",time=140250998,x=29,y=30,width=130,height=44,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/background/line_bg_6.png",
+		{
+			name="Text2",type=4,typeName="Text",time=140854328,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=26,textAlign=kAlignCenter,colorRed=104,colorGreen=117,colorBlue=137,string=[[跳 过]]
+		}
+	},
+	{
+		name="start_btn",type=2,typeName="Button",time=140251159,x=0,y=67,width=444,height=96,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/long_yellow_btn.png",
+		{
+			name="Text1",type=4,typeName="Text",time=140251198,x=0,y=0,width=136,height=34,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignLeft,colorRed=95,colorGreen=15,colorBlue=15,string=[[我已准备好]]
+		}
+	}
+}

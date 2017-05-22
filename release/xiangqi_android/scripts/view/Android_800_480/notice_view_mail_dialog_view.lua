@@ -1,0 +1,37 @@
+notice_view_mail_dialog_view=
+{
+	name="notice_view_mail_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=109304255,x=0,y=240,width=720,height=800,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="title",type=4,typeName="Text",time=109304385,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=44,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[消息]]
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=109304562,x=0,y=114,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="content_bg",type=1,typeName="Image",time=109304588,x=0,y=167,width=640,height=450,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+			{
+				name="content_view",type=0,typeName="View",time=109304818,x=0,y=0,width=589,height=450,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			}
+		},
+		{
+			name="btn_1",type=2,typeName="Button",time=109304871,x=-157,y=72,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="btn_text",type=4,typeName="Text",time=109305840,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[关闭]]
+			}
+		},
+		{
+			name="btn_2",type=2,typeName="Button",time=109304956,x=157,y=72,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="btn_text",type=4,typeName="Text",time=109305881,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[]]
+			}
+		},
+		{
+			name="btn_3",type=2,typeName="Button",time=109305912,x=0,y=72,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="btn_text",type=4,typeName="Text",time=109305913,x=0,y=0,width=19,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[关闭]]
+			}
+		}
+	}
+}

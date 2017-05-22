@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    
+    <ImageButton
+        android:id="@+id/boyaa_kefu_rate_heart1"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boyaa_kefu_rate_heart_selected"
+        />
+    
+    <ImageButton
+        android:id="@+id/boyaa_kefu_rate_heart2"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boyaa_kefu_rate_heart_selected"
+        android:layout_toRightOf="@id/boyaa_kefu_rate_heart1"
+        android:layout_marginLeft="11dp"
+        />
+        
+     <ImageButton
+        android:id="@+id/boyaa_kefu_rate_heart3"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boyaa_kefu_rate_heart_selected"
+        android:layout_toRightOf="@id/boyaa_kefu_rate_heart2"
+        android:layout_marginLeft="11dp"
+        />
+            
+     <ImageButton
+        android:id="@+id/boyaa_kefu_rate_heart4"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boyaa_kefu_rate_heart_selected"
+        android:layout_toRightOf="@id/boyaa_kefu_rate_heart3"
+        android:layout_marginLeft="11dp"
+        />
+                
+     <ImageButton
+        android:id="@+id/boyaa_kefu_rate_heart5"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boyaa_kefu_rate_heart_selected"
+        android:layout_toRightOf="@id/boyaa_kefu_rate_heart4"
+        android:layout_marginLeft="11dp"
+        />
+        
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

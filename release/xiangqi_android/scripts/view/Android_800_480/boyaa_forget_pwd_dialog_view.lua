@@ -1,0 +1,25 @@
+boyaa_forget_pwd_dialog_view=
+{
+	name="boyaa_forget_pwd_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=91800804,x=0,y=-61,width=624,height=605,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_3.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="back_btn",type=2,typeName="Button",time=91801899,x=0,y=370,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_6_normal.png",file2="common/button/dialog_btn_6_press.png",
+			{
+				name="Text1",type=4,typeName="Text",time=91801995,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[返回]]
+			}
+		},
+		{
+			name="by_phone_btn",type=2,typeName="Button",time=91802133,x=0,y=124,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="Text3",type=4,typeName="Text",time=91802225,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[通过手机找回]]
+			}
+		},
+		{
+			name="by_email_btn",type=2,typeName="Button",time=91802180,x=0,y=248,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="Text31",type=4,typeName="Text",time=91802276,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[通过邮箱找回]]
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandParent">
+        <attr name="parentLMarginLeft" format="dimension" />
+        <attr name="parentLMarginTop" format="dimension" />
+        <attr name="parentLMarginBottom" format="dimension" />
+        <attr name="parentLText" format="string" />
+        <attr name="parentLTextSize" format="dimension" />
+        <attr name="parentLTextColor" format="color" />
+        <attr name="parentLTextMaxEms" format="dimension" />
+        <attr name="parentLTextSingleLine" format="boolean" />
+        <attr name="parentRelativeHeight" format="dimension" />
+        <attr name="parentLTextEllipSize">
+            <enum name="boyaa_kefu_end" value="1"/>
+            <enum name="boyaa_kefu_start" value="2"/>
+            <enum name="boyaa_kefu_middle" value="3"/>
+            <enum name="boyaa_kefu_marquee" value="4"/>
+         </attr>
+        
+        <attr name="parentRMarginRight" format="dimension" />
+        <attr name="parentRMarginTop" format="dimension" />
+        <attr name="parentRMarginBottom" format="dimension" />
+        <attr name="parentRText" format="string" />
+        <attr name="parentRTextSize" format="dimension" />
+        <attr name="parentRTextColor" format="color" />
+        
+        <attr name="parentIMarginRight" format="dimension" />
+        <attr name="parentIMarginTop" format="dimension" />
+        <attr name="parentIMarginBottom" format="dimension" />
+        <attr name="parentIAlignParentRight" format="boolean" />
+        <attr name="parentISrc" format="reference" />
+    </declare-styleable>
+    
+    
+   <declare-styleable name="ExpandChild">
+        <attr name="childTitleName" format="string" />
+        <attr name="childSetName" format="string" />
+        <attr name="childTitleId" format="string" />
+        <attr name="childSetId" format="string" />
+        <attr name="childTitleType" format="string" />
+        <attr name="childSetType" format="string" />
+        <attr name="childTitleContent" format="string" />
+        <attr name="childSetContent" format="string" />
+        <attr name="childTitleCallBack" format="string" />
+        <attr name="childSetCallBack" format="string" />
+        
+        <attr name="childTextSize" format="dimension" />
+        <attr name="childBackgroundColor" format="color" />
+        
+        <attr name="childDefaultColor" format="color" />
+        <attr name="childResetColor" format="color" />
+        
+        <attr name="childMarginTop" format="dimension" />
+        <attr name="childMarginBottom" format="dimension" />
+        <attr name="childMarginLeft" format="dimension" />
+        <attr name="childMarginRight" format="dimension" />
+        <attr name="childMarginSame" format="dimension" />
+        <attr name="childMarginDif" format="dimension" />
+        
+        <attr name="childTitleHeight" format="dimension" />
+        <attr name="childContentHeight" format="dimension" />
+        <attr name="childCallBackHeight" format="dimension" />
+        
+        <attr name="childLineColor" format="color" />
+        
+        <attr name="childTitleComponentVisible" format="boolean" />
+        <attr name="childContentComponentVisible" format="boolean" />
+        
+    </declare-styleable>
+
+</resources>

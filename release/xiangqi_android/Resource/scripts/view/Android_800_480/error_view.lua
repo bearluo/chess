@@ -1,0 +1,28 @@
+error_view=
+{
+	name="error_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="error_full_screen_bg",type=1,typeName="Image",time=6577486,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="common/background/model_bg.png"
+	},
+	{
+		name="error_icon",type=1,typeName="Image",time=6577821,x=0,y=49,width=206,height=364,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="drawable/sad_chess.png"
+	},
+	{
+		name="error_repair_btn",type=2,typeName="Button",time=6578558,x=0,y=510,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_4_press.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+		{
+			name="error_repair_texture",type=4,typeName="Text",time=6578671,x=0,y=-2,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[立即解救]]
+		}
+	},
+	{
+		name="error_tip",type=4,typeName="Text",time=124964274,x=0,y=-180,width=468,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignLeft,colorRed=200,colorGreen=40,colorBlue=40,string=[[大侠，小雅被妖怪抓走了！！]]
+	},
+	{
+		name="errorContent",type=5,typeName="TextView",time=80882309,x=32,y=600,width=660,height=667,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=28,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+	},
+	{
+		name="bamboo_left",type=1,typeName="Image",time=98621890,x=0,y=0,width=78,height=163,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/decoration/bamboo_left.png"
+	},
+	{
+		name="bamboo_right",type=1,typeName="Image",time=98621900,x=0,y=0,width=77,height=137,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/decoration/bamboo_right.png"
+	}
+}

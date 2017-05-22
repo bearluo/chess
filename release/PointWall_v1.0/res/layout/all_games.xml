@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:id="@+id/game_detail_bolck"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/game_detail_title_left_btn"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/back_click"
+            android:src="@drawable/free_getpoints_titile_left_btn" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/free_getpoints" >
+
+            <TextView
+                android:id="@+id/game_detail_title_text"
+                style="@style/TextAppearance_PointWall_Head_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="@string/free_getPoints_title_text" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/free_getpoints"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/game_detail_title_dl_points"
+                style="@style/TextAppearance_points_num_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:paddingTop="8dp"
+                android:text="0" 
+                android:visibility = "gone"/>
+
+            <TextView
+                android:id="@+id/game_detail_title_dl_text"
+                style="@style/TextAppearance_points_text_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="@string/free_getPoints_title_points_text"
+                android:visibility = "gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <ImageView
+            android:id="@+id/boyaa_games_title"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:background="@drawable/boyaa_games_label_focus" />
+
+        <ImageView
+            android:id="@+id/suggest_games_title"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/suggest_games_label"
+            android:baselineAlignBottom="true" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/all_games_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/all_games_separator" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/games_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none" >
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

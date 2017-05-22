@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/boyaa_kefu_listview_header">
+    <ImageView
+        android:id="@+id/boyaa_kefu_iv_swipe_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/boyaa_kefu_swipe_refresh_arrow_down"
+        />
+    <TextView 
+        android:id="@+id/boyaa_kefu_tv_swipe_refresh_tip"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:layout_marginLeft="5dp"
+    	android:layout_toRightOf="@id/boyaa_kefu_iv_swipe_refresh"
+    	android:textColor="#C3C3C3"
+    	android:text="@string/boyaa_kefu_swipe_refresh_down_tip"
+        />
+
+</RelativeLayout>

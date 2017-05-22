@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/boyaa_kefu_id_inform_citems_replycontent" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_num" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_num_tip" android:paddingLeft="?android:expandableListPreferredItemPaddingLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boyaa_kefu_inform_number" />
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_num_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_id_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/boyaa_kefu_inform_id" />
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_id_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_type_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/boyaa_kefu_inform_type" />
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_type_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/boyaa_kefu_id_inform_citems_informcontent_content" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/boyaa_kefu_id_inform_citems_informcontent_num">
+            <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent_tip" android:paddingLeft="?android:expandableListPreferredItemPaddingLeft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/boyaa_kefu_inform_content" />
+            <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_informcontent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/boyaa_kefu_inform_has_commit" android:layout_toRightOf="@id/boyaa_kefu_id_inform_citems_informcontent_tip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/boyaa_kefu_id_inform_citems_serviceReply" android:background="#ffcecece" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/boyaa_kefu_id_inform_citems_replycontent">
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_servicereply_tip" android:paddingLeft="?android:expandableListPreferredItemPaddingLeft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/boyaa_kefu_inform_response" />
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/boyaa_kefu_id_inform_citems_servicereply_value" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/boyaa_kefu_inform_has_commit" android:layout_toRightOf="@id/boyaa_kefu_id_inform_citems_servicereply_tip" />
+    </RelativeLayout>
+</RelativeLayout>

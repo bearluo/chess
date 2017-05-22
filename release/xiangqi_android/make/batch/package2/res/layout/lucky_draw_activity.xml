@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/state_texture_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/huodong_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <Button android:id="@id/huodong_back_btn" android:layout_width="55.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <WebView android:id="@id/huodong_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/huodong_title_bg" />
+</RelativeLayout>

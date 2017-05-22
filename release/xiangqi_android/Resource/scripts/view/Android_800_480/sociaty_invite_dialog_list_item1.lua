@@ -1,0 +1,19 @@
+sociaty_invite_dialog_list_item1=
+{
+	name="sociaty_invite_dialog_list_item1",type=0,typeName="View",time=0,x=0,y=0,width=600,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="share_btn",type=2,typeName="Button",time=125206879,x=0,y=0,width=600,height=140,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank.png",file2="drawable/blank.png"
+	},
+	{
+		name="icon",type=1,typeName="Image",time=125205986,x=26,y=0,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/icon/dashi.png"
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=125206363,x=0,y=0,width=580,height=1,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/line_6.png"
+	},
+	{
+		name="name",type=4,typeName="Text",time=125206431,x=155,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=40,textAlign=kAlignLeft,colorRed=150,colorGreen=95,colorBlue=85,string=[[]]
+	},
+	{
+		name="Image2",type=1,typeName="Image",time=136719743,x=0,y=-5,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/view_item_cut_line.png"
+	}
+}

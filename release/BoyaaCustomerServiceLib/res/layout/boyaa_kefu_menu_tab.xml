@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#f2f0eb"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true" >
+    
+    <!-- 顶部标题 -->
+    <include 
+        android:id="@+id/boyaa_kefu_top_title"
+        layout="@layout/boyaa_kefu_activity_title_header"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+	    <com.boyaa.customer.service.widget.PagerSlidingTabStrip
+	        android:id="@+id/tabs"
+	        android:background="@android:color/white"
+	        android:layout_width="match_parent"
+	        android:layout_height="54dip"
+	        app:boyaa_kefu_pstsDividerColor="#00000000"
+	        app:boyaa_kefu_pstsIndicatorColor="#ff6fba2c"
+	        app:boyaa_kefu_pstsUnderlineColor="#ff9b9b9b"
+	        app:boyaa_kefu_pstsUnderlineHeight="6dip"
+	        app:boyaa_kefu_pstsIndicatorHeight="6dip"
+	        app:boyaa_kefu_pstsSelectedTxtColor="#FF6fba2c"
+	        app:boyaa_kefu_pstsUnselectedTxtColor="#FF9b9b9b"
+	        app:boyaa_kefu_pstsTabMarginTop="0dp"
+	        app:boyaa_kefu_pstsTabMarginBottom="0dp"/>
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="2dp"
+	        android:background="#C0C0C0"
+	        />
+	
+	    <android.support.v4.view.ViewPager
+	        android:id="@+id/id_pager"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_marginTop="2dip"
+	        android:layout_weight="1" />
+	</LinearLayout>
+
+</LinearLayout>

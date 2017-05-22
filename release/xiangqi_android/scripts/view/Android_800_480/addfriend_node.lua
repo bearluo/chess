@@ -1,0 +1,37 @@
+addfriend_node=
+{
+	name="addfriend_node",type=0,typeName="View",time=0,x=0,y=0,width=618,height=131,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+	{
+		name="icon_bg",type=1,typeName="Image",time=97654604,x=26,y=0,width=92,height=92,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/background/head_bg_92.png",
+		{
+			name="icon_mask",type=1,typeName="Image",time=97654660,x=0,y=0,width=86,height=86,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/head_mask_bg_86.png"
+		},
+		{
+			name="vip_frame",type=1,typeName="Image",time=100665415,x=0,y=0,width=90,height=90,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="vip/vip_90.png"
+		}
+	},
+	{
+		name="name",type=4,typeName="Text",time=97654682,x=138,y=-32,width=200,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[无敌小次郎]]
+	},
+	{
+		name="vip_logo",type=1,typeName="Image",time=100665466,x=138,y=-32,width=46,height=38,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="vip/vip_logo.png"
+	},
+	{
+		name="level",type=1,typeName="Image",time=97654769,x=140,y=33,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/icon/level_9.png"
+	},
+	{
+		name="id",type=4,typeName="Text",time=97654824,x=205,y=33,width=200,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=28,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[ID:8488250]]
+	},
+	{
+		name="follow",type=2,typeName="Button",time=97656002,x=413,y=38,width=185,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/dialog_btn_3_normal.png",gridLeft=64,gridRight=64,gridTop=29,gridBottom=29,
+		{
+			name="text",type=4,typeName="Text",time=97656160,x=0,y=0,width=200,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[加关注]]
+		}
+	},
+	{
+		name="bottom_line",type=1,typeName="Image",time=97656300,x=0,y=0,width=589,height=1,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/cutline.png"
+	},
+	{
+		name="concat_name",type=4,typeName="Text",time=108532614,x=138,y=0,width=208,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=24,textAlign=kAlignLeft,colorRed=120,colorGreen=120,colorBlue=120,string=[[]]
+	}
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules">
+	<target name="auto-batch-build_lua">
+		<!-- 构建文件build 所在目录 -->
+		<dirname property="auto.here.dir" file="${ant.file}" />
+        <!-- 打包路径 xxxTmp -->
+        <property name="auto.project.tmp.dir" value="${auto.here.dir}Tmp" />
+        <property name="build.last.is.packaging.debug" value="false" />
+        <!-- 修改文件变量 -->
+        <propertyfile file="auto.prop">
+            <entry key="auto.project.tmp.dir" value="${auto.project.tmp.dir}" />
+            <entry key="build.last.is.packaging.debug" value="${build.last.is.packaging.debug}" />
+        </propertyfile>
+        <!-- 复制项目到临时目录，避免替换打包影响本目录代码 -->
+        <!-- 保证打包路径没有其他东西 -->
+        <delete dir="${auto.project.tmp.dir}" />
+        <copy todir="${auto.project.tmp.dir}" overwrite="true">
+            <fileset dir="./">
+                <!-- 忽略隐藏文件 -->
+                <exclude name="apk/*" />
+                <exclude name=".*" />
+                <exclude name=".*/*" />
+            </fileset>
+        </copy>
+		
+		<echo message="lua文件编译加密ing ps( 日志 build_lua.log )" />
+		<exec dir="${auto.project.tmp.dir}" executable="build_lua.bat">
+			<arg line=">>build_lua.log"/>
+        </exec>
+		<echo message="批量打包ing ps( 日志 batch.log )" />
+		<exec dir="${auto.project.tmp.dir}" executable="batch.bat">
+			<arg line=">>batch.log"/>
+        </exec>
+		<copy todir="${auto.here.dir}/${out.apk}" overwrite="true">
+            <fileset dir="${auto.project.tmp.dir}/${out.apk}">
+                <!-- 忽略隐藏文件 -->
+                <exclude name=".*" />
+                <exclude name=".*/*" />
+            </fileset>
+        </copy>
+	</target>
+	<!-- batch 模式打包 -->
+    <target name="auto-batch">
+		<!-- 构建文件build 所在目录 -->
+		<dirname property="auto.here.dir" file="${ant.file}" />
+        <!-- 打包路径 xxxTmp -->
+        <property name="auto.project.tmp.dir" value="${auto.here.dir}Tmp" />
+        <property name="build.last.is.packaging.debug" value="false" />
+        <!-- 修改文件变量 -->
+        <propertyfile file="auto.prop">
+            <entry key="auto.project.tmp.dir" value="${auto.project.tmp.dir}" />
+            <entry key="build.last.is.packaging.debug" value="${build.last.is.packaging.debug}" />
+        </propertyfile>
+        <!-- 复制项目到临时目录，避免替换打包影响本目录代码 -->
+        <!-- 保证打包路径没有其他东西 -->
+        <delete dir="${auto.project.tmp.dir}" />
+        <copy todir="${auto.project.tmp.dir}" overwrite="true">
+            <fileset dir="./">
+                <!-- 忽略隐藏文件 -->
+                <exclude name="apk/*" />
+                <exclude name=".*" />
+                <exclude name=".*/*" />
+            </fileset>
+        </copy>
+		<echo message="批量打包ing ps( 日志 batch.log )" />
+		<exec dir="${auto.project.tmp.dir}" executable="batch.bat">
+			<arg line=">>batch.log"/>
+        </exec>
+		<copy todir="${auto.here.dir}/${out.apk}" overwrite="true">
+            <fileset dir="${auto.project.tmp.dir}/${out.apk}">
+                <!-- 忽略隐藏文件 -->
+                <exclude name=".*" />
+                <exclude name=".*/*" />
+            </fileset>
+        </copy>
+    </target>
+	
+    <!-- debug 模式打包 -->
+    <target name="auto-debug">
+        <property name="build.last.is.packaging.debug" value="true" />
+        <!-- 修改文件变量 -->
+        <propertyfile file="auto.prop">
+            <entry key="build.last.is.packaging.debug" value="${build.last.is.packaging.debug}" />
+        </propertyfile>
+        <antcall target="-auto">
+        </antcall>
+    </target>
+    <!-- release 模式打包 -->
+    <target name="auto-release">
+        <property name="build.last.is.packaging.debug" value="false" />
+        <!-- 修改文件变量 -->
+        <propertyfile file="auto.prop">
+            <entry key="build.last.is.packaging.debug" value="${build.last.is.packaging.debug}" />
+        </propertyfile>
+        <antcall target="-auto">
+        </antcall>
+    </target>
+
+    <target name="-auto">
+        <!-- 解析AndroidManifest.xml 获得包名 -->
+        <xmlproperty file="AndroidManifest.xml" collapseAttributes="true" />
+		<!-- 构建文件build 所在目录 -->
+		<dirname property="auto.here.dir" file="${ant.file}" />
+        <!-- 写入配置文件 -->
+        <propertyfile file="auto.prop">
+            <entry key="auto.package" value="${manifest.package}" />
+            <entry key="auto.final.versionCode" value="${manifest.android:versionCode}" />
+            <entry key="auto.final.versionName" value="${manifest.android:versionName}" />
+            <entry key="auto.here.dir" value="${auto.here.dir}" />
+        </propertyfile>
+
+        <!-- 修改友盟渠道 -->
+        <condition property="UMENG_CHANNEL" value="debug" else="release">
+            <istrue value="${build.last.is.packaging.debug}" />
+        </condition>
+        <propertyfile file="auto.prop">
+            <entry key="auto.umeng.channel" value="${UMENG_CHANNEL}" />
+        </propertyfile>
+        <echo message="UMENG_CHANNEL : ${UMENG_CHANNEL}" />
+        <replaceregexp file="${auto.here.dir}/AndroidManifest.xml"
+			encoding="utf-8"
+			match="&lt;meta\-data(\s+)android:name=&quot;UMENG_CHANNEL&quot;(\s+)android:value=&quot;[a-zA-Z0-9]+&quot;"
+			replace="&lt;meta\-data android:name=&quot;UMENG_CHANNEL&quot; android:value=&quot;${UMENG_CHANNEL}&quot;"
+        />
+		<!-- 修改个推渠道号 -->
+		<property name="GETUI_CHANNEL" value="0" />
+		<propertyfile file="auto.prop">
+            <entry key="auto.getui.channel" value="${GETUI_CHANNEL}" />
+        </propertyfile>
+        <echo message="GETUI_CHANNEL : ${GETUI_CHANNEL}" />
+        <replaceregexp file="${auto.here.dir}/AndroidManifest.xml"
+			encoding="utf-8"
+			match="&lt;meta\-data(\s+)android:name=&quot;CHANNELID&quot;(\s+)android:value=&quot;[a-zA-Z0-9]+&quot;"
+			replace="&lt;meta\-data android:name=&quot;CHANNELID&quot; android:value=&quot;${GETUI_CHANNEL}&quot;"
+        />
+		
+        <condition property="build.last.target" value="debug" else="release">
+            <istrue value="${build.last.is.packaging.debug}" />
+        </condition>
+		
+		<property name="out.final.file"  
+                          location="${out.apk}/${manifest.package}-${manifest.android:versionName}-${UMENG_CHANNEL}-${build.last.target}.apk" />
+		
+        <!-- 执行ant debug或者ant release进行打包 -->
+        <antcall target="${build.last.target}">
+        </antcall>
+
+        <echo message="package: ${manifest.package}" />
+        <echo message="UMENG_CHANNEL : ${UMENG_CHANNEL}" />
+        <echo message="versionCode: ${manifest.android:versionCode}" />
+        <echo message="versionName: ${manifest.android:versionName}" />
+    </target>
+</project>

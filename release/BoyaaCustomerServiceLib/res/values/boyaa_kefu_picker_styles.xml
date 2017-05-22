@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="boyaa_kefu_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/boyaa_kefu_white</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <style name="boyaa_kefu_timer_picker">
+
+        <item name="@android:windowEnterAnimation">@anim/boyaa_kefu_anim_bottom_to_top</item>
+
+        <item name="@android:windowExitAnimation">@anim/boyaa_kefu_anim_top_to_bottom</item>
+
+    </style>
+    
+    <style name="boyaa_kefu_theme_no_titlebar" parent="android:Theme.NoTitleBar">         
+	</style>
+
+</resources>

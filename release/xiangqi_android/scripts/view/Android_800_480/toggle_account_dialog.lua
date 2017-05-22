@@ -1,0 +1,40 @@
+toggle_account_dialog=
+{
+	name="toggle_account_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="content_view",type=0,typeName="View",time=26445970,x=0,y=0,width=720,height=884,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="content_bg",type=1,typeName="Image",time=26445978,x=0,y=0,width=742,height=884,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+		},
+		{
+			name="title",type=4,typeName="Text",time=91164422,x=0,y=9,width=480,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=44,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[账号切换]]
+		},
+		{
+			name="confirm",type=2,typeName="Button",time=91186214,x=-140,y=60,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="Text2",type=4,typeName="Text",time=91186372,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[完成]]
+			}
+		},
+		{
+			name="del_btn",type=2,typeName="Button",time=91164824,x=-141,y=61,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="Text1",type=4,typeName="Text",time=96174589,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[账号管理]]
+			}
+		},
+		{
+			name="scroll_view_holder",type=0,typeName="View",time=91165273,x=0,y=164,width=603,height=516,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=96174697,x=0,y=156,width=620,height=532,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=96174841,x=0,y=116,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=96178166,x=138,y=60,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="Text2",type=4,typeName="Text",time=96178167,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[确认]]
+			}
+		}
+	}
+}

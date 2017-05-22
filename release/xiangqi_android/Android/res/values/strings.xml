@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">博雅中国象棋</string>
+    <string name="lable_name">博雅象棋</string>
+    <string name="Failed">登陆失败</string>
+    <string name="Logining">正在登陆...</string>
+    <string name="GetData">正在接受数据</string>
+    <string name="CancelLogin">取消登陆</string>
+    <string name="logout">注销</string>  
+    
+    
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_done">完成</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_search">搜索</string>
+    <string name="btn_go">去往</string>
+	
+	<string name="Ensure">"确定"</string>
+	<string name="Cancel">"取消"</string>
+
+	<string name="get_code_fail">获取授权码失败</string>
+	<string name="get_token_title">获取Access Token</string>
+    <string name="get_token_message">正在请求应用服务器,请稍候……</string>
+    <string name="get_token_fail">未从应用服务器获取Access Token</string>
+    <string name="get_user_title">获取用户信息</string>
+    <string name="get_user_message">正在请求应用服务器,请稍候……</string>
+	<string name="get_user_fail">获取用户信息失败,请重试</string>
+	
+	<string name="noNetWork">网络连接失败，无法获取活动数据，请检查网络设置后重试</string>
+    <string name="qq">QQ</string>
+    <string name="verified_failed">验证失败！</string>
+    <string name="weibo">微博</string>
+	
+    
+    <string name="share_chess">分享棋局</string>
+    <string name="share_chess_content_title">这盘棋下得不错，分享给我的好友</string>
+    <string name="share_pyq">朋友圈</string>
+    <string name="share_wechat">微信</string>
+    <string name="copy_url">复制链接</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_sms">短信</string>
+    <string name="share_local">保存本地</string>
+    <string name="boyaa_qq_share">http://cdnsource.static.17c.cn/chess/icon.jpg</string>
+</resources>
+
+

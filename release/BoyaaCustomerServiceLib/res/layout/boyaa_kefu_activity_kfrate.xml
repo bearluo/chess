@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!-- 顶部标题栏 -->
+    <include 
+        android:id="@+id/boyaa_kefu_top_title_backbar"
+        layout="@layout/boyaa_kefu_activity_title_header"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/boyaa_kefu_rate_title"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:background="#e6e6e6"
+        />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        >
+        
+        <RelativeLayout
+            android:id="@+id/boyaa_kefu_rate_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22.5dp"
+            >
+            
+            <TextView
+                android:id="@+id/boyaa_kefu_rate_speed_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="17sp"
+                android:text="@string/boyaa_kefu_rate_content_speed"
+                android:textColor="#000000"
+                />
+            
+            <include
+                android:id="@+id/boyaa_kefu_rate_speed_heart"
+                layout="@layout/boyaa_kefu_activity_kfrate_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+            
+         </RelativeLayout>
+         
+         <RelativeLayout
+            android:id="@+id/boyaa_kefu_rate_attitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/boyaa_kefu_rate_speed"
+            android:layout_marginTop="24dp"
+            >
+            
+            <TextView
+                android:id="@+id/boyaa_kefu_rate_attitude_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/boyaa_kefu_rate_content_attitude"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                />
+            
+            <include
+                android:id="@+id/boyaa_kefu_rate_attitude_heart"
+                layout="@layout/boyaa_kefu_activity_kfrate_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+            
+         </RelativeLayout>
+         
+         <RelativeLayout
+            android:id="@+id/boyaa_kefu_rate_feel"
+            android:layout_below="@id/boyaa_kefu_rate_attitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            >
+            
+            <TextView
+                android:id="@+id/boyaa_kefu_rate_feel_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/boyaa_kefu_rate_content_feel"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                />
+            
+            <include
+                android:id="@+id/boyaa_kefu_rate_feel_heart"
+                layout="@layout/boyaa_kefu_activity_kfrate_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+            
+         </RelativeLayout>
+         
+         <TextView
+             android:id="@+id/boyaa_kefu_rate_content_tips"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_below="@id/boyaa_kefu_rate_feel"
+             android:layout_marginTop="15dp"
+             android:text="@string/boyaa_kefu_rate_content_tips"
+             android:textSize="12sp"
+             android:textColor="#9B9B9B"
+             />
+         
+         
+      <Button
+        android:id="@+id/boyaa_kefu_rate_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/boyaa_kefu_rate_content_tips"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#fefefe"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/boyaa_kefu_submit_click"
+        android:text="@string/boyaa_kefu_comment_submit" />
+        
+    </RelativeLayout>
+        
+    </LinearLayout>
+</RelativeLayout>

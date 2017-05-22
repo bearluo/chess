@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffe6e6e6" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0sp" android:textColor="@color/appkefu_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boyaa_kefu_timer_picker" android:layout_centerInParent="true" />
+        <Button android:textSize="17.0sp" android:textColor="@color/appkefu_black" android:id="@id/btn_ok" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boyaa_kefu_ok" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.boyaa.customer.service.widget.wheel.WheelView android:layout_gravity="center" android:id="@id/year" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.boyaa.customer.service.widget.wheel.WheelView android:layout_gravity="center" android:id="@id/month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.boyaa.customer.service.widget.wheel.WheelView android:layout_gravity="center" android:id="@id/day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.boyaa.customer.service.widget.wheel.WheelView android:layout_gravity="center" android:id="@id/time" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.boyaa.customer.service.widget.wheel.WheelView android:layout_gravity="center" android:id="@id/min" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.boyaa.customer.service.widget.wheel.WheelView android:layout_gravity="center" android:id="@id/sec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="1.0dip" />
+</LinearLayout>

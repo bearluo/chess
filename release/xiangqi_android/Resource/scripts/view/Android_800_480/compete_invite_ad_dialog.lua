@@ -1,0 +1,31 @@
+compete_invite_ad_dialog=
+{
+	name="compete_invite_ad_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="bg",type=1,typeName="Image",time=129700064,x=0,y=0,width=640,height=860,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/default_match_ad_mask.png",
+		{
+			name="ad_bg",type=1,typeName="Image",time=129701641,x=0,y=0,width=640,height=860,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="ui/image.png"
+		},
+		{
+			name="match_info",type=0,typeName="View",time=129700350,x=0,y=138,width=200,height=160,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,
+			{
+				name="bg",type=1,typeName="Image",time=129700371,x=0,y=0,width=640,height=150,visible=1,fillParentWidth=0,fillParentHeight=1,nodeAlign=kAlignCenter,file="common/background/default_match_ad_title.png"
+			},
+			{
+				name="title",type=4,typeName="Text",time=129700522,x=0,y=6,width=640,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=80,textAlign=kAlignTop,colorRed=230,colorGreen=190,colorBlue=110,string=[[BCT职业赛]]
+			},
+			{
+				name="time",type=4,typeName="Text",time=129700555,x=0,y=25,width=640,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=32,textAlign=kAlignBottom,colorRed=255,colorGreen=255,colorBlue=255,string=[[2016/11/11  20:00~22:00]]
+			}
+		},
+		{
+			name="go",type=2,typeName="Button",time=129700362,x=0,y=50,width=200,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/compete_match_go_btn.png",
+			{
+				name="txt",type=4,typeName="Text",time=129700587,x=0,y=0,width=200,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=60,colorGreen=30,colorBlue=30,string=[[立即前往]]
+			}
+		},
+		{
+			name="close",type=2,typeName="Button",time=129727437,x=0,y=-52,width=44,height=52,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/close_btn.png"
+		}
+	}
+}

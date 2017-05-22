@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="fill_parent"
+    width="fill_parent" >
+
+    <Item
+        background="mmiap/03/bg.png"
+        content="scrollview"
+        height="fill_parent"
+        orientation="vertical"
+        stytle="ScrollView"
+        width="wrap_content" >
+
+        <Item
+            background="mmiap/03/bg.png"
+            content="PurchaseLayout"
+            height="fill_parent"
+            orientation="vertical"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/03/title1_bg.png"
+                content="MainTiteLayout"
+                height="70"
+                stytle="RelativeLayout"
+                width="fill_parent" >
+
+                <Item
+                    background="mmiap/03/logo1.png"
+                    content="MainTitle"
+                    gravity="center_in_parent"
+                    height="70"
+                    stytle="TextView"
+                    width="200" >
+                </Item>
+            </Item>
+
+            <Item
+                background="mmiap/03/title2_bg.png"
+                content="smallTitlelayout"
+                height="60"
+                paddingLeft="10"
+                paddingRight="20"
+                stytle="RelativeLayout"
+                width="fill_parent" >
+
+                <Item
+                    content="SMALLTitle"
+                    gravity="center_in_parent"
+                    height="wrap_content"
+                    paddingLeft="5"
+                    stytle="TextView"
+                    text="支 付 中 心"
+                    textsize="20"
+                    width="wrap_content" >
+                </Item>
+
+                <Item
+                    background="mmiap/03/button_back_press.png"
+                    clickable="true"
+                    content="backbutton"
+                    gravity="align_parent_left|r_center_vertical"
+                    height="40"
+                    pressedBG="mmiap/03/button_back.png"
+                    stytle="ImageView"
+                    width="60" >
+                </Item>
+            </Item>
+
+            <Item
+                background="mmiap/03/infobg.9.png"
+                content="productInfo"
+                height="wrap_content"
+                margingLeft="5"
+                margingRight="5"
+                margingTop="10"
+                orientation="vertical"
+                paddingBottom="30"
+                paddingLeft="15"
+                paddingRight="15"
+                paddingTop="10"
+                stytle="LinearLayout"
+                width="fill_parent" >
+
+                <Item
+                    content="ProductName"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    paddingBottom="10"
+                    paddingLeft="10"
+                    paddingTop="10"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="nametext"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        stytle="TextView"
+                        text="应用名称："
+                        textcolor="#ff818181"
+                        textsize="20"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="appname"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingRight="10"
+                        stytle="ProductItemView"
+                        text=" "
+                        textcolor="#ff000000"
+                        textsize="20"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+
+                <Item
+                    background="mmiap/03/infoline.png"
+                    content="providerline"
+                    height="3"
+                    stytle="TextView"
+                    width="fill_parent" >
+                </Item>
+
+                <Item
+                    content="ProviderInfo"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    paddingBottom="10"
+                    paddingLeft="10"
+                    paddingTop="10"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="ProviderView"
+                        height="wrap_content"
+                        orientation="horizontal"
+                        stytle="LinearLayout"
+                        weight="1"
+                        width="0" >
+
+                        <Item
+                            content="ProviderText"
+                            gravity="left"
+                            height="wrap_content"
+                            stytle="TextView"
+                            text="提供商："
+                            textcolor="#ff818181"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+
+                        <Item
+                            content="provider"
+                            gravity="left"
+                            height="wrap_content"
+                            singleline="true"
+                            stytle="ProductItemView"
+                            text="人"
+                            textcolor="#ff000000"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+                    </Item>
+
+                    <Item
+                        content="ProductName"
+                        height="wrap_content"
+                        orientation="horizontal"
+                        stytle="LinearLayout"
+                        weight="1"
+                        width="0" >
+
+                        <Item
+                            content="productText"
+                            gravity="left"
+                            height="wrap_content"
+                            stytle="TextView"
+                            text="商品："
+                            textcolor="#ff818181"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+
+                        <Item
+                            content="itemname"
+                            gravity="left"
+                            height="wrap_content"
+                            singleline="true"
+                            stytle="ProductItemView"
+                            text=" "
+                            textcolor="#ff000000"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+                    </Item>
+                </Item>
+
+                <Item
+                    background="mmiap/03/infoline.png"
+                    content="priceline"
+                    height="3"
+                    stytle="TextView"
+                    width="fill_parent" >
+                </Item>
+
+                <Item
+                    content="PriceInfo"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    paddingBottom="10"
+                    paddingLeft="10"
+                    paddingTop="10"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="PriceView"
+                        height="wrap_content"
+                        orientation="horizontal"
+                        stytle="LinearLayout"
+                        weight="1"
+                        width="0" >
+
+                        <Item
+                            content="itempricetext"
+                            gravity="left"
+                            height="wrap_content"
+                            stytle="TextView"
+                            text="单价："
+                            textcolor="#ff818181"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+
+                        <Item
+                            content="itemprice"
+                            gravity="left"
+                            height="wrap_content"
+                            singleline="true"
+                            stytle="ProductItemView"
+                            text="0.1元"
+                            textcolor="#ffff6600"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+                    </Item>
+
+                    <Item
+                        content="CountView"
+                        height="wrap_content"
+                        orientation="horizontal"
+                        stytle="LinearLayout"
+                        weight="1"
+                        width="0" >
+
+                        <Item
+                            content="counttext"
+                            gravity="left"
+                            height="wrap_content"
+                            stytle="TextView"
+                            text="数量："
+                            textcolor="#ff818181"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+
+                        <Item
+                            content="itemcount"
+                            gravity="left"
+                            height="wrap_content"
+                            singleline="true"
+                            stytle="ProductItemView"
+                            text="2"
+                            textcolor="#ffff6600"
+                            textsize="20"
+                            width="wrap_content" >
+                        </Item>
+                    </Item>
+                </Item>
+
+                <Item
+                    background="mmiap/03/infoline.png"
+                    content="payline"
+                    height="3"
+                    stytle="TextView"
+                    width="fill_parent" >
+                </Item>
+
+                <Item
+                    content="TotalPayView"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    paddingBottom="10"
+                    paddingLeft="10"
+                    paddingTop="10"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="totalpayText"
+                        gravity="left"
+                        height="wrap_content"
+                        stytle="TextView"
+                        text="支付金额："
+                        textcolor="#ff818181"
+                        textsize="20"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="totalprice"
+                        gravity="left"
+                        height="wrap_content"
+                        singleline="true"
+                        stytle="ProductItemView"
+                        text="2"
+                        textcolor="#ffff6600"
+                        textsize="20"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+            </Item>
+
+            <Item
+                content="buttonLayout"
+                gravity="center"
+                height="wrap_content"
+                paddingLeft="15"
+                paddingRight="15"
+                paddingTop="30"
+                stytle="LinearLayout"
+                width="fill_parent" >
+
+                <Item
+                    background="mmiap/03/button1_confirm.9.png"
+                    content="confirmButton"
+                    gravity="center"
+                    height="70"
+                    marginLeft="20"
+                    marginRight="20"
+                    marginTop="20"
+                    paddingBottom="10"
+                    paddingTop="10"
+                    pressedBG="mmiap/03/button1_confirm_press.9.png"
+                    stytle="Button"
+                    text="确  认"
+                    textcolor="-1"
+                    textsize="20"
+                    width="fill_parent" >
+                </Item>
+            </Item>
+
+            <Item
+                content="BottomLayout"
+                height="fill_parent"
+                margingBottom="5"
+                margingTop="50"
+                orientation="horizontal"
+                paddingBottom="10"
+                paddingTop="10"
+                stytle="RelativeLayout"
+                width="fill_parent" >
+
+                <Item
+                    content="bottomContent"
+                    gravity="align_parent_bottom|r_center_horizontal"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    stytle="LinearLayout"
+                    width="wrap_content" >
+
+
+                    <Item
+                        content="logoText"
+                        height="wrap_content"
+                        margingBottom="5"
+                        paddingLeft="3"
+                        stytle="TextView"
+                        text="版权所有 中国移动"
+                        textsize="15"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="version"
+                        height="wrap_content"
+                        margingBottom="0"
+                        margingBottom="5"
+                        margingLeft="5"
+                        paddingLeft="3"
+                        stytle="TextView"
+                        text="V3.1.10"
+                        textcolor="#ff818181"
+                        textsize="12"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+            </Item>
+        </Item>
+    </Item>
+
+</Dialog>

@@ -1,0 +1,31 @@
+binding_tip_dialog=
+{
+	name="binding_tip_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=91021507,x=0,y=0,width=587,height=416,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_3.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="bind_btn",type=2,typeName="Button",time=91021510,x=293,y=256,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+			{
+				name="btn_content",type=4,typeName="Text",time=91021511,x=-1,y=-1,width=128,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[绑定账号]]
+			}
+		},
+		{
+			name="later_remind_btn",type=2,typeName="Button",time=91021512,x=34,y=256,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+			{
+				name="btn_content",type=4,typeName="Text",time=91021513,x=-2,y=-1,width=152,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[以后提醒]]
+			}
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=91021514,x=15,y=25,width=36,height=36,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close_dow.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=97832076,x=0,y=82,width=480,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[您当前为游客账号，存在丢失账号]]
+		},
+		{
+			name="Text2",type=4,typeName="Text",time=97832159,x=0,y=123,width=480,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[的风险。是否现在绑定手机，保证]]
+		},
+		{
+			name="Text3",type=4,typeName="Text",time=97832233,x=0,y=169,width=480,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[账号安全？]]
+		}
+	}
+}

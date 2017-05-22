@@ -1,0 +1,25 @@
+competition_item_view=
+{
+	name="competition_item_view",type=0,typeName="View",time=0,x=0,y=0,width=600,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+	{
+		name="bg",type=1,typeName="Image",time=127389043,x=0,y=0,width=600,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/model_bg.png"
+	},
+	{
+		name="recent_item",type=0,typeName="View",time=127388763,x=0,y=0,width=600,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="previous_item",type=0,typeName="View",time=127388821,x=0,y=0,width=600,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="history_item",type=0,typeName="View",time=127388823,x=0,y=0,width=600,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="no_data_view",type=0,typeName="View",time=127388877,x=0,y=0,width=600,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="tips",type=4,typeName="Text",time=127388937,x=0,y=410,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[比赛信息加载失败，请重新加载]]
+		},
+		{
+			name="refresh_btn",type=2,typeName="Button",time=127389011,x=0,y=566,width=174,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_1_normal.png"
+		}
+	}
+}

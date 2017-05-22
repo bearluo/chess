@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boyaaKefu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout
+        android:id="@+id/boyaa_kefu_id_inform_id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        boyaaKefu:editTextHint="@string/boyaa_kefu_picker_inform_id_hints"
+        boyaaKefu:enabled="true"
+        boyaaKefu:errorText="@string/boyaa_kefu_input_error"
+        boyaaKefu:indicatorBackgroud="@drawable/appkefu_disclosure_arrow_normal"
+        boyaaKefu:inputType="boyaa_kefu_number"
+        boyaaKefu:isShowPic="false"
+        boyaaKefu:tipText="@string/boyaa_kefu_picker_inform_id_tips" />
+    
+    <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout
+        android:id="@+id/boyaa_kefu_id_inform_time_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        boyaaKefu:editTextHint="@string/boyaa_kefu_inform_select_date"
+        boyaaKefu:editTextId="@+id/boyaa_kefu_inform_et_stolen_date"
+        boyaaKefu:enabled="true"
+        boyaaKefu:errorText="@string/boyaa_kefu_input_error_date"
+        boyaaKefu:indicatorBackgroud="@drawable/appkefu_disclosure_arrow_normal"
+        boyaaKefu:inputType="boyaa_kefu_none"
+        boyaaKefu:isShowPic="true"
+        boyaaKefu:tipText="@string/boyaa_kefu_inform_card_date" />
+
+    <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout
+        android:id="@+id/boyaa_kefu_id_inform_type_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        boyaaKefu:editTextHint="@string/boyaa_kefu_picker_inform_type_describle"
+        boyaaKefu:editTextId="@+id/boyaa_kefu_id_inform_type_value"
+        boyaaKefu:enabled="false"
+        boyaaKefu:errorText="@string/boyaa_kefu_input_error"
+        boyaaKefu:indicatorBackgroud="@drawable/boyaa_kefu_more_select_btn"
+        boyaaKefu:inputType="boyaa_kefu_none"
+        boyaaKefu:isShowPic="true"
+        boyaaKefu:tipText="@string/boyaa_kefu_picker_inform_type_tips" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+exchange_view_node=
+{
+	name="exchange_view_node",type=0,typeName="View",time=0,x=0,y=0,width=660,height=210,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+	{
+		name="item_btn",type=2,typeName="Button",time=97666032,x=0,y=17,width=660,height=210,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/item_bg.png",
+		{
+			name="icon",type=1,typeName="Image",time=97665607,x=63,y=39,width=120,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="mall/tel_fare_5.png"
+		},
+		{
+			name="name",type=4,typeName="Text",time=97665639,x=-20,y=-17,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[5元充值卡]]
+		},
+		{
+			name="surplus",type=4,typeName="Text",time=97665689,x=-21,y=15,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[剩余:]]
+		},
+		{
+			name="num",type=4,typeName="Text",time=97665799,x=72,y=15,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=40,string=[[1000]]
+		},
+		{
+			name="change_icon",type=1,typeName="Image",time=97665868,x=121,y=-10,width=38,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="mall/rechange.png"
+		},
+		{
+			name="soul_change",type=4,typeName="Text",time=97665949,x=250,y=-11,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[500棋魂]]
+		}
+	}
+}

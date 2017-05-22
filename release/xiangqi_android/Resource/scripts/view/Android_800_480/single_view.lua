@@ -1,0 +1,19 @@
+single_view=
+{
+	name="single_view",type=0,typeName="View",time=0,x=0,y=0,width=-1,height=-1,visible=1,
+	{
+		name="single_bg",type=1,typeName="Image",time=2358686,x=0,y=0,width=480,height=800,visible=1,file="drawable/color_bg.png"
+	},
+	{
+		name="single_title",type=1,typeName="Image",time=2358800,x=0,y=0,width=480,height=91,visible=1,file="drawable/tutorials_title_bg.png"
+	},
+	{
+		name="single_back",type=3,typeName="Button2",time=2358922,x=7,y=10,width=106,height=62,visible=1,file="drawable/tutorials_back_up_btn.png",file2="drawable/tutorials_back_down_btn.png"
+	},
+	{
+		name="signle_title_name",type=1,typeName="Image",time=2359025,x=0,y=0,width=480,height=91,visible=1,file="drawable/console_tiltle.png"
+	},
+	{
+		name="game_view",type=0,typeName="ScrollView",time=2429394,x=0,y=91,width=480,height=709,visible=1
+	}
+}

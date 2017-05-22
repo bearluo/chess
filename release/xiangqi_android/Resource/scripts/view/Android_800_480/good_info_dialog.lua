@@ -1,0 +1,37 @@
+good_info_dialog=
+{
+	name="good_info_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="content_img",type=1,typeName="Image",time=129275681,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="ui/image.png"
+	},
+	{
+		name="close_btn",type=2,typeName="Button",time=129275685,x=20,y=19,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close.png"
+	},
+	{
+		name="sure_btn",type=2,typeName="Button",time=129275952,x=0,y=78,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+		{
+			name="Text1",type=4,typeName="Text",time=129276039,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[购买]]
+		}
+	},
+	{
+		name="qiPaiView",type=0,typeName="View",time=130582232,x=0,y=334,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="head",type=1,typeName="Image",time=130580495,x=0,y=7,width=70,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/head_bg_92.png",
+			{
+				name="level",type=1,typeName="Image",time=130580558,x=0,y=-7,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/icon/level_1.png"
+			}
+		},
+		{
+			name="name",type=4,typeName="Text",time=130582361,x=0,y=87,width=201,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[是]]
+		},
+		{
+			name="money_btn",type=2,typeName="Button",time=130583846,x=0,y=2,width=173,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="online/room/money_bg.png",
+			{
+				name="Image4",type=1,typeName="Image",time=130583847,x=0,y=0,width=30,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="online/room/money_icon.png"
+			},
+			{
+				name="text",type=4,typeName="Text",time=130583848,x=14,y=0,width=60,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=20,textAlign=kAlignLeft,colorRed=230,colorGreen=200,colorBlue=125,string=[[金币:0]]
+			}
+		}
+	}
+}

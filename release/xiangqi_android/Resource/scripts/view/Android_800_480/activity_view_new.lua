@@ -1,0 +1,31 @@
+activity_view_new=
+{
+	name="activity_view_new",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="new_style_view",type=0,typeName="View",time=144410489,x=171,y=245,width=200,height=150,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+		{
+			name="bg_img",type=1,typeName="Image",time=144410490,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank_black.png"
+		},
+		{
+			name="title_view",type=0,typeName="View",time=144410491,x=0,y=0,width=480,height=95,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="title_bg_img",type=1,typeName="Image",time=144410492,x=0,y=0,width=720,height=116,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/chat_title_bg.png"
+			},
+			{
+				name="title_tx",type=4,typeName="Text",time=144410493,x=0,y=0,width=96,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=48,textAlign=kAlignCenter,colorRed=225,colorGreen=200,colorBlue=160,string=[[热门活动]]
+			}
+		},
+		{
+			name="back_btn",type=2,typeName="Button",time=144410495,x=27,y=36,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/hide_dialog_btn.png"
+		},
+		{
+			name="activity_handler",type=0,typeName="View",time=144410498,x=0,y=128,width=720,height=1025,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="Image1",type=1,typeName="Image",time=144410631,x=0,y=0,width=0,height=1025,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/chatroom_bg_3.png"
+			},
+			{
+				name="no_activity",type=4,typeName="Text",time=144410703,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[暂无活动]]
+			}
+		}
+	}
+}

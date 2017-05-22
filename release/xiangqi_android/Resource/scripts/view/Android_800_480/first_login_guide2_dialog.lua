@@ -1,0 +1,40 @@
+first_login_guide2_dialog=
+{
+	name="first_login_guide2_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="bg",type=1,typeName="Image",time=97731777,x=0,y=200,width=675,height=814,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/dialog_bg_new.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="icon_bg",type=1,typeName="Image",time=97732054,x=0,y=190,width=180,height=180,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/head_bg_210.png",
+			{
+				name="icon_mask",type=1,typeName="Image",time=97732099,x=0,y=0,width=178,height=178,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/head_mask_bg_150.png"
+			}
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=140854696,x=0,y=568,width=400,height=144,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/level_dec.png"
+		},
+		{
+			name="level",type=1,typeName="Image",time=97732054,x=0,y=598,width=272,height=72,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/icon/big_level_9.png"
+		},
+		{
+			name="title1",type=4,typeName="Text",time=140854517,x=0,y=434,width=416,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=85,colorGreen=70,colorBlue=40,string=[[恭喜您]]
+		},
+		{
+			name="title2",type=4,typeName="Text",time=140854459,x=0,y=480,width=416,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=85,colorGreen=70,colorBlue=40,string=[[获得博雅象棋等级称号]]
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=140854550,x=0,y=905,width=444,height=96,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/long_yellow_btn.png",
+			{
+				name="text",type=4,typeName="Text",time=97734117,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[我知道了]]
+			}
+		},
+		{
+			name="score_txt_handler",type=0,typeName="View",time=140854985,x=0,y=73,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=140854930,x=0,y=114,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/new_line.png"
+		},
+		{
+			name="tips_txt_handler",type=0,typeName="View",time=140855045,x=0,y=836,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		}
+	}
+}

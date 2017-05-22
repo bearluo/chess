@@ -1,0 +1,9 @@
+MODEL_PATH = "chess/model/";
+BASE_PATH = "chess/base/";
+NET_PATH = "chess/net/";
+DATA_PATH = "chess/data/";
+PAY_PATH = "chess/pay/";
+DIALOG_PATH = "dialog/";
+UPDATE_PATH = "update/";
+ACTIVITY_PATH = "chess/activity/";
+VIEW_PATH = "view/Android_800_480/";

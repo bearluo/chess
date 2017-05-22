@@ -1,0 +1,213 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="boyaa_kefu_chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="boyaa_kefu_chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="boyaa_kefu_chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textColor">@color/boyaa_kefu_btn_gray_normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/boyaa_kefu_timestampe_bg</item>
+    </style>
+
+    <style name="boyaa_kefu_AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/boyaa_kefu_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/boyaa_kefu_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/boyaa_kefu_fade_out</item>
+    </style>
+
+    <style name="boyaa_kefu_AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/boyaa_kefu_slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/boyaa_kefu_slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/boyaa_kefu_slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/boyaa_kefu_slide_in_from_left</item>
+    </style>
+
+    <style name="boyaa_kefu_AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_push_bottom_out</item>
+    </style>
+
+    <style name="boyaa_kefu_AnimTop" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_push_top_out</item>
+    </style>
+
+    <style name="boyaa_kefu_AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_push_top_out2</item>
+    </style>
+
+    <style name="boyaa_kefu_AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_head_in</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_head_out</item>
+    </style>
+
+    <style name="boyaa_kefu_Anim_style" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimFade</item>
+    </style>
+
+    <style name="boyaa_kefu_Anim_style2" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimFade</item>
+    </style>
+
+    <style name="boyaa_kefu_horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimFade2</item>
+    </style>
+    
+    <style name="boyaa_kefu_nornal_style" parent="android:Theme.NoTitleBar"></style>
+
+    <!--
+    <style name="horizontal_slide2" parent="android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    -->
+
+
+
+    <style name="boyaa_kefu_MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="boyaa_kefu_MyAlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="boyaa_kefu_MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="boyaa_kefu_MyDialogStyleTop" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimTop2</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="boyaa_kefu_HeadScale" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimHead</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+
+
+    <style name="boyaa_kefu_devide_line_eee">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:background">#eee</item>
+    </style>
+
+
+ 	<style name="boyaa_kefu_bottom_line_edit_text_style" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@drawable/boyaa_kefu_edit_text_bg</item>
+    </style>
+    
+ 
+    <style name="boyaa_kefu_lay_complain_sytle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">45dp</item>
+    </style>
+    
+    <style name="boyaa_kefu_common_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/appkefu_black</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="boyaa_kefu_common_edittext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/appkefu_black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+    </style>
+    
+     <style name="boyaa_kefu_chat_hint_tips">
+        <item name="android:background">@drawable/boyaa_kefu_hint_tips_bg</item>
+    </style>
+    
+    <style name="boyaa_kefu_rate_animation">  
+        <item name="android:activityOpenEnterAnimation">@anim/boyaa_kefu_pulltorefresh_slide_in_from_bottom</item>  
+        <item name="android:activityCloseExitAnimation">@anim/boyaa_kefu__pulltorefresh_slide_out_to_bottom</item>  
+    </style>  
+    
+     <style name="boyaa_kefu_rate_activity_theme" parent="@android:style/Theme"> 
+         <item name="android:windowBackground">@color/boyaa_kefu_rate_background</item>  
+         <item name="android:windowNoTitle">true</item>  
+         <item name="android:windowIsTranslucent">true</item>  
+         <!-- <item name="android:windowFullscreen">true</item>   -->
+         <item name="@android:windowAnimationStyle">@style/boyaa_kefu_rate_animation</item>
+
+  </style>
+    
+</resources>

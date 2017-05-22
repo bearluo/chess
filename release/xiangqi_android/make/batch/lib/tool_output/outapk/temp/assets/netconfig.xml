@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?>
+<NetConfig version="1.0">
+	<CDN num="1">
+		<CDN1 host="" />
+	</CDN>
+	<Web num="3">
+		<WebUrl host="http://chesscnmobile.17c.cn/" status="1"/>
+		<WebUrl host="http://snspcs03.ifere.com/" status="0"/>
+		<WebUrl host="http://58.83.134.25/" status="0"/>
+	</Web>
+	<Config num="3">
+		<ConfigFile host="http://chesscnmobile.17c.cn/chess_android/netconfig.xml"/>
+		<ConfigFile host="http://snspcs03.ifere.com/chess_android/netconfig.xml"/>
+		<ConfigFile host="http://58.83.134.25/chess_android/netconfig.xml"/>
+	</Config>
+	<Report num="1">
+		<Report1 host=""/>
+	</Report>
+</NetConfig>

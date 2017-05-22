@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:background="@android:color/white">
+        <TextView
+            android:id="@+id/boyaa_kefu_id_inform_pitems_abstract"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textSize="20sp"
+            android:text="@string/boyaa_kefu_inform_i_want_inform"/>
+
+        <TextView
+            android:id="@+id/boyaa_kefu_id_inform_pitems_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dip"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</RelativeLayout>

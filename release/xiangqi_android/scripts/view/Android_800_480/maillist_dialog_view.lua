@@ -1,0 +1,25 @@
+maillist_dialog_view=
+{
+	name="maillist_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=97999846,x=0,y=-54,width=646,height=372,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="title",type=4,typeName="Text",time=97999988,x=6,y=-79,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[是否上传通讯录寻找好友？]]
+		},
+		{
+			name="content",type=4,typeName="Text",time=98000043,x=0,y=-36,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=26,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[(仅上传特征码做识别，不会保存任何通讯资料)]]
+		},
+		{
+			name="cancel_btn",type=2,typeName="Button",time=98000159,x=-140,y=90,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="text",type=4,typeName="Text",time=98000223,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[取消]]
+			}
+		},
+		{
+			name="sure_btn",type=2,typeName="Button",time=98000264,x=138,y=90,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="text",type=4,typeName="Text",time=98000265,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[确定]]
+			}
+		}
+	}
+}

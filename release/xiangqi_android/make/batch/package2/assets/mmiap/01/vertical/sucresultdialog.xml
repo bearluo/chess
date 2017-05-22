@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="SucResultDialog"
+    height="wrap_content"
+    width="450" >
+
+    <Item
+        background="mmiap/01/bg.png"
+        content="ResultLayout"
+        height="wrap_content"
+        orientation="vertical"
+        paddingBottom="10"
+        paddingTop="10"
+        stytle="LinearLayout"
+        width="wrap_content" >
+        
+       
+        	<Item
+                content="MainTitle"
+                height="45"
+                paddingLeft="5"
+            	paddingRight="10"
+                stytle="RelativeLayout"
+                width="fill_parent" >
+
+        	    <Item
+                    background="mmiap/01/logo1.png"
+                    content="logoView"       
+                    gravity="align_parent_left|r_center_vertical"
+                    height="40"
+                    stytle="ImageView"
+                    width="120" >
+                </Item>            
+                
+                <Item
+                    content="SMALLTitle"
+                    gravity="center_in_parent"
+                    height="wrap_content"
+                    paddingLeft="20"
+                    stytle="TextView"
+                    text="支付中心"
+                    textcolor="#ff333333"
+                    textsize="15"
+                    width="wrap_content" >
+                </Item>
+
+                <Item
+                    background="mmiap/01/close.png"
+                    clickable="true"
+                    content="backbutton"
+                    gravity="align_parent_right|r_center_vertical"
+                    height="18"
+                    paddingRight="10"
+                    stytle="ImageView"
+                    width="18" >
+                </Item>
+            </Item>
+            
+          <Item
+             background="mmiap/01/infoline.png"
+             content="providerline"
+             height="3"
+             stytle="TextView"
+             width="fill_parent" >
+          </Item>
+          
+        
+
+        <Item
+             content="ProductView"
+             gravity="center"
+             height="wrap_content"
+             margingBottom="50"
+             orientation="horizontal"
+             paddingTop="50"
+             stytle="LinearLayout"
+             width="wrap_content" >
+
+             <Item
+                 background="mmiap/01/icon_success.png"
+                 content="warnicon"
+                 height="20"
+                 margingRight="10"
+                 stytle="TextView"
+                 width="20" >
+             </Item>
+
+             <Item
+                 content="Result"
+                 gravity="left"
+                 height="wrap_content"
+                 paddingLeft="10"
+                 paddingRight="10"
+                 stytle="TextView"
+                 text="支 付  成  功"
+                 textcolor="#ff57964a"
+                 textsize="20"
+                 width="wrap_content" >
+             </Item>
+         </Item>
+
+
+        <Item
+            content="ButtonLayout"
+            height="wrap_content"
+            margingBottom="5"
+            orientation="horizontal"
+            paddingBottom="20"
+            paddingTop="20"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/01/btn_1.9.png"
+                content="confirmButton"
+                height="wrap_content"
+                margingRight="10"
+                 margingLeft="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_1.9.png"
+                stytle="Button"
+                text="确  认"
+                textsize="25"
+                width="fill_parent" >
+            </Item>
+        </Item>
+    </Item>
+
+</Dialog>

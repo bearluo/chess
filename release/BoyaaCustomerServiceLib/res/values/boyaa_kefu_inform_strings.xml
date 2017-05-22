@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- 举报页面相关开始 -->
+    <string name="boyaa_kefu_contentdescrip_inform">上传举报游戏截图图片</string>
+    <string name="boyaa_kefu_timer_picker">选择时间</string>
+    <string name="boyaa_kefu_picker_dialog_ok">完成</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type_title">举报类型</string>
+
+    <string name="boyaa_kefu_picker_dialog_inform_type1">侮辱谩骂</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type2">色情低俗</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type3">玩家作弊</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type4">广告骚扰</string>
+    
+    <string name="boyaa_kefu_chat_title">博雅客服中心</string>
+    
+    <string name="boyaa_kefu_picker_inform_submit">提交</string>
+    <string name="boyaa_kefu_picker_picture_describe">（举报必须上传游戏相关截图）</string>
+    <string name="boyaa_kefu_picker_informcontents_describe">举报内容（在游戏中可点击玩家头像进行举报）</string>
+
+    <string name="boyaa_kefu_picker_inform_type_describle">请选取举报类型</string>
+    <string name="boyaa_kefu_picker_inform_type_tips">举报类型</string>
+
+    <string name="boyaa_kefu_picker_inform_id_tips">举报ID</string>
+    <string name="boyaa_kefu_picker_inform_id_hints">请输入需要举报的ID</string>
+
+    <string name="boyaa_kefu_inform_tips1">我要举报</string>
+    <string name="boyaa_kefu_inform_tips2">举报历史</string>
+
+    <string name="boyaa_kefu_inform_submit_failed">举报记录提交失败！</string>
+    <string name="boyaa_kefu_inform_upload_picture_failed">举报图片上传失败！</string>
+    <string name="boyaa_kefu_inform_card_date">牌局时间</string>
+    <string name="boyaa_kefu_inform_select_date">请选择牌局时间</string>
+    
+    <!-- 举报页面相关结束 -->
+    
+</resources>

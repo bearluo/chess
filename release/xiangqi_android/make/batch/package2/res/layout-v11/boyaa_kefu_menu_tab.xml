@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f0eb" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/boyaa_kefu_top_title" layout="@layout/boyaa_kefu_activity_title_header" />
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <com.boyaa.customer.service.widget.PagerSlidingTabStrip android:id="@id/tabs" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="54.0dip" app:boyaa_kefu_pstsIndicatorColor="#ff6fba2c" app:boyaa_kefu_pstsUnderlineColor="#ff9b9b9b" app:boyaa_kefu_pstsSelectedTxtColor="#ff6fba2c" app:boyaa_kefu_pstsUnselectedTxtColor="#ff9b9b9b" app:boyaa_kefu_pstsDividerColor="#00000000" app:boyaa_kefu_pstsIndicatorHeight="6.0dip" app:boyaa_kefu_pstsUnderlineHeight="6.0dip" app:boyaa_kefu_pstsTabMarginTop="0.0dip" app:boyaa_kefu_pstsTabMarginBottom="0.0dip" />
+        <View android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <android.support.v4.view.ViewPager android:id="@id/id_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="2.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

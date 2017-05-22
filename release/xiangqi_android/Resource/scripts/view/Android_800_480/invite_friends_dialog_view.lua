@@ -1,0 +1,25 @@
+invite_friends_dialog_view=
+{
+	name="invite_friends_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=620,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,
+	{
+		name="bg",type=1,typeName="Image",time=114589827,x=0,y=0,width=720,height=620,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/dialog_bg_1.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="close_btn",type=2,typeName="Button",time=114589889,x=30,y=41,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/btn_close.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=114589925,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=40,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[邀请好友]]
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=114589997,x=0,y=114,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="Image4",type=1,typeName="Image",time=114601868,x=0,y=171,width=643,height=448,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="content_view",type=0,typeName="ScrollView",time=114590118,x=0,y=171,width=643,height=448,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="chat_room_list",type=0,typeName="ScrollView",time=133495744,x=0,y=171,width=643,height=448,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		}
+	}
+}

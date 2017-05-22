@@ -1,0 +1,28 @@
+loading_dialog_view=
+{
+	name="loading_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="loading_dialog_full_screen_bg",type=1,typeName="Image",time=11499309,x=0,y=0,width=480,height=800,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank.png",gridLeft=1,gridRight=1,gridTop=1,gridBottom=1
+	},
+	{
+		name="loading_content_view",type=0,typeName="View",time=11500965,x=0,y=-150,width=487,height=66,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="loading_dialog_bg",type=1,typeName="Image",time=11500981,x=0,y=0,width=487,height=65,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/background/chat_show_bg_3.png",gridLeft=64,gridRight=64,gridTop=33,gridBottom=33
+		},
+		{
+			name="loading_time_text",type=4,typeName="Text",time=11516529,x=20,y=0,width=115,height=66,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=36,textAlign=kAlignCenter,colorRed=40,colorGreen=200,colorBlue=65,string=[[60s]]
+		},
+		{
+			name="loading_cancel_btn",type=2,typeName="Button",time=24822241,x=436,y=7,width=36,height=36,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_close_up.png",file2="dialog/btn_close_dow.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=96192274,x=17,y=0,width=126,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=36,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[(]]
+		},
+		{
+			name="Text11",type=4,typeName="Text",time=97927494,x=13,y=0,width=18,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=36,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[)]]
+		},
+		{
+			name="tips_view",type=0,typeName="View",time=96192497,x=18,y=0,width=300,height=66,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft
+		}
+	}
+}

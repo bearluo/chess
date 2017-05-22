@@ -1,0 +1,34 @@
+friend_watch_item=
+{
+	name="friend_watch_item",type=0,typeName="View",time=0,x=0,y=0,width=660,height=210,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+	{
+		name="Image1",type=1,typeName="Image",time=130650782,x=0,y=0,width=720,height=1280,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="online/watch/aa.png"
+	},
+	{
+		name="item_bg",type=2,typeName="Button",time=130651517,x=0,y=0,width=660,height=210,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/item_bg.png",
+		{
+			name="head_bg",type=1,typeName="Image",time=130651148,x=68,y=46,width=74,height=74,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="online/watch/head_bg.png",
+			{
+				name="head_mask",type=1,typeName="Image",time=130651886,x=0,y=0,width=64,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/watch/head_mask.png"
+			},
+			{
+				name="level",type=1,typeName="Image",time=130651910,x=0,y=-12,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/icon/level_9.png"
+			}
+		},
+		{
+			name="name",type=4,typeName="Text",time=130651249,x=166,y=47,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="watch_num_bg",type=1,typeName="Image",time=130651976,x=162,y=90,width=224,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/input_bg_1.png",
+			{
+				name="text",type=4,typeName="Text",time=130652090,x=90,y=0,width=100,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=28,textAlign=kAlignLeft,colorRed=160,colorGreen=120,colorBlue=95,string=[[人观战]]
+			},
+			{
+				name="num",type=4,typeName="Text",time=130652152,x=8,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=30,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[]]
+			}
+		},
+		{
+			name="tip_room",type=4,typeName="Text",time=130652228,x=55,y=-19,width=150,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=36,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[]]
+		}
+	}
+}

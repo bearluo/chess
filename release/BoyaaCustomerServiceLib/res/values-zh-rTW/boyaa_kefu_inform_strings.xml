@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- 举报页面相关开始 -->
+    <string name="boyaa_kefu_contentdescrip_inform">上傳舉報遊戲截圖圖片</string>
+    <string name="boyaa_kefu_timer_picker">選擇時間</string>
+    <string name="boyaa_kefu_picker_dialog_ok">完成</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type_title">舉報類型</string>
+
+    <string name="boyaa_kefu_picker_dialog_inform_type1">通牌作弊</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type2">濫發廣告</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type3">刷分倒幣</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type4">搗亂遊戲</string>
+    <string name="boyaa_kefu_picker_dialog_inform_type5">不雅用語</string>
+    
+    <string name="boyaa_kefu_chat_title">博雅客服中心</string>
+    
+    <string name="boyaa_kefu_picker_inform_submit">提交</string>
+    <string name="boyaa_kefu_picker_picture_describe">(通牌作弊必須上傳遊戲截圖)</string>
+    <string name="boyaa_kefu_picker_informcontents_describe">舉報內容(在遊戲中可點擊玩家頭像進行舉報)</string>
+
+    <string name="boyaa_kefu_picker_inform_type_describle">請選取舉報類型</string>
+    <string name="boyaa_kefu_picker_inform_type_tips">舉報類型</string>
+
+    <string name="boyaa_kefu_picker_inform_id_tips">舉報ID</string>
+    <string name="boyaa_kefu_picker_inform_id_hints">請輸入需要舉報的ID</string>
+
+    <string name="boyaa_kefu_inform_tips1">我要舉報</string>
+    <string name="boyaa_kefu_inform_tips2">舉報歷史</string>
+
+    <string name="boyaa_kefu_inform_submit_failed">舉報記錄提交失敗！</string>
+    <string name="boyaa_kefu_inform_upload_picture_failed">舉報圖片上傳失敗！</string>
+    <string name="boyaa_kefu_inform_card_date">牌局時間</string>
+    <string name="boyaa_kefu_inform_select_date">請選擇牌局時間</string>
+    
+    <!-- 举报页面相关结束 -->
+    
+</resources>

@@ -1,0 +1,37 @@
+money_room_accounts_dialog_view=
+{
+	name="money_room_accounts_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="rotating_halo_icon",type=1,typeName="Image",time=122710086,x=0,y=151,width=600,height=600,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="animation/chest/chest_anim_bg.png"
+	},
+	{
+		name="rank_icon",type=1,typeName="Image",time=122710424,x=0,y=246,width=320,height=252,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/rank_1.png",
+		{
+			name="star",type=1,typeName="Image",time=122718260,x=0,y=0,width=320,height=270,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/decoration/star_s_3.png"
+		}
+	},
+	{
+		name="bg",type=1,typeName="Image",time=122703989,x=0,y=434,width=428,height=482,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/money_room_bg1.png",
+		{
+			name="rank_txt",type=4,typeName="Text",time=122703916,x=0,y=13,width=295,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=0,string=[[]]
+		}
+	},
+	{
+		name="share_btn",type=2,typeName="Button",time=122703161,x=1,y=949,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+		{
+			name="Text1",type=4,typeName="Text",time=122703242,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[炫耀一下]]
+		}
+	},
+	{
+		name="head_bg",type=1,typeName="Image",time=122703304,x=0,y=511,width=150,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/head_bg_160.png"
+	},
+	{
+		name="level_icon",type=1,typeName="Image",time=122703354,x=0,y=651,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/icon/level_1.png"
+	},
+	{
+		name="name_txt",type=4,typeName="Text",time=122703393,x=0,y=690,width=90,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=230,colorGreen=230,colorBlue=230,string=[[]]
+	},
+	{
+		name="reward",type=0,typeName="View",time=124344573,x=0,y=740,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	}
+}

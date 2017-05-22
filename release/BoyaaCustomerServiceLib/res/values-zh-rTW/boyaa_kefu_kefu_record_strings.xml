@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="appkefu_insert_sd_card" msgid="2251831579676114197">"需要SD卡才可使用"</string>
+    <string name="appkefu_storage_is_full" msgid="416039755956726221">"儲存空間已滿"</string>
+    
+    <string name="appkefu_recording" msgid="4426791467211376099">"錄音"</string>
+    <string name="appkefu_recording_stopped" msgid="1580278719585249612">"錄音停止"</string>
+    <string name="appkefu_max_length_reached" msgid="6398215743584093353">"已達到長度上限"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="appkefu_audio_db_artist_name" msgid="961640229118120080">"您的錄音"</string>
+    <string name="appkefu_audio_db_album_name" msgid="9072588113803264440">"錄音"</string>
+    <string name="appkefu_audio_db_playlist_name" msgid="5592939050047058162">"我的錄音"</string>
+    <string name="appkefu_error_sdcard_access" msgid="8005660724361043509">"無法訪問儲存器"</string>
+    <string name="appkefu_error_app_internal" msgid="2365923237657572011">"內部應用程式錯誤"</string>
+    <string name="appkefu_error_mediadb_new_record" msgid="2225774949947938064">"無法保存錄制的音頻"</string>
+
+    <string name="appkefu_default_record_name">未命名錄音</string>
+    <string name="appkefu_menu_view_record_list">查看錄音列表</string>
+    <string name="appkefu_menu_setting">設置</string>
+    <string name="appkefu_overwrite_dialog_title">%s已存在。\n確定要覆蓋這段錄音嗎？</string>
+    <string name="appkefu_preferences_title">設置</string>
+    <string name="appkefu_pref_title_record_type">錄音文件類型</string>
+    <string name="appkefu_prefDialogTitle_recordType">請選擇錄音文件類型</string>
+    <string name="appkefu_pref_title_enable_high_quality">使用高質量錄音</string>
+    <string name="appkefu_pref_summary_enable_high_quality">高質量錄音會增大錄音文件</string>
+    <string name="appkefu_pref_title_enable_sound_effect">打開音效</string>
+    <string name="appkefu_pref_summary_enable_sound_effect">操作錄音機時播放音效</string>
+    <string name="appkefu_notification_recording">正在錄音...</string>
+    <string name="appkefu_notification_stopped">錄音已終止</string>
+    <string name="appkefu_notification_warning">儲存空間不足(小於%d分鐘)</string>
+    <string name="appkefu_sd_card_not_available">SD卡不存在</string>
+    <string name="appkefu_open_file_explorer">打開文件夾</string>
+    <string name="appkefu_alert_message_delete_record">確認要刪除所選的錄音嗎?</string>    
+    
+</resources>
+
+
+
+
+
+
+
+
+
+
+

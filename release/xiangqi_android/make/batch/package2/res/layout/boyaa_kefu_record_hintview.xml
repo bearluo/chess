@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/boyaa_kefu_voice_rcd_hint_bg" android:layout_width="130.0dip" android:layout_height="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/appkefu_voice_record_hint_layout" android:layout_width="130.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/appkefu_voice_record_hint_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.5dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/boyaa_kefu_voice_rcd_hint" android:contentDescription="@string/appkefu_imageview_content_description" />
+        <ImageView android:id="@id/appkefu_voice_record_hint_amp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" android:src="@drawable/boyaa_kefu_voice_rcd_hint_amp1" android:contentDescription="@string/appkefu_imageview_content_description" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:id="@id/appkefu_voice_record_hint_text_record_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_below="@id/appkefu_voice_record_hint_layout" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/appkefu_voice_record_hint_record_textview" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/appkefu_record_voice_hint_record" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/appkefu_voice_record_hint_cancel_layout" android:visibility="invisible" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="25.0dip">
+        <ImageView android:id="@id/appkefu_voice_record_hint_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boyaa_kefu_rcd_cancel_icon" android:contentDescription="@string/appkefu_imageview_content_description" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:id="@id/appkefu_voice_record_hint_text_cancel_layout" android:visibility="invisible" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_below="@id/appkefu_voice_record_hint_cancel_layout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/appkefu_voice_record_hint_cancel_textview" android:background="@drawable/boyaa_kefu_text_view_border_voice_cancel" android:layout_width="116.0dip" android:layout_height="19.0dip" android:text="@string/appkefu_record_voice_hint_cancel" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/appkefu_voice_record_hint_short_layout" android:visibility="invisible" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+        <ImageView android:id="@id/appkefu_voice_record_hint_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boyaa_kefu_rcd_tooshort_icon" android:contentDescription="@string/appkefu_imageview_content_description" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:id="@id/appkefu_voice_record_hint_text_short_layout" android:visibility="invisible" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_below="@id/appkefu_voice_record_hint_short_layout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/appkefu_voice_record_hint_short_textview" android:layout_width="116.0dip" android:layout_height="19.0dip" android:text="@string/appkefu_record_voice_too_short" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/appkefu_voice_record_hint_long_layout" android:visibility="invisible" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+        <ImageView android:id="@id/appkefu_voice_record_hint_long" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boyaa_kefu_rcd_tooshort_icon" android:contentDescription="@string/appkefu_imageview_content_description" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:id="@id/appkefu_voice_record_hint_text_long_layout" android:visibility="invisible" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_below="@id/appkefu_voice_record_hint_short_layout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/appkefu_voice_record_hint_long_textview" android:layout_width="116.0dip" android:layout_height="19.0dip" android:text="@string/appkefu_record_voice_too_long" />
+    </LinearLayout>
+</RelativeLayout>

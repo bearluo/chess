@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/state_texture_bg" >
+    
+    <RelativeLayout android:id="@+id/titleLayout" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_center_top_title_bg">
+        
+        <ImageButton android:id="@+id/backBtn" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_marginLeft="4dip"
+            android:src="@drawable/btn_back_texture"
+            android:background="@drawable/back_btn_bg"/>
+        
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/activity_title_texture"/>
+        
+        <ImageButton android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/right_flag_img"/>
+        
+         <ImageButton android:id="@+id/preBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_toLeftOf="@id/nextBtn"
+            android:background="@drawable/left_flag_img"/>
+        
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/noContentView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleLayout"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:background="@drawable/more_activity_tips" />
+     
+    <ProgressBar android:id="@+id/progressBar" 
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:max="100"
+        android:layout_below="@id/titleLayout"
+        android:layout_marginTop="-16dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+    
+    <WebView android:id="@+id/webview"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/progressBar"/> 
+
+</RelativeLayout>

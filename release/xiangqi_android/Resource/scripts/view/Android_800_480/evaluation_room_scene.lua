@@ -1,0 +1,31 @@
+evaluation_room_scene=
+{
+	name="evaluation_room_scene",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="room_bg",type=1,typeName="Image",time=1351133460,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="common/background/room_bg.png"
+	},
+	{
+		name="back_btn",type=2,typeName="Button",time=95574205,x=20,y=20,width=86,height=91,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/back_btn.png",file2="common/button/back_btn_press.png"
+	},
+	{
+		name="room_menu",type=0,typeName="View",time=1351735563,x=0,y=0,width=251,height=105,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight
+	},
+	{
+		name="down_model",type=0,typeName="View",time=1351134061,x=0,y=80,width=613,height=181,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom
+	},
+	{
+		name="room_time_bg",type=1,typeName="Image",time=1754943,x=120,y=0,width=82,height=53,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="online/room/time_bg.png",gridLeft=16,gridRight=16,gridTop=0,gridBottom=0,
+		{
+			name="room_time",type=4,typeName="Text",time=1755115,x=0,y=0,width=82,height=25,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=25,textAlign=kAlignCenter,colorRed=186,colorGreen=140,colorBlue=105,string=[[16:32]]
+		}
+	},
+	{
+		name="board",type=0,typeName="View",time=1350614405,x=0,y=197,width=720,height=800,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="board_view",type=0,typeName="View",time=95342541,x=0,y=0,width=720,height=800,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+			{
+				name="board_bg",type=1,typeName="Image",time=1350614428,x=0,y=0,width=720,height=868,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="chess_board.png",packFile="config/boardres.lua"
+			}
+		}
+	}
+}

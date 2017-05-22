@@ -1,0 +1,31 @@
+error_view=
+{
+	name="error_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="error_full_screen_bg",type=1,typeName="Image",time=6577486,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="common/background/model_bg.png"
+	},
+	{
+		name="error_icon",type=1,typeName="Image",time=6577821,x=0,y=149,width=280,height=280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="drawable/error_icon.png"
+	},
+	{
+		name="error_tips_bg",type=1,typeName="Image",time=6578075,x=131,y=66,width=376,height=107,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/tips_bg_1.png",gridLeft=64,gridRight=64,gridTop=47,gridBottom=47,
+		{
+			name="error_tips",type=4,typeName="Text",time=6577875,x=0,y=-12,width=336,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[嚓,这不科学啊!我还会回来的！]]
+		}
+	},
+	{
+		name="error_repair_btn",type=2,typeName="Button",time=6578558,x=0,y=458,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_8_normal.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+		{
+			name="error_repair_texture",type=4,typeName="Text",time=6578671,x=0,y=0,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[马上回来]]
+		}
+	},
+	{
+		name="errorContent",type=5,typeName="TextView",time=80882309,x=32,y=572,width=660,height=667,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=28,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+	},
+	{
+		name="bamboo_left",type=1,typeName="Image",time=98621890,x=0,y=0,width=78,height=163,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/decoration/bamboo_left.png"
+	},
+	{
+		name="bamboo_right",type=1,typeName="Image",time=98621900,x=0,y=0,width=77,height=137,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/decoration/bamboo_right.png"
+	}
+}

@@ -1,0 +1,119 @@
+require("config/path_config");
+
+
+States = 
+{
+	Hall 						= 1;   --大厅
+    Console                     = 2;   --单机大厅
+   	ConsoleRoom                 = 3;   --单机房间
+	Room                        = 4;   --房间
+	Online                      = 5;   --联网大厅
+    OnlineRoom                  = 6;   --联网房间
+	UserInfo                    = 7;   --我的模块
+    EndGate                     = 8;   --残局大关卡
+	EndGateSub                  = 9;   --残局小关卡
+	EndingRoom                  = 10;  --残局房间
+	Feedback                    = 11;  --反馈界面
+	Mall                        = 12;  --商城
+	Rank                        = 13;  --排行榜 
+    dapu                        = 14;  --棋牌
+    Exchange                    = 15;  --棋魂兑换
+    Watch                       = 16;  --观战
+    DapuRoom                    = 17;  --棋牌房间
+    Friends                     = 18;  --好友列表
+	FriendMsg                   = 19;  --不用了
+	FriendChat                  = 20;  --不用了
+    AddFriends                  = 21;  --不用了
+    FriendsInfo                 = 22;  --详细信息
+    watchlist                   = 23;  --观战用户列表
+    FriendRoom                  = 24;  --不用了
+    Replay                      = 25;  --复盘演练
+    CustomBoard                 = 26;  --自定义棋局
+    RecentChess                 = 27;  --最近棋盘
+    ReplayRoom                  = 28;  --棋谱回放
+    Collect                     = 29;  --我的收藏
+    ChatRoom                    = 30;  --不用了
+    PrivateHall                 = 31;  --私人房大厅
+    ownModel                    = 32;  --我的模块
+    setModel                    = 33;  -- 设置界面
+    aboutModel                  = 34;  -- 关于界面
+    assetsModel                 = 35;  -- 我的资产
+    noticeModel                 = 36;  -- 我的消息
+    shareModel                  = 37;  -- 分享界面
+    gradeModel                  = 38;  -- 我的等级  -棋力
+    helpModel                   = 39;  -- 帮助界面    
+    Comment                     = 40;  -- 评论界面
+    findModel                   = 41;  -- 发现界面
+    createEndgate               = 42;  -- 创建残局
+    playCreateEndgate           = 43;  -- 玩创建残局
+    activity                    = 44;  -- 活动
+    vipModel                    = 45;  --vip修改
+    RecentlyPlayerState         = 46;  --最近对手
+    commonIssue                 = 47;  --常见问题
+    ownCreateEndgate            = 48;  --我创建的街边残局
+    Compete                     = 49;  --比赛争霸界面
+    ticketModel                 = 50;  --参赛券
+    Offline                     = 51;  -- 离线游戏
+    task                        = 52;  -- 每日任务
+    evaluationGame              = 53;  -- 评测游戏
+};
+
+
+StatesMap = 
+{
+	
+	[States.Hall]                           = {MODEL_PATH.."hall/hallState","HallState"};--大厅
+    [States.Console]                        = {MODEL_PATH.."console/consoleState","ConsoleState"};--单机大厅
+    [States.ConsoleRoom]                    = {MODEL_PATH.."console/consoleRoom/consoleRoomState","ConsoleRoomState"};--单机房间
+    [States.Room]                           = {MODEL_PATH.."room/roomState","RoomState"};--房间
+    [States.Online]                         = {MODEL_PATH.."online/onlineState","OnlineState"};--联网大厅
+    [States.OnlineRoom]                     = {MODEL_PATH.."online/onlineRoom/onlineRoomState","OnlineRoomState"};--联网房间
+	[States.UserInfo]                       = {MODEL_PATH.."ownModel/ownState","OwnState"};-- 我的模块
+    [States.EndGate]                        = {MODEL_PATH.."endgate/endgateState","EndgateState"};--残局大关卡
+    [States.EndGateSub]                     = {MODEL_PATH.."endgate/endgateSubModel/endgateSubState","EndgateSubState"};--残局小关卡
+    [States.EndingRoom]                     = {MODEL_PATH.."endgate/endgateSubModel/endgateRoom/endgateRoomState","EndgateRoomState"};--残局房间
+    [States.Compete]                        = {MODEL_PATH.."compete/competeState","CompeteState"};--比赛争霸界面
+    [States.Feedback]                       = {MODEL_PATH.."feedback/feedbackState","FeedbackState"};--反馈界面
+    [States.Mall]                           = {MODEL_PATH.."mall/mallState","MallState"};--商城
+    [States.Rank]                           = {MODEL_PATH.."rank/newRankState","NewRankState"};--排行榜
+    [States.dapu]                           = {MODEL_PATH.."dapu/dapuState","DapuState"};--棋牌
+    [States.Exchange]                       = {MODEL_PATH.."exchange/exchangeState","ExchangeState"};--棋魂兑换
+    [States.Watch]                          = {MODEL_PATH.."online/watch/watchState","WatchState"};--观战
+    [States.DapuRoom]                       = {MODEL_PATH.."dapu/dapuRoom/dapuRoomState","DapuRoomState"};--棋牌房间
+    [States.Friends]                        = {MODEL_PATH.."ownModel/friends/friendsState","FriendsState"};--好友列表
+--    [States.FriendMsg]                      = {MODEL_PATH.."friends/friendMsg/friendMsgState","FriendMsgState"};--消息界面
+--    [States.FriendChat]                     = {MODEL_PATH.."friends/friendChat/friendChatState","FriendChatState"};--聊天主界面
+--    [States.AddFriends]                     = {MODEL_PATH.."addfriends/addfriendsState","AddFriendsState"};--添加好友界面
+    [States.FriendsInfo]                    = {MODEL_PATH.."friendsInfo/friendsInfoState","FriendsInfoState"};--好友详细信息
+    [States.watchlist]                      = {MODEL_PATH.."watchlist/watchlistState","WatchlistState"};--观战用户列表
+--    [States.FriendRoom]                     = {MODEL_PATH.."online/onlineRoom/friendRoom/friendRoomState","FriendRoomState"};--好友房间
+    [States.Replay]                         = {MODEL_PATH.."replay/replayState","ReplayState"};--复盘演练
+    [States.CustomBoard]                    = {MODEL_PATH.."dapu/customBoard/customBoardState","CustomBoardState"};--自定义棋局
+    [States.RecentChess]                    = {MODEL_PATH.."dapu/recentChessState","RecentChessState"};--最近棋盘
+    [States.ReplayRoom]                     = {MODEL_PATH.."dapu/replayRoom/replayRoomState","ReplayRoomState"};--棋谱回放
+    [States.Collect]                        = {MODEL_PATH.."replay/collect/collectState","CollectState"};--我的收藏
+--    [States.ChatRoom]                       = {MODEL_PATH.."friends/chatRoom/chatRoomState","ChatRoomState"};--聊天室
+    [States.PrivateHall]                    = {MODEL_PATH.."online/private/privateState","PrivateState"};--私人房大厅
+    [States.ownModel]                       = {MODEL_PATH.."ownModel/ownState","OwnState"};-- 我的模块
+    [States.setModel]                       = {MODEL_PATH.."ownModel/setModel/setState","SetState"};-- 设置界面
+    [States.aboutModel]                     = {MODEL_PATH.."ownModel/setModel/aboutModel/aboutState","AboutState"};-- 关于界面
+    [States.assetsModel]                    = {MODEL_PATH.."ownModel/assetsModel/assetsState","AssetsState"};-- 我的资产
+    [States.noticeModel]                    = {MODEL_PATH.."ownModel/noticeModel/noticeState","NoticeState"};-- 我的消息
+    [States.shareModel]                     = {MODEL_PATH.."ownModel/shareModel/shareState","ShareState"};-- 分享界面
+    [States.gradeModel]                     = {MODEL_PATH.."ownModel/gradeModel/gradeState","GradeState"};-- 我的等级  -棋力
+    [States.helpModel]                      = {MODEL_PATH.."ownModel/setModel/helpModel/helpState","HelpState"};-- 帮助界面    
+    [States.Comment]                        = {MODEL_PATH.."replay/comment/commentState","CommentState"};-- 评论界面
+    [States.findModel]                      = {MODEL_PATH.."findModel/findState","FindState"};-- 发现界面
+    [States.createEndgate]                  = {MODEL_PATH.."dapu/createEndgate/createEndgateState","CreateEndgateState"};-- 创建残局
+    [States.playCreateEndgate]              = {MODEL_PATH.."dapu/playCreateEndgateRoom/playCreateEndgateRoomState","PlayCreateEndgateRoomState"};-- 玩创建残局
+    [States.activity]                       = {MODEL_PATH.."activity/activityState","ActivityState"};-- 活动
+	[States.vipModel]                       = {MODEL_PATH.."vipModule/vipModifyState","VipModifyState"};--vip修改
+	[States.RecentlyPlayerState]            = {MODEL_PATH.."findModel/recentlyPlayer/recentlyPlayerState","RecentlyPlayerState"};--最近对手
+	[States.commonIssue]                    = {MODEL_PATH.."ownModel/setModel/commonIssueModel/commonIssueState","CommonIssueState"};--常见问题
+	[States.ownCreateEndgate]               = {MODEL_PATH.."findModel/ownCreateEndgate/ownCreateEndgateState","OwnCreateEndgateState"};--我创建的街边残局
+    [States.ticketModel]                    = {MODEL_PATH.."mall/ticketModule/ticketModuleState","TicketModuleState"};--参赛券
+    [States.Offline]                         = {MODEL_PATH.."offline/offlineState","OfflineState"};--离线大厅
+    [States.task]                           = {MODEL_PATH.."task/taskState","TaskState"};-- 活动
+    [States.evaluationGame]                 = {MODEL_PATH.."evaluationRoom/evaluationRoomState","EvaluationRoomState"};-- 活动
+    
+};

@@ -1,0 +1,46 @@
+leave_tips_dialog_view=
+{
+	name="leave_tips_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="dialog_view",type=0,typeName="View",time=39578927,x=0,y=399,width=646,height=373,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="dialog_view_bg",type=1,typeName="Image",time=38650828,x=0,y=160,width=256,height=256,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+		},
+		{
+			name="cancel_btn",type=2,typeName="Button",time=38651096,x=426,y=185,width=36,height=36,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_close_up.png",file2="dialog/btn_close_dow.png"
+		},
+		{
+			name="tips_content_text",type=5,typeName="TextView",time=38652053,x=0,y=54,width=500,height=161,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[再进行x局，就可获得任务奖励，确定要退出吗？]]
+		},
+		{
+			name="exit_btn",type=2,typeName="Button",time=38652315,x=-187,y=55,width=174,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_5_normal.png",file2="common/button/dialog_btn_5_press.png",
+			{
+				name="label_text",type=4,typeName="Text",time=38652618,x=0,y=0,width=80,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[退出]]
+			}
+		},
+		{
+			name="calls_btn",type=2,typeName="Button",time=38652350,x=0,y=55,width=174,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_1_normal.png",file2="common/button/dialog_btn_1_press.png",
+			{
+				name="label_text",type=4,typeName="Text",time=38652635,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[赢话费]]
+			}
+		},
+		{
+			name="leave_btn",type=2,typeName="Button",time=39577761,x=-150,y=55,width=244,height=85,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="lable_text",type=4,typeName="Text",time=39577786,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[离开]]
+			}
+		},
+		{
+			name="coins_btn",type=2,typeName="Button",time=38652367,x=191,y=55,width=174,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_1_normal.png",file2="common/button/dialog_btn_1_press.png",
+			{
+				name="label_text",type=4,typeName="Text",time=38652638,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[领金币]]
+			}
+		},
+		{
+			name="challenge_on_btn",type=2,typeName="Button",time=39577118,x=155,y=55,width=244,height=85,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="lable_text",type=4,typeName="Text",time=39577172,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[继续挑战]]
+			}
+		}
+	}
+}

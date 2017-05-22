@@ -1,0 +1,22 @@
+money_room_rank_dialog_view_item=
+{
+	name="money_room_rank_dialog_view_item",type=0,typeName="View",time=0,x=0,y=0,width=136,height=120,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="room_btn",type=2,typeName="Button",time=121850784,x=0,y=0,width=136,height=120,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/room_btn.png",
+		{
+			name="room_status",type=1,typeName="Image",time=121851319,x=0,y=0,width=136,height=120,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/decoration/room_btn_playing.png"
+		},
+		{
+			name="black_name_bg",type=4,typeName="Text",time=121851890,x=0,y=70,width=96,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=20,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		},
+		{
+			name="black_name",type=4,typeName="Text",time=121851671,x=0,y=69,width=96,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=20,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		},
+		{
+			name="red_name_bg",type=4,typeName="Text",time=121851804,x=0,y=21,width=98,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=20,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		},
+		{
+			name="red_name",type=4,typeName="Text",time=121851804,x=0,y=20,width=98,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=20,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		}
+	}
+}

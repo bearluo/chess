@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="ProgressDialog"
+    alpha="0.8"
+    height="fill_parent"
+    width="fill_parent" >
+
+    <Item
+        content="MainLayout"
+        height="fill_parent"
+        stytle="RelativeLayout"
+        width="fill_parent" >
+
+        <Item
+            content="scrollbar"
+            gravity="center_in_parent"
+            height="wrap_content"
+            stytle="ProgressBar"
+            width="wrap_content" >
+        </Item>
+    </Item>
+
+</Dialog>

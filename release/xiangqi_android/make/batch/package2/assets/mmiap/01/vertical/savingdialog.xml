@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="wrap_content"
+    width="450" >
+
+    <Item
+        background="mmiap/01/bg.png"
+        content="PurchaseDialog"
+        height="wrap_content"
+        orientation="vertical"
+        paddingTop="10"
+        stytle="LinearLayout"
+        width="wrap_content" >
+
+        <Item
+                content="MainTitle"
+                height="45"
+                paddingLeft="5"
+            	paddingRight="10"
+                stytle="RelativeLayout"
+                width="fill_parent" >
+
+        	    <Item
+                    background="mmiap/01/logo1.png"
+                    content="logoView"                   
+                    gravity="align_parent_left|r_center_vertical"
+                    height="40"
+                    stytle="ImageView"
+                    width="120" >
+                </Item>            
+                
+                <Item
+                    content="SMALLTitle"
+                    gravity="center_in_parent"
+                    height="wrap_content"
+                    paddingLeft="20"
+                    stytle="TextView"
+                    text="支付中心"
+                    textcolor="#ff333333"
+                    textsize="15"
+                    width="wrap_content" >
+                </Item>
+
+                <Item
+                    background="mmiap/01/close.png"
+                    clickable="true"
+                    content="backbutton"
+                    gravity="align_parent_right|r_center_vertical"
+                    height="18"
+                    paddingRight="10"
+                    stytle="ImageView"
+                    width="18" >
+                </Item>
+            </Item>
+            
+          <Item
+             background="mmiap/01/infoline.png"
+             content="providerline"
+             height="3"
+             stytle="TextView"
+             width="fill_parent" >
+          </Item>
+            
+         <Item
+             content="ProductView"
+             gravity="center"
+             height="wrap_content"
+             orientation="horizontal"
+             paddingTop="30"
+             paddingLeft="30"
+             stytle="LinearLayout"
+             width="wrap_content" >
+
+             <Item
+                 background="mmiap/01/icon_f.png"
+                 content="warnicon"
+                 height="30"
+                 margingRight="5"
+                 stytle="TextView"
+                 width="30" >
+             </Item>
+
+	  		<Item
+	            content="ProductInfo"
+	            height="wrap_content"
+	            paddingRight="20"
+	            gravity="left"
+	            textcolor="#ffec980f"
+	            stytle="TextView"
+	            text="若不进行付费，您将无法获得更多的应用体验，是否确认？"
+	            textsize="18"
+	            width="wrap_content" >
+	        </Item>
+ 		</Item>
+ 		
+      
+
+        <Item
+            content="MainView"
+            height="wrap_content"
+            orientation="horizontal"
+            paddingBottom="10"
+            paddingTop="20"
+            paddingRight="10"
+            paddingLeft="10"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/01/btn_3.9.png"
+                content="backbutton"
+  				height="wrap_content"
+                margingRight="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_3.9.png"
+                stytle="Button"
+                text="返  回"
+                textsize="20"
+                weight="1"
+                width="wrap_content" >
+            </Item>
+
+            <Item
+                background="mmiap/01/btn_4.9.png"
+                content="confirmButton"
+		        height="wrap_content"
+                margingLeft="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_4.9.png"
+                stytle="Button"
+                text="确  认"
+                textsize="20"
+                weight="1"
+                width="wrap_content" >
+            </Item>
+        </Item>
+    </Item>
+</Dialog>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:paddingLeft="@dimen/appkefu_dialog_side_padding" android:paddingRight="@dimen/appkefu_dialog_side_padding" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingTop="@dimen/appkefu_dialog_vertical_padding" android:paddingBottom="@dimen/appkefu_dialog_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="vertical" android:background="@drawable/appkefu_dialog_background" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/appkefu_rate_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/appkefu_rate_tip" />
+                <LinearLayout android:gravity="center_horizontal" android:id="@id/appkefu_rate_mainlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/appkefu_rate_tip">
+                    <Button android:id="@id/appkefu_ratebtn_1" android:background="@drawable/appkefu_star_unselected" android:layout_width="45.0sp" android:layout_height="45.0sp" />
+                    <Button android:id="@id/appkefu_ratebtn_2" android:background="@drawable/appkefu_star_unselected" android:layout_width="45.0sp" android:layout_height="45.0sp" />
+                    <Button android:id="@id/appkefu_ratebtn_3" android:background="@drawable/appkefu_star_unselected" android:layout_width="45.0sp" android:layout_height="45.0sp" />
+                    <Button android:id="@id/appkefu_ratebtn_4" android:background="@drawable/appkefu_star_unselected" android:layout_width="45.0sp" android:layout_height="45.0sp" />
+                    <Button android:id="@id/appkefu_ratebtn_5" android:background="@drawable/appkefu_star_unselected" android:layout_width="45.0sp" android:layout_height="45.0sp" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/appkefu_rate_comment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/appkefu_rate_mainlayout">
+                    <TextView android:id="@id/appkefu_rate_comment_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0sp" android:text="@string/boyaa_kefu_extra_message" />
+                    <EditText android:id="@id/appkefu_rate_comment_textedit" android:layout_width="fill_parent" android:layout_height="100.0sp" android:layout_marginLeft="20.0sp" android:layout_marginRight="20.0sp" android:layout_below="@id/appkefu_rate_comment_label" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_horizontal" android:id="@id/appkefu_rate_btnlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/appkefu_rate_comment">
+                    <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/appkefu_rate_comment_submit" android:background="@drawable/appkefu_inputbar_recordvoicebtn" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="6.0dip" android:text="@string/boyaa_kefu_commit" android:layout_weight="1.0" />
+                    <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/appkefu_rate_comment_nosub" android:background="@drawable/appkefu_inputbar_recordvoicebtn" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="6.0dip" android:text="@string/boyaa_kefu_rate_cancel" android:layout_weight="1.0" />
+                    <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/appkefu_rate_comment_cancel" android:background="@drawable/appkefu_inputbar_recordvoicebtn" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="12.0dip" android:text="@string/boyaa_kefu_cancel" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

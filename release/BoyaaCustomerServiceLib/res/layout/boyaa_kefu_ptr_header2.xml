@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="bottom">
+
+    <RelativeLayout
+        android:id="@+id/ptr_id_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center_horizontal">
+        
+		<ProgressBar
+            android:id="@+id/ptr_id_spinner"
+            android:indeterminateDrawable="@drawable/boyaa_kefu_load_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:indeterminate="true"/>
+		
+        <ImageView
+            android:id="@+id/ptr_id_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+        	android:layout_below="@id/ptr_id_spinner"
+        	android:src="@drawable/boyaa_kefu_swipe_refresh_arrow_down"/>
+
+        <LinearLayout
+            android:id="@+id/ptr_id_textwrapper"
+            android:layout_below="@id/ptr_id_spinner"
+            android:layout_toRightOf="@id/ptr_id_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        	android:orientation="vertical"
+        	android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/ptr_id_text"
+                style="@style/boyaa_kefu_ptr_text" 
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ptr_id_last_updated"
+                style="@style/boyaa_kefu_ptr_last_updated" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

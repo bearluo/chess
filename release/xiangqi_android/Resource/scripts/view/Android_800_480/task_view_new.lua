@@ -1,0 +1,46 @@
+task_view_new=
+{
+	name="task_view_new",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="new_style_view",type=0,typeName="View",time=144296990,x=171,y=245,width=200,height=150,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+		{
+			name="bg_img",type=1,typeName="Image",time=144296991,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank_black.png"
+		},
+		{
+			name="title_view",type=0,typeName="View",time=144296992,x=0,y=0,width=480,height=95,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="title_bg_img",type=1,typeName="Image",time=144296993,x=0,y=0,width=720,height=116,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/chat_title_bg.png"
+			},
+			{
+				name="title_tx",type=4,typeName="Text",time=144296994,x=0,y=0,width=96,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=48,textAlign=kAlignCenter,colorRed=225,colorGreen=200,colorBlue=160,string=[[任务]]
+			}
+		},
+		{
+			name="back_btn",type=2,typeName="Button",time=144296996,x=27,y=36,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/hide_dialog_btn.png"
+		},
+		{
+			name="bottom_btn",type=2,typeName="Button",time=144296997,x=0,y=19,width=444,height=96,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/long_yellow_btn.png",
+			{
+				name="bottom_btn_tx",type=4,typeName="Text",time=144296998,x=0,y=0,width=144,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[一键领取]]
+			}
+		},
+		{
+			name="content_view",type=0,typeName="View",time=144296999,x=0,y=128,width=720,height=1025,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="switch_img",type=1,typeName="Image",time=144298089,x=0,y=5,width=644,height=74,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/tab_bg_3.png",gridLeft=61,gridRight=61,gridTop=0,gridBottom=0,
+				{
+					name="switch_task_radio_btn",type=0,typeName="RadioButtonGroup",time=144298164,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTop
+				}
+			},
+			{
+				name="task_content_view",type=0,typeName="View",time=144301116,x=0,y=90,width=720,height=940,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+				{
+					name="daily_task_view",type=0,typeName="View",time=144298288,x=0,y=0,width=720,height=940,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+				},
+				{
+					name="grow_task_view",type=0,typeName="View",time=144298476,x=0,y=0,width=720,height=940,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+				}
+			}
+		}
+	}
+}

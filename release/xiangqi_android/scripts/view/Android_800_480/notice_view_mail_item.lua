@@ -1,0 +1,40 @@
+notice_view_mail_item=
+{
+	name="notice_view_mail_item",type=0,typeName="View",time=0,x=0,y=0,width=590,height=129,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,
+	{
+		name="scroll_view",type=0,typeName="View",time=109160668,x=0,y=0,width=590,height=129,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,
+		{
+			name="top_view",type=0,typeName="View",time=109153594,x=0,y=13,width=460,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="mail_type",type=4,typeName="Text",time=109153503,x=0,y=0,width=112,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=28,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[系统消息]]
+			},
+			{
+				name="mail_time",type=4,typeName="Text",time=109154496,x=23,y=0,width=12,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=24,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[]]
+			},
+			{
+				name="Image2",type=1,typeName="Image",time=109154511,x=0,y=0,width=14,height=25,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="common/icon/arrow_r.png"
+			}
+		},
+		{
+			name="mail_title",type=4,typeName="Text",time=109154625,x=0,y=19,width=460,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=30,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="new_sign",type=1,typeName="Image",time=109152919,x=24,y=0,width=16,height=16,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="notice/red_postion.png"
+		},
+		{
+			name="tonch_handler",type=2,typeName="Button",time=109153342,x=0,y=0,width=590,height=129,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/blank.png",file2="drawable/blank.png"
+		}
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=109153414,x=0,y=0,width=524,height=2,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="common/decoration/line_2.png"
+	},
+	{
+		name="del_handler",type=0,typeName="View",time=109154413,x=-99,y=0,width=99,height=129,visible=1,fillParentWidth=0,fillParentHeight=1,nodeAlign=kAlignRight,
+		{
+			name="bg",type=0,typeName="View",time=109161474,x=0,y=0,width=99,height=129,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=109161486,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[删除]]
+		}
+	}
+}

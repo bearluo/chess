@@ -1,0 +1,25 @@
+watch_list_dialog_item2=
+{
+	name="watch_list_dialog_item2",type=0,typeName="View",time=0,x=0,y=0,width=650,height=155,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="btn",type=2,typeName="Button",time=137649039,x=286,y=115,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank.png",file2="drawable/blank_press.png",
+		{
+			name="head",type=1,typeName="Image",time=137648972,x=46,y=21,width=100,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/head_bg_92.png"
+		},
+		{
+			name="level",type=1,typeName="Image",time=137649070,x=69,y=107,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/level_1.png"
+		},
+		{
+			name="name",type=4,typeName="Text",time=137649113,x=166,y=32,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=40,colorBlue=30,string=[[]]
+		},
+		{
+			name="room_type",type=4,typeName="Text",time=137649155,x=166,y=82,width=200,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=26,textAlign=kAlignLeft,colorRed=130,colorGreen=100,colorBlue=55,string=[[]]
+		},
+		{
+			name="watch_num",type=4,typeName="Text",time=137649297,x=427,y=60,width=200,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=28,textAlign=kAlignLeft,colorRed=55,colorGreen=145,colorBlue=55,string=[[]]
+		}
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=137649372,x=0,y=-16,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/new_line.png"
+	}
+}

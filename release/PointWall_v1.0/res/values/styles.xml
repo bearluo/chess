@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <!-- Deprecated styles start here -->
+    <!--  
+    <style name="TextShadow">
+        <item name="android:shadowColor">@color/setting_login_shadow</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+	
+    <style name="TextWhite17" parent="TextShadow">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TextWhite15" parent="TextShadow">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    -->
+    <!-- Deprecated styles end here -->
+
+
+    <!-- Styles start here. Styles are named by where they can be used -->
+    <!-- Common styles across all activities -->
+    <style name="TextAppearance_PointWall_Head_Title">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>   
+    
+    <style name="TextAppearance_all_games_label">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>       
+    
+    <style name="TextAppearance_points_num_label">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style> 
+    <style name="TextAppearance_points_text_label">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style> 
+    <!-- Game List -->
+    <style name="TextAppearance_GameList_GameItem_GameName">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#101010</item>
+        <item name="android:shadowColor">#00253d</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextAppearance_GameList_GameItem_GameDesc">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#707070</item>
+    </style>
+
+    <style name="TextAppearance_GameList_GameItem_GameSize" parent="TextAppearance_GameList_GameItem_GameDesc">
+    </style>    
+     
+    <style name="TextAppearance_GameList_dl_img_text">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#00253d</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>   
+    
+    
+    <style name="TextAppearance_GameList_download_point_text">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#101010</item>
+        <item name="android:shadowColor">#00253d</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    
+    
+    
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>边框
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:indeterminate">false</item>
+            
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style name="TextAppearance_Common_Head_Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#3a0d00</item>
+        <item name="android:shadowColor">#b57966</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextAppearance_Common_TabText">
+        <item name="android:textSize">6sp</item>
+        <item name="android:textColor">#391706</item>
+        <item name="android:shadowColor">#ffa76136</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    
+    <style name="TextAppearance_Common_Head_ButtonText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#3a0d00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#B76c43</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    <style name="TextAppearance_Common_GreenButtonText">
+        <item name="android:textSize">17.1sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#073300</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextAppearance_Common_SmallBlueButtonText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#003354</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    <!-- Hall -->
+    <style name="TextAppearance_Hall_GameName">
+        <item name="android:textSize">11.4sp</item>
+        <item name="android:textColor">#daf5ff</item>
+        <item name="android:shadowColor">#0a2841</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextAppearance_Hall_Category_LightBlue">
+        <item name="android:textSize">13.6sp</item>
+        <item name="android:textColor">#95defa</item>
+        <item name="android:shadowColor">#021b3a</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextAppearance_Hall_Category_Yellow">
+        <item name="android:textSize">13.6sp</item>
+        <item name="android:textColor">#f4bf63</item>
+        <item name="android:shadowColor">#021b3a</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+
+
+    <style name="TextAppearance_GameList_GameItem_ButtonText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <!-- User Center -->
+    <style name="TextAppearance_UserCenter_NickName">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8e8e8e</item>
+    </style>
+
+    <style name="TextAppearance_UserCenter_BoundAccount">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#5b9ec9</item>
+    </style>
+   <style name="TextAppearance_UserCenter_Name">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextAppearance_UserCenter_IconArea_Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#2079b2</item>
+        <item name="android:shadowColor">#001623</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="TextAppearance_Login_FreeRegisterTip">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Login -->
+    <style name="TextAppearance_Login_EditText_Hint">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8e8e8e</item>
+        <item name="android:shadowColor">#f5f5f5</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextAppearance_Login_EditText_Content">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#292929</item>
+    </style>
+    
+    <!-- Register -->
+    <style name="TextAppearance_Register_EditText_Content" parent="TextAppearance_Login_EditText_Content">
+    </style>
+
+    <!-- Reset Password -->
+    <style name="TextAppearance_ResetPassword_EditText_Content" parent="TextAppearance_Login_EditText_Content">
+    </style>
+    
+    <style name="TextAppearance_ResetPassword_TipText">
+        <item name="android:textSize">11.4sp</item>
+        <item name="android:textColor">#dedede</item>
+    </style>
+
+    <!-- Settings -->
+    <style name="TextAppearance_Settings_SettingEntryText_Normal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#013555</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="TextAppearance_Settings_SettingEntryText_Disabled">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#5198c6</item>
+        <item name="android:shadowColor">#013555</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <!-- FAQ -->
+    <style name="TextAppearance_FAQ_QuestionText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#5198c6</item>
+    </style>
+
+    <style name="TextAppearance_FAQ_AnswerText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- User Feedback -->
+    <style name="TextAppearance_UserFeedback_FeedbackContent">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#292929</item>
+    </style>
+
+    <style name="TextAppearance_UserFeedback_FeedbackTimeStamp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#62a7d3</item>
+    </style>
+
+    <style name="TextAppearance_UserFeedback_UserNickName">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#8fc8f4</item>
+    </style>
+    <!-- game detail -->
+    <style name="TextAppearance_GameDetail__Top_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#daf5ff</item>
+        <item name="android:shadowColor">#00253d</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="TextAppearance_GameDetail__Top_GameInfo">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#6bb2ce</item>
+    </style>
+      <style name="TextAppearance_GameDetail__Top_Pro">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#96eb39</item>
+    </style>
+     <style name="TextAppearance_GameDetail__Middle_Title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#00253d</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+     <style name="TextAppearance_GameDetail__Guess_Item">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#00253d</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <!-- Styles end here. Styles are named by where they can be used -->
+
+</resources>

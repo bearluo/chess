@@ -1,0 +1,9 @@
+{"layout":
+{"width":"480","height":"320","background":"","style":"RelativeLayout"},
+"item":[
+{"width":"142","height":"98","margin":[],"style":"ImageView","src":"image/01/loading_bg.png","animation":false},
+{"width":"60","height":"60","margin":[42,15,0,0],"style":"ImageView","src":"image/01/loading.png","animation":true},
+{"width":"34","height":"34","margin":[118,-4,0,00],"style":"Button","background":"image/01/loading_cancel.png"},
+{"width":"142","height":"wrap_content","margin":[0,72,0,0],"style":"TextView","size":10,"color":[243,205,70],"gravity":"center","text":"Мгдижа..."}
+]
+}

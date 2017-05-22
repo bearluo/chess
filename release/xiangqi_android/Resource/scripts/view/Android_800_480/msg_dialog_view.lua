@@ -1,0 +1,28 @@
+msg_dialog_view=
+{
+	name="msg_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,
+	{
+		name="msg_bg",type=1,typeName="Image",time=16885622,x=0,y=0,width=480,height=800,visible=1,file="drawable/transparent_blank.png",gridLeft=1,gridRight=1,gridTop=1,gridBottom=1
+	},
+	{
+		name="msg_content_bg",type=1,typeName="Image",time=16885766,x=0,y=90,width=480,height=600,visible=1,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+	},
+	{
+		name="msg_title_view",type=0,typeName="View",time=16885953,x=0,y=0,width=0,height=0,visible=1,
+		{
+			name="msg_title_bg",type=1,typeName="Image",time=16944296,x=0,y=75,width=480,height=128,visible=1,file="dialog/dialog_title_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32
+		},
+		{
+			name="msg_title",type=4,typeName="Text",time=16944451,x=174,y=112,width=0,height=0,visible=1,fontSize=36,align=kTextAlignCenter,colorRed=244,colorGreen=217,colorBlue=138,string=[[消息中心]]
+		},
+		{
+			name="msg_close_btn",type=3,typeName="Button2",time=25167325,x=426,y=115,width=0,height=0,visible=1,file="dialog/btn_close_up.png",file2="dialog/btn_close_dow.png"
+		}
+	},
+	{
+		name="msg_content_view",type=0,typeName="View",time=16885945,x=0,y=0,width=0,height=0,visible=1,
+		{
+			name="msg_list_holder",type=1,typeName="Image",time=16886064,x=10,y=165,width=460,height=500,visible=1,file="drawable/blank.png"
+		}
+	}
+}

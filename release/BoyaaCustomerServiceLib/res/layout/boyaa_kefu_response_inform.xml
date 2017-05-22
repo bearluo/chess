@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+    <ExpandableListView
+        android:id="@+id/boyaa_kefu_id_inform_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#ffffff"  
+        android:cacheColorHint="#abcdefff"  
+        android:listSelector="#cdefabdc"
+        />
+
+</LinearLayout>

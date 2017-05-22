@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/wechat_btn_style_alert_dialog_background">
+	<GridView
+	    android:id="@+id/content_grid"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="bottom"
+	    android:paddingTop="20dp"
+	    android:paddingBottom="20dp"
+	    android:numColumns="auto_fit"
+	    android:verticalSpacing="10dp"
+	    android:columnWidth="85dip"
+	    android:cacheColorHint="@color/transparent"
+	     />
+</LinearLayout>

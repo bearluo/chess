@@ -1,0 +1,46 @@
+ticket_check_dialog=
+{
+	name="ticket_check_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTop,
+	{
+		name="view",type=0,typeName="View",time=129021091,x=0,y=310,width=630,height=660,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="view_bg",type=1,typeName="Image",time=129022502,x=0,y=164,width=630,height=500,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/ticket_bg.png",gridLeft=20,gridRight=20,gridTop=20,gridBottom=20
+		},
+		{
+			name="online_view",type=0,typeName="View",time=129012452,x=0,y=0,width=630,height=660,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="bg",type=1,typeName="Image",time=129012748,x=0,y=0,width=632,height=182,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="mall/online_ticket.png"
+			},
+			{
+				name="view",type=0,typeName="View",time=129017128,x=0,y=2,width=632,height=182,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			},
+			{
+				name="user_ticket_btn",type=2,typeName="Button",time=129012478,x=0,y=504,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+				{
+					name="text",type=4,typeName="Text",time=129013115,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[立即使用]]
+				}
+			}
+		},
+		{
+			name="offline_view",type=0,typeName="View",time=129013408,x=0,y=0,width=630,height=660,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="view",type=0,typeName="View",time=129017158,x=0,y=2,width=632,height=182,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			},
+			{
+				name="view_bg",type=1,typeName="Image",time=129012623,x=0,y=164,width=630,height=500,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/ticket_bg.png",gridLeft=20,gridRight=20,gridTop=20,gridBottom=20
+			},
+			{
+				name="qr_code",type=1,typeName="Image",time=129693251,x=0,y=340,width=316,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="mall/qr_code.png"
+			},
+			{
+				name="name",type=4,typeName="Text",time=129013621,x=0,y=212,width=240,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=48,textAlign=kAlignCenter,colorRed=60,colorGreen=60,colorBlue=60,string=[[]]
+			},
+			{
+				name="id",type=4,typeName="Text",time=129542054,x=0,y=448,width=240,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=40,textAlign=kAlignCenter,colorRed=60,colorGreen=60,colorBlue=60,string=[[]]
+			},
+			{
+				name="tips",type=4,typeName="Text",time=129016714,x=0,y=124,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignCenter,colorRed=180,colorGreen=180,colorBlue=180,string=[[线下赛入场凭证]]
+			}
+		}
+	}
+}

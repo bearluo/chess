@@ -1,0 +1,25 @@
+exchange_tips_dialog=
+{
+	name="exchange_tips_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="view_bg",type=1,typeName="Image",time=39164165,x=0,y=0,width=480,height=800,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/transparent_blank.png"
+	},
+	{
+		name="dialog_view",type=0,typeName="View",time=39164162,x=0,y=0,width=480,height=300,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="dialog_view_bg",type=1,typeName="Image",time=39164204,x=0,y=0,width=605,height=365,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+			{
+				name="tips_content_text",type=5,typeName="TextView",time=39950718,x=0,y=98,width=443,height=116,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignTopLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[恭喜你成功兑换5元话费，奖品将于7个工作日内到帐，请耐心等待，如有问题请联系客服。]]
+			}
+		},
+		{
+			name="title_text",type=4,typeName="Text",time=39164927,x=0,y=52,width=320,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[兑换成功]]
+		},
+		{
+			name="ok_btn",type=2,typeName="Button",time=39165537,x=0,y=-15,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="label",type=4,typeName="Text",time=39165668,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[确定]]
+			}
+		}
+	}
+}

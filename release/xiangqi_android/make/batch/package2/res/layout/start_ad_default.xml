@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/startAdImg" android:background="@drawable/ad_dialog_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+            <Button android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="17.8" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.2">
+                <Button android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <Button android:layout_gravity="bottom" android:id="@id/closeBtn" android:background="@drawable/boyaa_jump_sad" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.1" />
+            </LinearLayout>
+            <Button android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="54.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+            <Button android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="124.0" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="14.0">
+                <Button android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="11.0" />
+                <Button android:layout_gravity="bottom" android:id="@id/shareBtn" android:background="@drawable/ad_share_btn" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="17.0" />
+                <Button android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="11.0" />
+            </LinearLayout>
+            <Button android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="6.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/shareBg" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <GridView android:id="@id/gridViewShare" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:numColumns="3" android:layout_weight="2.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <Button android:layout_gravity="center_horizontal" android:id="@id/closeShareBtn" android:background="@drawable/btn_close" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

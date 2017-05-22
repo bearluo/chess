@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="wrap_content"
+    width="wrap_content" >
+
+    <Item
+        background="mmiap/02/bg.png"
+        content="MainTitle"
+        height="wrap_content"
+        orientation="vertical"
+        stytle="LinearLayout"
+        width="wrap_content" >
+
+        <Item
+            background="mmiap/02/title1_bg.png"
+            content="MainTitle"
+            height="60"
+            paddingLeft="20"
+            paddingRight="20"
+            stytle="RelativeLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/02/logo1.png"
+                content="logoView"
+                gravity="center_in_parent"
+                height="50"
+                stytle="TextView"
+                width="140" >
+            </Item>
+
+            <Item
+                background="mmiap/02/close.png"
+                clickable="true"
+                content="backbutton"
+                gravity="align_parent_right|r_center_vertical"
+                height="30"
+                pressedBG="mmiap/02/close_click.png"
+                stytle="ImageView"
+                width="30" >
+            </Item>
+        </Item>
+
+        <Item
+            content="ProductView"
+            gravity="center_horizontal"
+            height="wrap_content"
+            orientation="vertical"
+            paddingBottom="20"
+            stytle="LinearLayout"
+            width="wrap_content" >
+
+            <Item
+                content="ProductView"
+                height="wrap_content"
+                margingBottom="20"
+                margingTop="30"
+                orientation="horizontal"
+                paddingTop="30"
+                stytle="LinearLayout"
+                width="wrap_content" >
+
+                <Item
+                    background="mmiap/02/icon_info.png"
+                    content="warnicon"
+                    height="76"
+                    margingRight="10"
+                    stytle="TextView"
+                    width="76" >
+                </Item>
+
+                <Item
+                    content="ProductInfo"
+                    gravity="left"
+                    height="wrap_content"
+                    paddingLeft="10"
+                    paddingRight="10"
+                    stytle="TextView"
+                    text="若不进行付费，您将无法获得更多的应用体验，是否确认？"
+                    textcolor="#ffec980f"
+                    textsize="20"
+                    width="wrap_content" >
+                </Item>
+            </Item>
+
+            <Item
+                content="buttonView"
+                height="wrap_content"
+                orientation="horizontal"
+                paddingLeft="10"
+                paddingRight="10"
+                paddingTop="50"
+                stytle="LinearLayout"
+                width="fill_parent" >
+
+                <Item
+                    background="mmiap/02/btn_orange.9.png"
+                    content="backbutton"
+                    height="70"
+                    margingRight="20"
+                    paddingBottom="10"
+                    paddingTop="10"
+                    pressedBG="mmiap/02/btn_orange_click.9.png"
+                    stytle="Button"
+                    text="返  回"
+                    textsize="20"
+                    weight="1"
+                    width="0" >
+                </Item>
+
+                <Item
+                    background="mmiap/02/btn_gray.9.png"
+                    content="confirmButton"
+                    height="70"
+                    margingLeft="20"
+                    paddingBottom="10"
+                    paddingTop="10"
+                    pressedBG="mmiap/02/btn_gray_click.9.png"
+                    stytle="Button"
+                    text="确  认"
+                    textsize="20"
+                    weight="1"
+                    width="0" >
+                </Item>
+            </Item>
+        </Item>
+    </Item>
+
+</Dialog>

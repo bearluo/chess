@@ -1,0 +1,31 @@
+mall_pay_vip_shop_item=
+{
+	name="mall_pay_vip_shop_item",type=0,typeName="View",time=0,x=0,y=0,width=660,height=320,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="Image2",type=1,typeName="Image",time=120301847,x=0,y=0,width=660,height=320,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+	},
+	{
+		name="icon_view",type=0,typeName="View",time=119760412,x=78,y=20,width=100,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	},
+	{
+		name="promotion_icon",type=1,typeName="Image",time=119760859,x=35,y=0,width=30,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/promotion_icon.png"
+	},
+	{
+		name="hot_icon",type=1,typeName="Image",time=119760561,x=35,y=0,width=30,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/hot_icon.png"
+	},
+	{
+		name="name_view",type=0,typeName="View",time=119761179,x=211,y=28,width=210,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	},
+	{
+		name="price_view",type=0,typeName="View",time=119761254,x=462,y=47,width=150,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	},
+	{
+		name="short_desc_view",type=0,typeName="View",time=119764152,x=212,y=75,width=210,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	},
+	{
+		name="desc_view",type=0,typeName="ScrollView",time=120303117,x=0,y=150,width=500,height=160,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=120302956,x=0,y=139,width=600,height=2,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line_2.png"
+	}
+}

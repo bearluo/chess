@@ -1,0 +1,43 @@
+money_room_list_dialog_view_item=
+{
+	name="money_room_list_dialog_view_item",type=0,typeName="View",time=0,x=0,y=0,width=650,height=160,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=121860431,x=0,y=10,width=650,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/room_btn_2.png"
+	},
+	{
+		name="join_btn",type=2,typeName="Button",time=123752650,x=0,y=0,width=170,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="ui/button.png",
+		{
+			name="Image1",type=1,typeName="Image",time=123752801,x=4,y=0,width=130,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="common/button/join_btn_nor.png"
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=121860608,x=16,y=0,width=130,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="online/money_bg.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=121922375,x=16,y=17,width=76,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[参加]]
+		},
+		{
+			name="join_money_txt",type=4,typeName="Text",time=121922429,x=16,y=38,width=107,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=22,textAlign=kAlignCenter,colorRed=100,colorGreen=210,colorBlue=110,string=[[]]
+		}
+	},
+	{
+		name="Image3",type=1,typeName="Image",time=121860646,x=161,y=0,width=160,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="online/room_config_bg.png"
+	},
+	{
+		name="gold_icon",type=1,typeName="Image",time=121860684,x=20,y=-4,width=112,height=105,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="mall/mall_list_gold2.png"
+	},
+	{
+		name="money_txt",type=4,typeName="Text",time=122006280,x=147,y=-29,width=128,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=30,textAlign=kAlignLeft,colorRed=60,colorGreen=60,colorBlue=60,string=[[]]
+	},
+	{
+		name="Image7",type=1,typeName="Image",time=121861392,x=147,y=19,width=22,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/icon/icon.png"
+	},
+	{
+		name="online_num_text",type=4,typeName="Text",time=121861590,x=177,y=19,width=72,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=24,textAlign=kAlignLeft,colorRed=147,colorGreen=98,colorBlue=68,string=[[在线：]]
+	},
+	{
+		name="time",type=4,typeName="Text",time=122006859,x=161,y=-21,width=160,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=24,textAlign=kAlignCenter,colorRed=125,colorGreen=80,colorBlue=65,string=[[]]
+	},
+	{
+		name="number",type=4,typeName="Text",time=122006956,x=161,y=11,width=160,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=28,textAlign=kAlignCenter,colorRed=125,colorGreen=80,colorBlue=65,string=[[]]
+	}
+}

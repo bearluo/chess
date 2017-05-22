@@ -1,0 +1,37 @@
+sociaty_invite_dialog_view=
+{
+	name="sociaty_invite_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,
+	{
+		name="bg",type=1,typeName="Image",time=125118747,x=0,y=-12,width=674,height=818,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/tab_bg.png",
+		{
+			name="btn_view",type=0,typeName="View",time=136540388,x=0,y=34,width=636,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="line",type=1,typeName="Image",time=136606828,x=0,y=0,width=4,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/decoration/tab_line.png"
+			},
+			{
+				name="left_btn",type=2,typeName="Button",time=136540448,x=1,y=-6,width=315,height=74,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/blank.png",file2="common/decoration/tab_select.png",
+				{
+					name="text",type=4,typeName="Text",time=136540880,x=-5,y=0,width=128,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[申请列表]]
+				}
+			},
+			{
+				name="right_btn",type=2,typeName="Button",time=136540516,x=1,y=-6,width=315,height=74,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="drawable/blank.png",file2="common/decoration/tab_select.png",
+				{
+					name="text",type=4,typeName="Text",time=136541190,x=8,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[邀请棋友]]
+				}
+			}
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=125118639,x=-11,y=-11,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/close_btn_1.png"
+		},
+		{
+			name="apply_view",type=0,typeName="View",time=136604228,x=0,y=128,width=638,height=648,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="invite_list_view",type=0,typeName="ListView",time=133954845,x=0,y=128,width=638,height=648,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=137235095,x=0,y=22,width=650,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/mask_5.png"
+		}
+	}
+}

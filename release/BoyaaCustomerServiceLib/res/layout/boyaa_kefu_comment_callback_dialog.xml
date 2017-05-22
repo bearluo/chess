@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="120dp" >
+        
+       <EditText
+            android:id="@+id/boyaa_kefu_callback_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/boyaa_kefu_comment_background"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top|left"
+            android:minLines="4"
+            android:hint="@string/boyaa_kefu_commemnt_content_callback"
+            android:textColor="#000000"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/boyaa_kefu_callback_cancel"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/appkefu_inputbar_recordvoicebtn"
+            android:text="@string/boyaa_kefu_comment_back_dialog_cancel" />
+
+        <Button
+            android:id="@+id/boyaa_kefu_callback_comment"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/boyaa_kefu_submit_click"
+            android:text="@string/boyaa_kefu_comment_back_dialog_submit" />
+    </LinearLayout>
+
+</LinearLayout>

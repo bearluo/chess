@@ -1,0 +1,22 @@
+add_head_portrait_dialog=
+{
+	name="add_head_portrait_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=90484066,x=0,y=200,width=480,height=470,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+		{
+			name="tittle",type=4,typeName="Text",time=90484306,x=0,y=0,width=350,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=33,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=0,string=[[添加一张漂亮的头像]]
+		},
+		{
+			name="later_append_btn",type=2,typeName="Button",time=90484379,x=44,y=317,width=128,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_neg_up.png",
+			{
+				name="Text2",type=4,typeName="Text",time=90484408,x=-3,y=-1,width=100,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[以后再说]]
+			}
+		},
+		{
+			name="append_info_btn",type=2,typeName="Button",time=90484382,x=314,y=318,width=128,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_neg_up.png",
+			{
+				name="Text3",type=4,typeName="Text",time=90484475,x=-3,y=-1,width=100,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[完善信息]]
+			}
+		}
+	}
+}

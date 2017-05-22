@@ -1,0 +1,46 @@
+vip_modify_view_new=
+{
+	name="vip_modify_view_new",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="new_style_view",type=0,typeName="View",time=144208620,x=171,y=245,width=200,height=150,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+		{
+			name="bg_img",type=1,typeName="Image",time=144208621,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank_black.png"
+		},
+		{
+			name="title_view",type=0,typeName="View",time=144208622,x=0,y=0,width=480,height=95,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="title_bg_img",type=1,typeName="Image",time=144208623,x=0,y=0,width=720,height=116,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/chat_title_bg.png"
+			},
+			{
+				name="title_tx",type=4,typeName="Text",time=144208624,x=0,y=0,width=96,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=48,textAlign=kAlignCenter,colorRed=225,colorGreen=200,colorBlue=160,string=[[装扮]]
+			}
+		},
+		{
+			name="back_btn",type=2,typeName="Button",time=144208626,x=27,y=36,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/hide_dialog_btn.png"
+		},
+		{
+			name="bottom_btn",type=2,typeName="Button",time=144208627,x=0,y=19,width=444,height=96,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/long_yellow_btn.png",
+			{
+				name="bottom_btn_tx",type=4,typeName="Text",time=144208628,x=100,y=0,width=144,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=36,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[会员尊享个性装扮]]
+			},
+			{
+				name="Image1",type=1,typeName="Image",time=144208725,x=40,y=0,width=50,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="vip/vip_logo.png"
+			}
+		},
+		{
+			name="content_view",type=0,typeName="View",time=144208629,x=0,y=128,width=720,height=1025,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="Image2",type=1,typeName="Image",time=144208933,x=0,y=0,width=0,height=1025,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/chatroom_bg_3.png"
+			},
+			{
+				name="head_select_view",type=0,typeName="View",time=144209154,x=0,y=20,width=700,height=260,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			},
+			{
+				name="chess_piece_select_view",type=0,typeName="View",time=144209354,x=0,y=316,width=700,height=260,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			},
+			{
+				name="board_select_view",type=0,typeName="View",time=144209418,x=0,y=612,width=700,height=380,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			}
+		}
+	}
+}

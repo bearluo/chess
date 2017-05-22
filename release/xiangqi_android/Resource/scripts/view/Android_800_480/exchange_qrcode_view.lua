@@ -1,0 +1,34 @@
+exchange_qrcode_view=
+{
+	name="exchange_qrcode_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="img_bg",type=1,typeName="Image",time=128106963,x=0,y=0,width=606,height=630,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/exchange_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+		{
+			name="Image1",type=1,typeName="Image",time=129454194,x=53,y=334,width=505,height=76,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/input_bg_2.png",gridLeft=33,gridRight=33,gridTop=0,gridBottom=0
+		},
+		{
+			name="edit_code",type=6,typeName="EditText",time=128608051,x=67,y=336,width=477,height=71,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=46,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=129454788,x=0,y=50,width=360,height=40,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=240,colorBlue=240,string=[[关注官方微信公众号]]
+		},
+		{
+			name="Text2",type=4,typeName="Text",time=129454919,x=0,y=66,width=288,height=72,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=72,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=0,string=[[博雅象棋]]
+		},
+		{
+			name="Text4",type=4,typeName="Text",time=129455119,x=0,y=170,width=336,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignLeft,colorRed=240,colorGreen=240,colorBlue=240,string=[[超多免费好礼等您来拿!]]
+		},
+		{
+			name="btn_get",type=2,typeName="Button",time=128107160,x=0,y=35,width=537,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="title",type=4,typeName="Text",time=129455031,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[立即兑换]]
+			}
+		},
+		{
+			name="btn_close",type=2,typeName="Button",time=128107155,x=26,y=-52,width=44,height=52,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/close_btn.png"
+		},
+		{
+			name="error_txt",type=4,typeName="Text",time=129455060,x=0,y=170,width=200,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=30,textAlign=kAlignCenter,colorRed=200,colorGreen=40,colorBlue=40,string=[[]]
+		}
+	}
+}

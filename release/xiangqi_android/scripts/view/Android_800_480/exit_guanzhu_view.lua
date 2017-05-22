@@ -1,0 +1,10 @@
+exit_guanzhu_view=
+{
+	name="exit_guanzhu_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+	{
+		name="Image2",type=1,typeName="Image",time=97660573,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/xg.png"
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=97659833,x=0,y=0,width=650,height=400,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+	}
+}

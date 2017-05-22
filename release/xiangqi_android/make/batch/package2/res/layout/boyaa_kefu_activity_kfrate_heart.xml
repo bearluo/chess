@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/empty_cart_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/boyaa_kefu_rate_heart1" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boyaa_kefu_rate_heart_selected" />
+    <ImageButton android:id="@id/boyaa_kefu_rate_heart2" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:src="@drawable/boyaa_kefu_rate_heart_selected" android:layout_toRightOf="@id/boyaa_kefu_rate_heart1" />
+    <ImageButton android:id="@id/boyaa_kefu_rate_heart3" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:src="@drawable/boyaa_kefu_rate_heart_selected" android:layout_toRightOf="@id/boyaa_kefu_rate_heart2" />
+    <ImageButton android:id="@id/boyaa_kefu_rate_heart4" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:src="@drawable/boyaa_kefu_rate_heart_selected" android:layout_toRightOf="@id/boyaa_kefu_rate_heart3" />
+    <ImageButton android:id="@id/boyaa_kefu_rate_heart5" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:src="@drawable/boyaa_kefu_rate_heart_selected" android:layout_toRightOf="@id/boyaa_kefu_rate_heart4" />
+</RelativeLayout>

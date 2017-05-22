@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?><FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<!-- 启动页 -->
+    <ImageView
+		android:id="@+id/startAdImg"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/ad_dialog_default" />
+    
+	<!-- 按钮页 -->
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    
+	    <!-- 按钮页标题view start -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="6" >
+		    
+		    <!-- 按钮标题左侧占位btn -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="17.8"
+                android:visibility="invisible" >
+            </Button>
+            
+            <!-- 按钮标题中间view -->
+           	<LinearLayout
+           	    android:layout_width="0dp"
+           	    android:layout_height="match_parent"
+           	    android:layout_gravity="bottom"
+           	    android:layout_weight="4.2"
+           	    android:orientation="vertical" >
+           	    
+           	    <!-- 中间view上侧占位btn -->
+   				<Button
+  				    android:layout_width="match_parent"
+  				    android:layout_height="0dp"
+  				    android:layout_weight="1"
+  				    android:visibility="invisible">
+   				</Button>
+   				
+   				<!-- 跳转btn -->
+           		<Button
+	          	    android:id="@+id/closeBtn"
+	          	    android:layout_width="match_parent"
+	          	    android:layout_height="0dp"
+	          	    android:layout_gravity="bottom"
+	          	    android:layout_weight="1.1"
+	          	    android:background="@drawable/boyaa_jump_sad">
+	          	</Button>
+	          	
+           	</LinearLayout> 
+           	
+           	<!-- 按钮标题右侧占位btn -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible" >
+            </Button>
+		</LinearLayout>
+		<!-- 按钮页标题view end -->
+		
+		<!-- 按钮页内容view start -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="54" >
+		</LinearLayout>
+        <!-- 按钮页内容view end -->
+        
+		<!-- 按钮页底部view start -->
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="9" >
+  			<!-- 按钮底部左侧占位btn -->
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="124"
+                android:visibility="invisible" >
+
+            </Button>
+            
+            <!-- 按钮底部中间view -->           	<LinearLayout
+           	    android:layout_width="0dp"
+           	    android:layout_height="match_parent"
+           	    android:layout_gravity="bottom"
+           	    android:layout_weight="14"
+           	    android:orientation="vertical" >
+           	    
+           	    <!-- 中间view上侧占位btn -->
+   				<Button
+  				    android:layout_width="match_parent"
+  				    android:layout_height="0dp"
+  				    android:layout_weight="11"
+  				    android:visibility="invisible">
+   				</Button>
+   				
+   				<!-- 分享btn -->
+           		<Button
+           		    android:id="@+id/shareBtn"
+           		    android:layout_width="match_parent"
+           		    android:layout_height="0dp"
+           		    android:layout_gravity="bottom"
+           		    android:layout_weight="17"
+           		    android:background="@drawable/ad_share_btn" >
+	          	</Button>
+	          	<!-- 中间view下侧占位btn -->
+	          	<Button
+  				    android:layout_width="match_parent"
+  				    android:layout_height="0dp"
+  				    android:layout_weight="11"
+  				    android:visibility="invisible">
+   				</Button>
+           	</LinearLayout> 
+           	
+           	<!-- 按钮底部右侧占位btn -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:visibility="invisible" >
+            </Button>
+		</LinearLayout>
+        <!-- 按钮页底部view end -->	  
+          
+	</LinearLayout>
+	<!-- 按钮页end -->
+	
+	<!-- 分享页start -->
+
+	<ImageView
+	    android:id="@+id/shareBg"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#99000000" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+       	<!-- 分享页上侧占位btn -->
+		<Button
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:visibility="invisible" >
+		</Button>
+		
+		<!-- 分享btn -->
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:orientation="vertical" >
+
+			<GridView
+			    android:id="@+id/gridViewShare"
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="2"
+			    android:cacheColorHint="#00000000"
+				android:listSelector="#00000000"        
+				android:scrollbars="none"
+			    android:numColumns="3" >
+			</GridView>
+			<!-- 分享页下侧占位btn -->
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+
+			    <Button
+			        android:id="@+id/closeShareBtn"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			        android:layout_gravity="center_horizontal"
+			        android:layout_marginTop="10dp"
+			        android:background="@drawable/btn_close" >
+
+      			</Button>   
+			    
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+	<!-- 分享页end -->
+	
+</FrameLayout>

@@ -1,0 +1,19 @@
+online_view_help_dialog_view=
+{
+	name="online_view_help_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=111316304,x=0,y=0,width=720,height=900,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="close_btn",type=2,typeName="Button",time=111316610,x=0,y=50,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="Text1",type=4,typeName="Text",time=112260440,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[关 闭]]
+			}
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=112260484,x=0,y=56,width=621,height=686,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="scroll_view",type=0,typeName="ScrollView",time=111404158,x=0,y=72,width=570,height=650,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		}
+	}
+}

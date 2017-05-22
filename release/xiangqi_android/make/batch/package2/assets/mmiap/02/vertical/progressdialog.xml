@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="ProgressDialog"
+    height="wrap_content"
+    width="wrap_content" >
+
+    <Item
+        background="mmiap/02/bg.png"
+        content="scrollview"
+        height="fill_parent"
+        orientation="vertical"
+        stytle="ScrollView"
+        width="wrap_content" >
+
+        <Item
+            content="PurchaseInfo"
+            height="wrap_content"
+            orientation="vertical"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/02/title1_bg.png"
+                content="MainTitle"
+                height="60"
+                paddingLeft="20"
+                paddingRight="20"
+                stytle="RelativeLayout"
+                width="fill_parent" >
+
+                <Item
+                    background="mmiap/02/logo1.png"
+                    content="logoView"
+                    gravity="center_in_parent"
+                    height="50"
+                    stytle="TextView"
+                    width="140" >
+                </Item>
+
+                <Item
+                    background="mmiap/02/close.png"
+                    clickable="true"
+                    content="backbutton"
+                    gravity="align_parent_right|r_center_vertical"
+                    height="30"
+                    pressedBG="mmiap/02/close_click.png"
+                    stytle="ImageView"
+                    width="30" >
+                </Item>
+            </Item>
+
+            <Item
+                content="ProductInfo"
+                gravity="left"
+                height="wrap_content"
+                orientation="vertical"
+                paddingBottom="10"
+                paddingLeft="10"
+                paddingRight="10"
+                stytle="LinearLayout"
+                width="fill_parent" >
+
+                <Item
+                    content="prompt"
+                    gravity="left"
+                    height="wrap_content"
+                    margingTop="10"
+                    paddingLeft="10"
+                    paddingRight="10"
+                    stytle="TextView"
+                    text="尊敬的用户，你即将购买："
+                    textsize="20"
+                    width="fill_parent" >
+                </Item>
+
+                <Item
+                    content="itemname"
+                    gravity="left"
+                    height="wrap_content"
+                    margingTop="5"
+                    paddingLeft="10"
+                    paddingRight="10"
+                    stytle="ProductItemView"
+                    text="300金币"
+                    textcolor="#ffec980f"
+                    textsize="30"
+                    width="fill_parent" >
+                </Item>
+
+                <Item
+                    content="ProductPay"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="totalspend"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingLeft="10"
+                        paddingRight="10"
+                        stytle="TextView"
+                        text="共需支付话费："
+                        textsize="20"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="totalprice"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingLeft="10"
+                        paddingRight="10"
+                        stytle="ProductItemView"
+                        text="2元"
+                        textsize="20"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+
+                <Item
+                    content="ProductCountText"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="itempricetext"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingLeft="10"
+                        stytle="TextView"
+                        text="（单价："
+                        textcolor="#ff818181"
+                        textsize="18"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="itemprice"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        stytle="ProductItemView"
+                        text="0.1"
+                        textcolor="#ff818181"
+                        textsize="18"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="itemcounttext"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        stytle="TextView"
+                        text="，数量："
+                        textcolor="#ff818181"
+                        textsize="18"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="itemcount"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        stytle="ProductItemView"
+                        text="1"
+                        textcolor="#ff818181"
+                        textsize="18"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="end"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingRight="10"
+                        stytle="TextView"
+                        text="）"
+                        textcolor="#ff818181"
+                        textsize="18"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+
+                <Item
+                    content="send"
+                    gravity="left"
+                    height="wrap_content"
+                    margingTop="5"
+                    paddingLeft="10"
+                    paddingRight="10"
+                    stytle="TextView"
+                    text="请点击“确认”发送短信购买"
+                    textsize="20"
+                    width="fill_parent" >
+                </Item>
+
+                <Item
+                    content="ProductName"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="nametext"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingLeft="10"
+                        stytle="TextView"
+                        text="游戏名称："
+                        textcolor="#ff818181"
+                        textsize="15"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="appname"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingRight="10"
+                        stytle="ProductItemView"
+                        text="捕鱼之海底捞"
+                        textcolor="#ff818181"
+                        textsize="15"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+
+                <Item
+                    content="ProductProvider"
+                    height="wrap_content"
+                    orientation="horizontal"
+                    stytle="LinearLayout"
+                    width="fill_parent" >
+
+                    <Item
+                        content="providertext"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingLeft="10"
+                        stytle="TextView"
+                        text="提 供 商："
+                        textcolor="#ff818181"
+                        textsize="15"
+                        width="wrap_content" >
+                    </Item>
+
+                    <Item
+                        content="provider"
+                        gravity="left"
+                        height="wrap_content"
+                        margingTop="5"
+                        paddingRight="10"
+                        stytle="ProductItemView"
+                        text="南京光辉互动网络科技有限公司"
+                        textcolor="#ff818181"
+                        textsize="15"
+                        width="wrap_content" >
+                    </Item>
+                </Item>
+
+                <Item
+                    background="mmiap/02/logo_02.png"
+                    content="logoView2"
+                    height="120"
+                    margingTop="10"
+                    stytle="TextView"
+                    width="150" >
+                </Item>
+
+                <Item
+                    content="textlogo"
+                    height="wrap_content"
+                    margingBottom="20"
+                    stytle="TextView"
+                    text="版权所有  中国移动"
+                    textsize="15"
+                    width="wrap_content" >
+                </Item>
+
+                <Item
+                    background="mmiap/02/btn_gray.9.png"
+                    content="confirmButton"
+                    height="70"
+                    paddingBottom="10"
+                    paddingTop="10"
+                    pressedBG="mmiap/02/btn_gray_click.9.png"
+                    stytle="Button"
+                    text="正在处理..."
+                    textsize="20"
+                    width="fill_parent" >
+                </Item>
+            </Item>
+        </Item>
+    </Item>
+
+</Dialog>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="batch_package" default="help">
+	<property file="lib/local.properties"/>
+	<target name="auto-batch-decode">
+		<property file="lib/package.properties" />
+		<echo message="${apk.package.dir}" />
+		<echo message="${apk.package.name}" />
+		<fail
+            message="package.dir is missing."
+            unless="apk.package.dir"
+		/>
+		<delete dir="package"></delete>
+		<mkdir dir="package"/>
+		<echo message="${local.properties.apktool.dir}" />
+		<exec dir="${local.properties.apktool.dir}" executable="lib/apktool.bat">
+			<arg line="d -s -f -o package ${apk.package.dir}/${apk.package.name}"/>
+        </exec>
+	 </target>
+	 <target name="auto-batch-encode">
+		<property file="lib/ant.properties" />
+		<property file="lib/package.properties" />
+		<echo message="${apk.package.dir}" />
+		<echo message="${apk.package.name}" />
+		<!-- 解析AndroidManifest.xml 获得包名 -->
+        <xmlproperty file="${local.properties.apktool.dir}/package/AndroidManifest.xml" collapseAttributes="true" />
+		<!-- 构建文件build 所在目录 -->
+		<dirname property="auto.here.dir" file="${ant.file}" />
+		<property name="auto.package" value="${manifest.package}" />
+		<property name="auto.final.versionCode" value="${manifest.android:versionCode}" />
+		<property name="auto.final.versionName" value="${manifest.android:versionName}" />
+		<mkdir dir="${auto.here.dir}/apk/"/>
+		<property name="out.final.file"  
+            location="${apk.package.dir}/apk/${UMENG_CHANNEL}-${apk.package.name}" />
+		<!-- 修改友盟渠道 location="${auto.here.dir}/${manifest.android:versionName}/${manifest.package}-${manifest.android:versionName}-${UMENG_CHANNEL}.apk" /> -->
+		<echo message="修改个推渠道 ${UMENG_CHANNEL}" />
+		<condition property="isNeedChangeUmengChannel">  
+            <isset property="UMENG_CHANNEL" />
+        </condition>  
+		<antcall target="change-umeng-channel">  
+        </antcall> 
+		<!-- 修改个推渠道 -->
+		<echo message="修改个推渠道 ${GETUI_CHANNEL}" />
+		<condition property="isNeedChangeGettuiChannel">  
+            <isset property="GETUI_CHANNEL" />
+        </condition>	
+		<antcall target="change-gettui-channel">  
+        </antcall>
+		<delete dir="bin"></delete>
+		<!-- 打包 -->
+		<echo message="打包" />
+		<exec dir="${local.properties.apktool.dir}" executable="lib/apktool.bat">
+			<arg line="b -f -o bin/unsign.apk package"/>
+        </exec>
+		
+		<!-- 打签名 -->
+		<echo message="打签名" />
+		<exec dir="${local.properties.apktool.dir}" executable="lib/signapk.bat">
+			<arg line="bin/unalign.apk bin/unsign.apk"/>
+        </exec>
+		
+		<!-- zip对齐  googleplay 要求 -->
+		<echo message="zip对齐  googleplay 要求" />
+		<exec dir="${local.properties.apktool.dir}" executable="lib/align.bat">
+			<arg line="bin/unalign.apk ${out.final.file}"/>
+        </exec>
+		
+		<echo message="输出包 ${out.final.file}" />
+	 </target>
+	 <target name="change-umeng-channel" if="isNeedChangeUmengChannel">
+		<replaceregexp file="${local.properties.apktool.dir}/package/AndroidManifest.xml"
+			encoding="utf-8"
+			match="&lt;meta\-data(\s+)android:name=&quot;UMENG_CHANNEL&quot;(\s+)android:value=&quot;[a-zA-Z0-9]+&quot;"
+			replace="&lt;meta\-data android:name=&quot;UMENG_CHANNEL&quot; android:value=&quot;${UMENG_CHANNEL}&quot;"
+        />
+	 </target>
+	 <target name="change-gettui-channel" if="isNeedChangeGettuiChannel">
+		<replaceregexp file="${local.properties.apktool.dir}/package/AndroidManifest.xml"
+			encoding="utf-8"
+			match="&lt;meta\-data(\s+)android:name=&quot;CHANNELID&quot;(\s+)android:value=&quot;[a-zA-Z0-9]+&quot;"
+			replace="&lt;meta\-data android:name=&quot;CHANNELID&quot; android:value=&quot;${GETUI_CHANNEL}&quot;"
+        />
+	 </target>
+	 <target name="help">
+		<echo message="ant auto-batch-decode 解析母包" />
+	 </target>
+</project>

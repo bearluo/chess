@@ -1,0 +1,25 @@
+level_locking_dialog=
+{
+	name="level_locking_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,
+	{
+		name="level_locking_dialog_bg",type=1,typeName="Image",time=19730978,x=3,y=2,width=480,height=800,visible=1,file="drawable/transparent_blank.png"
+	},
+	{
+		name="level_locking_dialog",type=1,typeName="Image",time=19731279,x=71,y=182,width=350,height=400,visible=1,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+		{
+			name="dialog_title_view_bg",type=1,typeName="Image",time=19731595,x=0,y=-15,width=350,height=128,visible=1,file="dialog/dialog_title_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32
+		},
+		{
+			name="invite_to_unlock_btn",type=3,typeName="Button2",time=25255956,x=75,y=147,width=220,height=75,visible=1,file="dialog/btn_pos_up.png",file2="dialog/btn_pos_down.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="invite_to_unlock_texture",type=4,typeName="Text",time=25256071,x=0,y=0,width=210,height=70,visible=1,fontSize=30,align=kTextAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[邀请朋友解锁]]
+			}
+		},
+		{
+			name="recharge_to_unlock_btn",type=3,typeName="Button2",time=25256268,x=75,y=246,width=220,height=75,visible=1,file="dialog/btn_pos_up.png",file2="dialog/btn_pos_down.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="recharge_to_unlock_texture",type=4,typeName="Text",time=25256338,x=0,y=0,width=210,height=70,visible=1,fontSize=30,align=kTextAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[充值解锁]]
+			}
+		}
+	}
+}

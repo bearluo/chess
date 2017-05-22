@@ -1,0 +1,10 @@
+match_room_view_rank=
+{
+	name="match_room_view_rank",type=0,typeName="View",time=0,x=0,y=0,width=70,height=91,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="touch_btn",type=2,typeName="Button",time=128508716,x=0,y=0,width=70,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/rank_2_nor.png",file2="common/button/rank_2_pre.png"
+	},
+	{
+		name="rank_num",type=4,typeName="Text",time=133439657,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=24,textAlign=kAlignLeft,colorRed=220,colorGreen=186,colorBlue=130,string=[[]]
+	}
+}

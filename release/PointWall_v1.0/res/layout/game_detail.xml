@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/game_detail_bolck"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/game_detail_title_left_btn"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/back_click"
+                android:onClick="onBackClick"
+                android:src="@drawable/free_getpoints_titile_left_btn" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/free_getpoints" >
+
+                <TextView
+                    android:id="@+id/game_detail_title_text"
+                    style="@style/TextAppearance_PointWall_Head_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:text="@string/free_getPoints_title_text" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/free_getpoints"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/game_detail_title_app_block"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/game_detail_title_app_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:paddingBottom="1dp"
+                android:src="@drawable/small_default" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/game_detail_app_name"
+                    style="@style/TextAppearance_GameList_GameItem_GameName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="博雅斗地主" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/game_detail_title_app_desc"
+                            style="@style/TextAppearance_GameList_GameItem_GameDesc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="博雅重磅推出的游戏"
+                            android:textSize="10dp" />
+
+                        <ImageView
+                            android:id="@+id/down_fail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/download_fail"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="172dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp" >
+
+                            <TextView
+                                android:id="@+id/game_detail_title_app_size"
+                                style="@style/TextAppearance_GameList_GameItem_GameSize"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="大小：8.2M" />
+
+                        </LinearLayout>
+
+                        <ProgressBar
+                            android:id="@+id/game_detail_progress_bar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="4dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="2dp"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/progressbarstyle"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/game_detail_title_dl"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/game_detail_title_app_dl_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/all_games_download_img" />
+
+                    <TextView
+                        android:id="@+id/game_detail_title_app_dl_bar_text"
+                        style="@style/TextAppearance_GameList_dl_img_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:text="@string/free_getpoints_title_dl_text"
+                        android:textColor="@color/white" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:id="@+id/game_detail_title_app_dl_point_text"
+                        style="@style/TextAppearance_GameList_download_point_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all_games_item_dl_points_text" />
+
+                    <TextView
+                        android:id="@+id/game_detail_title_app_dl_plus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:textColor="@color/red_plus" />
+
+                    <TextView
+                        android:id="@+id/game_detail_title_app_dl_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50"
+                        android:textColor="@color/red"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/game_detail_title_hori_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/all_games_separator" />
+
+    <FrameLayout
+        android:id="@+id/game_detail_bottom_block"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:id="@+id/game_detail_bottom_scrolview"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.boyaa.widget.SlowGallery
+                        android:id="@+id/game_detail_bottom_gallery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="8dp"
+                        android:spacing="20dip"
+                        android:visibility="visible" />
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+
+					<com.boyaa.widget.DotsView
+					    android:id="@+id/detail_gallery_dots"
+					    android:layout_width="wrap_content"
+					    android:layout_height="10dp" >
+
+					</com.boyaa.widget.DotsView>
+
+					<ImageView
+					    android:id="@+id/detail_horizontal_line"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:src="@drawable/hall_horizontal_line" />
+
+				</LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/game_detail_bottom_brief"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="游戏特色："
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/game_detail_bottom_desc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</LinearLayout>

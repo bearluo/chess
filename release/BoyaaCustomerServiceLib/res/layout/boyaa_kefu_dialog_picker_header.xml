@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:background="#e6e6e6">
+
+    <TextView
+        android:id="@+id/boyaa_kefu_dialog_picker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="17sp"
+        android:textColor="#000000"
+        android:text="@string/boyaa_kefu_timer_picker"/>
+
+    <Button
+        android:id="@+id/boyaa_kefu_dialog_picker_ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dip"
+        android:background="@null"
+        android:textSize="17sp"
+        android:layout_alignParentRight="true"
+        android:text="@string/boyaa_kefu_picker_dialog_ok"/>
+
+</RelativeLayout>    
+

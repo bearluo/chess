@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/boyaa_kefu_comment_history_title_number"
+            android:textColor="#9B9B9B"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/boyaa_kefu_comment_history_title_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/boyaa_kefu_comment_history_title_show"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/boyaa_kefu_comment_history_type_title"
+                android:textColor="#9B9B9B"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boyaa_kefu_comment_history_type_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9B9B9B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/boyaa_kefu_comment_history_phone_number"
+            android:textColor="#9B9B9B"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/boyaa_kefu_comment_history_phone_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9B9B9B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/boyaa_kefu_comment_history_context_title"
+            android:textColor="#9B9B9B"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/boyaa_kefu_comment_history_context_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9B9B9B" />
+
+    <!-- 默认的只有显示一条的回复布局 -->
+    <LinearLayout
+        android:id="@+id/boyaa_kefu_comment_history_callback_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/boyaa_kefu_comment_history_callback_title"
+            android:textColor="#9B9B9B"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/boyaa_kefu_comment_history_callback_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+    
+    <!-- 这里的LinearLayout做一下标记，用作动态修改布局 -->
+    <LinearLayout
+        android:id="@+id/boyaa_kefu_comment_history_dynamic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:visibility="gone">
+    </LinearLayout>
+
+    <!-- 追加评分 / 留言 -->
+
+    <LinearLayout
+        android:id="@+id/boyaa_kefu_comment_history_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9B9B9B" />
+
+        <!-- 咨询界面 -->
+
+        <RelativeLayout
+            android:id="@+id/boyaa_kefu_comment_history_feedback_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/boyaa_kefu_comment_history_feedback_ask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/boyaa_kefu_comment_history_feedback_ask"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/boyaa_kefu_comment_history_feedback_fix_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/boyaa_kefu_comment_history_feedback_ask"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boyaa_kefu_satisfacted_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/boyaa_kefu_comment_history_feedback_fix"
+                    android:textColor="@drawable/boyaa_kefu_menu_msg_text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boyaa_kefu_comment_history_feedback_unfix_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/boyaa_kefu_comment_history_feedback_ask"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/boyaa_kefu_comment_history_feedback_fix_layout"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boyaa_kefu_notsatisfacted_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/boyaa_kefu_comment_history_feedback_unfix"
+                    android:textColor="@drawable/boyaa_kefu_menu_msg_text_color" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- 追加留言 -->
+
+        <RelativeLayout
+            android:id="@+id/boyaa_kefu_comment_history_feedback_addtional_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/boyaa_kefu_comment_history_feedback_addtional_comment_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/boyaa_kefu_comment_history_feedback_addtional_comment_text"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/boyaa_kefu_comment_history_feedback_addtional_comment_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/boyaa_kefu_comment_history_feedback_addtional_comment_text"
+                android:layout_marginTop="5dp"
+                android:text="@string/boyaa_kefu_comment_history_feedback_addtional_comment_click"
+                android:textColor="@drawable/boyaa_kefu_menu_msg_text_color" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

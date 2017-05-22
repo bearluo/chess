@@ -1,0 +1,16 @@
+http_loading_dialog=
+{
+	name="http_loading_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="Image1",type=1,typeName="Image",time=98706244,x=0,y=0,width=720,height=1280,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/transparent_blank.png"
+	},
+	{
+		name="loading_bg",type=1,typeName="Image",time=78983214,x=0,y=0,width=156,height=156,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/loading_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32,
+		{
+			name="loading_view",type=1,typeName="Image",time=78983298,x=0,y=0,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/icon/king_1.png"
+		},
+		{
+			name="loading_txt",type=1,typeName="Image",time=117705544,x=0,y=-48,width=171,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="animation/loading/loading_4.png"
+		}
+	}
+}

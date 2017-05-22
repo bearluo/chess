@@ -1,0 +1,43 @@
+exchange_pmgoods_dialog=
+{
+	name="exchange_pmgoods_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,
+	{
+		name="view_bg",type=1,typeName="Image",time=39164165,x=0,y=0,width=480,height=800,visible=1,file="drawable/transparent_blank.png"
+	},
+	{
+		name="dialog_view",type=0,typeName="View",time=39164162,x=0,y=0,width=0,height=0,visible=1,
+		{
+			name="dialog_view_bg",type=1,typeName="Image",time=39164204,x=0,y=214,width=480,height=300,visible=1,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+			{
+				name="tips_content_text",type=5,typeName="TextView",time=39950718,x=35,y=97,width=420,height=100,visible=1,fontSize=32,align=kTextAlignLeft,colorRed=240,colorGreen=216,colorBlue=130,string=[[兑换20000金币需消耗200积分，确定兑换？]]
+			}
+		},
+		{
+			name="dialog_title",type=1,typeName="Image",time=39164279,x=0,y=198,width=480,height=0,visible=1,file="dialog/dialog_title_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+			{
+				name="title_text",type=4,typeName="Text",time=39164927,x=80,y=37,width=320,height=0,visible=1,fontSize=35,align=kTextAlignCenter,colorRed=253,colorGreen=228,colorBlue=176,string=[[兑换商品]]
+			}
+		},
+		{
+			name="num_input_text_lable_bg",type=1,typeName="Image",time=39164614,x=78,y=335,width=0,height=0,visible=0,file="drawable/create_custom_room_btn_bg_left_icon.png"
+		},
+		{
+			name="num_input_text_bg",type=1,typeName="Image",time=39164396,x=168,y=335,width=0,height=0,visible=0,file="drawable/create_custom_room_btn_bg_right_icon.png",
+			{
+				name="num_input_edit",type=6,typeName="EditText",time=39164802,x=0,y=2,width=230,height=40,visible=1,fontSize=24,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+			}
+		},
+		{
+			name="ok_btn",type=3,typeName="Button2",time=39165537,x=261,y=450,width=170,height=70,visible=1,file="dialog/btn_pos_up.png",file2="dialog/btn_pos_down.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="label",type=4,typeName="Text",time=39165668,x=55,y=14,width=0,height=0,visible=1,fontSize=28,align=kTextAlignLeft,colorRed=0,colorGreen=0,colorBlue=0,string=[[确定]]
+			}
+		},
+		{
+			name="cancel_btn",type=3,typeName="Button2",time=63531877,x=50,y=450,width=170,height=70,visible=1,file="dialog/btn_pos_up.png",file2="dialog/btn_pos_down.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="cancel",type=4,typeName="Text",time=63531892,x=55,y=14,width=0,height=0,visible=1,fontSize=28,align=kTextAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[取消]]
+			}
+		}
+	}
+}

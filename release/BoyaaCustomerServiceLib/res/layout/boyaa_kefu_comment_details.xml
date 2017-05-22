@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boyaaKefu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout
+        android:id="@+id/bvitem_phone_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        boyaaKefu:editTextHint="@string/boyaa_kefu_commemnt_phone_hints"
+        boyaaKefu:enabled="true"
+        boyaaKefu:errorText="@string/boyaa_kefu_input_error_phone"
+        boyaaKefu:indicatorBackgroud="@drawable/boyaa_kefu_input_indicator"
+        boyaaKefu:inputType="boyaa_kefu_number"
+        boyaaKefu:isShowPic="true"
+        boyaaKefu:tipText="@string/boyaa_kefu_comment_phone_tips" />
+
+     <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout
+        android:id="@+id/bvitem_type_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        boyaaKefu:editTextHint="@string/boyaa_kefu_commemnt_type_hints"
+        boyaaKefu:editTextId="@+id/boyaa_kefu_id_comment_type_value"
+        boyaaKefu:enabled="false"
+        boyaaKefu:errorText="@string/boyaa_kefu_input_error"
+        boyaaKefu:indicatorBackgroud="@drawable/boyaa_kefu_more_select_btn"
+        boyaaKefu:inputType="boyaa_kefu_none"
+        boyaaKefu:isShowPic="true"
+        boyaaKefu:tipText="@string/boyaa_kefu_comment_type_tips" />
+
+    <RelativeLayout
+        android:id="@+id/boyaa_kefu_id_comment_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/boyaa_kefu_id_content_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:ems="10"
+            android:gravity="top|left"
+            android:minLines="4"
+            android:hint="@string/boyaa_kefu_commemnt_content_hints"
+            android:textColor="#000000"
+            android:textCursorDrawable="@null"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/boyaa_kefu_separate_line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C0C0C0" />
+
+</LinearLayout>

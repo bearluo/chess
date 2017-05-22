@@ -1,0 +1,56 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.boyaa.chinesechess.platform91-2.6.0-slb-release_1476331609.apk
+compressionType: false
+doNotCompress:
+- assets/plugin
+- txt
+
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  CopyrightDeclaration.xml: '8'
+  mmiap.xml: '8'
+  VERSION: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/protobuf/compiler/plugin.proto: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/logcat.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_cs.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_de.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_es.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_fr.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_hu.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_it.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_ja.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_ko.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_pl.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_pt_BR.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_ru.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_zh_CN.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/internal/nls/messages_zh_TW.properties: '8'
+  com/boyaa/customer/service/client/mqttv3/logging/jsr47min.properties: '8'
+  org/apache/http/entity/mime/version.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.0
+versionInfo:
+  versionCode: '260'
+  versionName: 2.6.0

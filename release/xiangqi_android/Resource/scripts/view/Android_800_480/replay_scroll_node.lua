@@ -1,0 +1,28 @@
+replay_scroll_node=
+{
+	name="replay_scroll_node",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="title",type=0,typeName="View",time=122523855,x=0,y=0,width=720,height=84,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="time_icon",type=1,typeName="Image",time=122523912,x=5,y=27,width=30,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="replay/replay_time_icon.png"
+		},
+		{
+			name="time_bg",type=1,typeName="Image",time=122524055,x=-12,y=8,width=590,height=66,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="replay/replay_scroll_title_bg.png",gridLeft=20,gridRight=20,gridTop=20,gridBottom=20,
+			{
+				name="weekend_time",type=4,typeName="Text",time=122524111,x=35,y=0,width=368,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=32,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[2016/08/29 ~ 2016/09/04]]
+			},
+			{
+				name="down_up_btn",type=2,typeName="Button",time=122524286,x=25,y=0,width=32,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="common/icon/launch_icon.png"
+			}
+		},
+		{
+			name="up_line",type=1,typeName="Image",time=122524962,x=18,y=-17,width=4,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="replay/replay_time_poitn.png"
+		},
+		{
+			name="down_line",type=1,typeName="Image",time=122546724,x=18,y=62,width=4,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="replay/replay_time_poitn.png"
+		}
+	},
+	{
+		name="conent_scroll_view",type=0,typeName="ScrollView",time=122624254,x=172,y=84,width=200,height=730,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	}
+}

@@ -1,0 +1,46 @@
+evaluation_help_dialog_view=
+{
+	name="evaluation_help_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=117011301,x=0,y=360,width=700,height=506,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/common_black_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+		{
+			name="Text1",type=4,typeName="Text",time=117011411,x=0,y=26,width=112,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=250,colorGreen=225,colorBlue=200,string=[[棋局规则]]
+		},
+		{
+			name="content_bg",type=1,typeName="Image",time=1,x=0,y=100,width=660,height=385,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/common_white_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30
+		},
+		{
+			name="time1",type=1,typeName="Image",time=117011906,x=-200,y=188,width=155,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/input_bg_3.png",gridLeft=32,gridRight=32,gridTop=0,gridBottom=0,
+			{
+				name="num",type=4,typeName="Text",time=117012007,x=0,y=0,width=75,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=85,colorGreen=75,colorBlue=40,string=[[0秒]]
+			},
+			{
+				name="Text2",type=4,typeName="Text",time=117012403,x=0,y=-49,width=0,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=145,colorGreen=120,colorBlue=90,string=[[局时]]
+			}
+		},
+		{
+			name="time2",type=1,typeName="Image",time=117012324,x=0,y=188,width=155,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/input_bg_3.png",gridLeft=32,gridRight=32,gridTop=0,gridBottom=0,
+			{
+				name="num",type=4,typeName="Text",time=117012325,x=0,y=0,width=75,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=85,colorGreen=75,colorBlue=40,string=[[0秒]]
+			},
+			{
+				name="Text21",type=4,typeName="Text",time=117012456,x=0,y=-49,width=0,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=145,colorGreen=120,colorBlue=90,string=[[步时]]
+			}
+		},
+		{
+			name="time3",type=1,typeName="Image",time=117012535,x=200,y=188,width=155,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/input_bg_3.png",gridLeft=32,gridRight=32,gridTop=0,gridBottom=0,
+			{
+				name="num",type=4,typeName="Text",time=117012332,x=0,y=0,width=75,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=85,colorGreen=75,colorBlue=40,string=[[0秒]]
+			},
+			{
+				name="Text211",type=4,typeName="Text",time=117012460,x=0,y=-49,width=0,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=145,colorGreen=120,colorBlue=90,string=[[读秒]]
+			}
+		},
+		{
+			name="rich_text_handler",type=0,typeName="ScrollView",time=118381728,x=0,y=313,width=560,height=146,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=140768442,x=0,y=265,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/new_line.png"
+		}
+	}
+}

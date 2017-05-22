@@ -1,0 +1,43 @@
+handicap_confirm_dialog_view=
+{
+	name="handicap_confirm_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=144758798,x=0,y=0,width=284,height=584,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/dialog_bg_1.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="Text1",type=4,typeName="Text",time=144758896,x=-109,y=61,width=202,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignRight,colorRed=80,colorGreen=80,colorBlue=80,string=[[双方底注:]]
+		},
+		{
+			name="Text11",type=4,typeName="Text",time=144758953,x=-109,y=123,width=202,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignRight,colorRed=80,colorGreen=80,colorBlue=80,string=[[对手加注:]]
+		},
+		{
+			name="Text12",type=4,typeName="Text",time=144758955,x=-109,y=184,width=202,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignRight,colorRed=80,colorGreen=80,colorBlue=80,string=[[您的加注:]]
+		},
+		{
+			name="Text13",type=4,typeName="Text",time=144759194,x=-54,y=252,width=554,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignRight,colorRed=80,colorGreen=80,colorBlue=80,string=[[同意让子后,双方所下注码都会翻]]
+		},
+		{
+			name="base_money",type=4,typeName="Text",time=144759057,x=145,y=61,width=275,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=45,string=[[]]
+		},
+		{
+			name="opp_add_money",type=4,typeName="Text",time=144759116,x=145,y=123,width=275,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=45,string=[[]]
+		},
+		{
+			name="me_add_money",type=4,typeName="Text",time=144759118,x=145,y=184,width=275,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=45,string=[[]]
+		},
+		{
+			name="mulpity_txt",type=4,typeName="Text",time=144759305,x=363,y=251,width=275,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=45,string=[[]]
+		},
+		{
+			name="sure_btn",type=2,typeName="Button",time=144759345,x=0,y=315,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",
+			{
+				name="Text2",type=4,typeName="Text",time=144759461,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=240,colorBlue=240,string=[[同意让子]]
+			}
+		},
+		{
+			name="cancel_btn",type=2,typeName="Button",time=144759450,x=0,y=458,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_6_normal.png",
+			{
+				name="txt",type=4,typeName="Text",time=144759513,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=240,colorBlue=240,string=[[不同意]]
+			}
+		}
+	}
+}

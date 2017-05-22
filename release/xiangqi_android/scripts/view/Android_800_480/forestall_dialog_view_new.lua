@@ -1,0 +1,43 @@
+forestall_dialog_view_new=
+{
+	name="forestall_dialog_view_new",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=86872826,x=0,y=0,width=720,height=749,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/dialog_bg_1.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="anim_text",type=4,typeName="Text",time=88083449,x=0,y=50,width=545,height=46,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=46,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[是否抢先下棋? (10s)]]
+		},
+		{
+			name="basechip",type=4,typeName="Text",time=88083524,x=0,y=253,width=204,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=42,textAlign=kAlignCenter,colorRed=25,colorGreen=115,colorBlue=40,string=[[2倍]]
+		},
+		{
+			name="btn_1",type=2,typeName="Button",time=88083590,x=0,y=377,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="btn_1_text",type=4,typeName="Text",time=88083823,x=0,y=-5,width=119,height=34,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[8倍抢先]]
+			}
+		},
+		{
+			name="btn_2",type=2,typeName="Button",time=88083593,x=0,y=498,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="btn_2_text",type=4,typeName="Text",time=88083881,x=0,y=-5,width=119,height=34,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[4倍抢先]]
+			}
+		},
+		{
+			name="no_fore_btn",type=2,typeName="Button",time=88083597,x=0,y=622,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_6_normal.png",file2="common/button/dialog_btn_6_press.png",
+			{
+				name="no_fore_btn_text",type=4,typeName="Text",time=88083891,x=0,y=-5,width=68,height=34,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[不抢]]
+			}
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=96084027,x=0,y=192,width=168,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=42,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[当前倍数]]
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=96084099,x=0,y=114,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=96084127,x=0,y=178,width=212,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="Image4",type=1,typeName="Image",time=96084409,x=0,y=242,width=160,height=2,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line_2.png"
+		}
+	}
+}

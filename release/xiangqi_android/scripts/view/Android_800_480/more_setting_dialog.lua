@@ -1,0 +1,25 @@
+more_setting_dialog=
+{
+	name="more_setting_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="blank_bg",type=1,typeName="Image",time=97149501,x=0,y=0,width=2,height=2,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/transparent_blank.png"
+	},
+	{
+		name="setting_btn",type=2,typeName="Button",time=97150039,x=0,y=850,width=152,height=210,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/setting_normal.png",file2="dialog/setting_press.png"
+	},
+	{
+		name="daily_task",type=2,typeName="Button",time=97150560,x=0,y=500,width=183,height=235,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/daily_task_normal.png",file2="dialog/daily_taks_press.png",
+		{
+			name="pos",type=1,typeName="Image",time=99560161,x=168,y=4,width=22,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dailytask/redPoint.png"
+		}
+	},
+	{
+		name="mall_btn",type=2,typeName="Button",time=97150626,x=0,y=169,width=204,height=237,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/mall_normal.png",file2="dialog/mall_press.png"
+	},
+	{
+		name="cover",type=1,typeName="Image",time=97740841,x=0,y=0,width=720,height=1280,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="register_guide/cover2.png"
+	},
+	{
+		name="finger_guide",type=1,typeName="Image",time=97742819,x=422,y=621,width=70,height=125,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="register_guide/guide.png"
+	}
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boyaa.customer.service"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- 聊天界面拍照发送图片 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- 登录接口：检测/监听网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 登录接口：访问网络，连接im服务器 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 聊天界面：收到消息后震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 聊天界面：录制语音,将语音文件保存在手机内存卡，检测是否已经装载文件系统 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 后台收到消息的时候，休眠状态唤醒CPU，将消息显示在通知栏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 可选：监听手机重启自动重连服务器 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application android:allowBackup="true" >
+
+        <!-- VIP用户聊天页面 -->
+        <activity
+            android:name="com.boyaa.customer.service.activity.VipChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/android:Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.boyaa.customer.service.complain.BoyaaKefuComlainActivity"
+            android:theme="@style/boyaa_kefu_theme_no_titlebar"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.boyaa.customer.service.inform.BoyaaKefuInformActivity"
+            android:theme="@style/boyaa_kefu_theme_no_titlebar"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.boyaa.customer.service.comments.BoyaaKefuCommentsActivity"
+            android:theme="@style/boyaa_kefu_theme_no_titlebar"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+
+        <!-- 评分页面 -->
+        <activity
+            android:name="com.boyaa.customer.service.activity.IMRateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/boyaa_kefu_rate_activity_theme"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <!-- 普通用户聊天页面 -->
+        <activity
+            android:name="com.boyaa.customer.service.activity.NormalChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/android:Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity android:name="com.boyaa.customer.service.activity.BoyaaImageBrowser" />
+
+        <!-- Mqtt Service -->
+        <service
+            android:name="com.boyaa.customer.service.service.MqttService"
+            android:exported="false" >
+        </service>
+
+        <!-- 发送语音辅助service -->
+        <service
+            android:name="com.boyaa.customer.service.record.BoyaaKefuIMRecorderService"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

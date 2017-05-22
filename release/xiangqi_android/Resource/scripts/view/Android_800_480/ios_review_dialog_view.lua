@@ -1,0 +1,40 @@
+ios_review_dialog_view=
+{
+	name="ios_review_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=143107943,x=0,y=300,width=660,height=440,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/reviewDialogBg.png",gridLeft=10,gridRight=10,gridTop=10,gridBottom=10,
+		{
+			name="closeButton",type=2,typeName="Button",time=143107987,x=7,y=55,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/close_btn_1.png"
+		},
+		{
+			name="confirmButton",type=2,typeName="Button",time=143108170,x=0,y=20,width=236,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/confirmBtnNor.png",file2="common/button/confirmBtnPre.png",gridLeft=10,gridRight=10,gridTop=10,gridBottom=10,
+			{
+				name="confirmButtonText",type=4,typeName="Text",time=143108226,x=0,y=0,width=200,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[前往评论]]
+			}
+		},
+		{
+			name="leftPrizeBg",type=1,typeName="Image",time=143108508,x=-80,y=30,width=140,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/prizeBg.png",
+			{
+				name="leftPrizeImage",type=1,typeName="Image",time=144465881,x=0,y=-19,width=144,height=135,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="mall/mall_list_gold2.png"
+			},
+			{
+				name="leftPrizeText",type=4,typeName="Text",time=144465892,x=0,y=0,width=0,height=35,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=22,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[金币×5000]]
+			}
+		},
+		{
+			name="titleRichTextView",type=0,typeName="View",time=143108556,x=0,y=120,width=200,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="rightPrizeBg",type=1,typeName="Image",time=144466197,x=85,y=30,width=140,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/prizeBg.png",
+			{
+				name="rightPrizeImage",type=1,typeName="Image",time=144466198,x=0,y=0,width=85,height=108,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="mall/soul.png"
+			},
+			{
+				name="rightPrizeText",type=4,typeName="Text",time=144466199,x=0,y=0,width=110,height=35,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=22,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[棋魂×10]]
+			}
+		}
+	},
+	{
+		name="newReviewMask",type=2,typeName="Button",time=144582073,x=0,y=0,width=0,height=0,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="ui/button.png"
+	}
+}

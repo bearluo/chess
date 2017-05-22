@@ -1,0 +1,1 @@
+BinaryEncoder.exe %1

@@ -1,0 +1,43 @@
+buy_tips_dialog_view=
+{
+	name="buy_tips_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="chioce_bg",type=1,typeName="Image",time=3728205,x=0,y=0,width=720,height=800,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/transparent_blank.png"
+	},
+	{
+		name="chioce_content_view",type=0,typeName="View",time=144499286,x=0,y=440,width=529,height=339,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="chioce_dialog_bg",type=1,typeName="Image",time=144499287,x=0,y=0,width=60,height=60,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignBottom,file="common/background/common_tips_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+			{
+				name="Image1",type=1,typeName="Image",time=144499288,x=0,y=21,width=170,height=57,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/common_tips_icon.png",gridLeft=100,gridRight=70,gridTop=22,gridBottom=22
+			}
+		},
+		{
+			name="chioce_message_handler",type=0,typeName="View",time=144499290,x=0,y=34,width=489,height=170,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="chioce_cancel_btn",type=2,typeName="Button",time=144499291,x=70,y=44,width=166,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/button_2.png",gridLeft=83,gridRight=83,gridTop=0,gridBottom=0,
+			{
+				name="chioce_cancel_text",type=4,typeName="Text",time=144499292,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[取消]]
+			}
+		},
+		{
+			name="chioce_sure_btn",type=2,typeName="Button",time=144499293,x=63,y=47,width=166,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="common/button/button_1.png",
+			{
+				name="chioce_sure_text",type=4,typeName="Text",time=144499294,x=0,y=0,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=115,colorGreen=64,colorBlue=34,string=[[确定]]
+			}
+		},
+		{
+			name="chioce_ok_btn",type=2,typeName="Button",time=144499295,x=0,y=46,width=166,height=64,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/button_1.png",
+			{
+				name="chioce_ok_text",type=4,typeName="Text",time=144499296,x=0,y=0,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=115,colorGreen=64,colorBlue=34,string=[[确定确定]]
+			}
+		},
+		{
+			name="chioce_close_btn",type=2,typeName="Button",time=144499297,x=0,y=0,width=36,height=36,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="drawable/blank_black.png"
+		},
+		{
+			name="other_pay_btn",type=2,typeName="Button",time=144499298,x=-80,y=14,width=52,height=52,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/check_bg.png"
+		}
+	}
+}

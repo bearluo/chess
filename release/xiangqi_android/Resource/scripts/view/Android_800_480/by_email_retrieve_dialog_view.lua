@@ -1,0 +1,25 @@
+by_email_retrieve_dialog_view=
+{
+	name="by_email_retrieve_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=91855107,x=0,y=-44,width=620,height=398,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_3.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="back_btn",type=2,typeName="Button",time=91856025,x=-138,y=75,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="Text3",type=4,typeName="Text",time=91856118,x=0,y=0,width=100,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[返回]]
+			}
+		},
+		{
+			name="edit_bg",type=1,typeName="Image",time=91855310,x=0,y=95,width=506,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/input_bg_2.png",gridLeft=33,gridRight=33,gridTop=0,gridBottom=0,
+			{
+				name="email",type=6,typeName="EditText",time=91855672,x=7,y=0,width=494,height=76,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+			}
+		},
+		{
+			name="confirm_btn",type=2,typeName="Button",time=91855836,x=135,y=75,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="Text2",type=4,typeName="Text",time=91855942,x=-1,y=-2,width=64,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[确认]]
+			}
+		}
+	}
+}

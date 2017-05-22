@@ -1,0 +1,34 @@
+match_dialog_view_2=
+{
+	name="match_dialog_view_2",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg_blank",type=1,typeName="Image",time=98437451,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/blank_black.png"
+	},
+	{
+		name="anim_view",type=0,typeName="View",time=95911950,x=0,y=-183,width=150,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="anim_1",type=1,typeName="Image",time=95911865,x=0,y=0,width=150,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/room/dialog/match_anim.png"
+		},
+		{
+			name="anim_2",type=1,typeName="Image",time=95911868,x=0,y=0,width=150,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/room/dialog/match_anim.png"
+		},
+		{
+			name="anim_3",type=1,typeName="Image",time=95911871,x=0,y=0,width=150,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/room/dialog/match_anim.png"
+		}
+	},
+	{
+		name="head_bg",type=1,typeName="Image",time=95911376,x=0,y=-183,width=150,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/room/dialog/head_bg_150.png",
+		{
+			name="head_mask",type=1,typeName="Image",time=95911429,x=0,y=0,width=145,height=145,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/room/dialog/head_mask_bg_144.png"
+		}
+	},
+	{
+		name="search_img",type=1,typeName="Image",time=95911497,x=0,y=14,width=408,height=54,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="online/room/dialog/match_text.png"
+	},
+	{
+		name="background_run_btn",type=2,typeName="Button",time=129291085,x=0,y=198,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",
+		{
+			name="Text1",type=4,typeName="Text",time=129291385,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[后台匹配]]
+		}
+	}
+}

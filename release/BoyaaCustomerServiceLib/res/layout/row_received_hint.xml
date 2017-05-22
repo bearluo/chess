@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp" 
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/boyaa_kefu_chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <RelativeLayout
+        android:layout_width="233dip"
+        android:layout_height="20dip"
+        style="@style/boyaa_kefu_chat_hint_tips"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/boyaa_kefu_hint_tips_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/boyaa_kefu_bottom_text_color_normal"
+            android:text="@string/boyaa_kefu_hint_tips_str" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

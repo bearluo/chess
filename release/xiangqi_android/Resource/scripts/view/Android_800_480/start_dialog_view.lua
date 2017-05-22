@@ -1,0 +1,22 @@
+start_dialog_view=
+{
+	name="start_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="bg_mask",type=1,typeName="Image",time=107956427,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/transparent_blank.png"
+	},
+	{
+		name="bg",type=1,typeName="Image",time=107689585,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="dialog/ad_dialog_bg.png",
+		{
+			name="close_btn",type=2,typeName="Button",time=107689586,x=20,y=20,width=120,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/jump.png",gridLeft=5,gridRight=5,gridTop=5,gridBottom=5,
+			{
+				name="text",type=4,typeName="Text",time=107689587,x=1,y=1,width=130,height=55,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[跳过]]
+			}
+		},
+		{
+			name="jump_btn",type=2,typeName="Button",time=107926855,x=0,y=500,width=556,height=252,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="drawable/blank.png",
+			{
+				name="img_jump",type=1,typeName="Image",time=108809770,x=0,y=0,width=342,height=112,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="dialog/download_btn.png"
+			}
+		}
+	}
+}

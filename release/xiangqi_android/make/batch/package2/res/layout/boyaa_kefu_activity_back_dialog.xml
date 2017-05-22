@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="95.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boyaa_kefu_back_dialog_tips" android:singleLine="false" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip">
+        <Button android:id="@id/boyaa_kefu_back_cancel" android:background="@drawable/appkefu_inputbar_recordvoicebtn" android:layout_width="120.0dip" android:layout_height="40.0dip" android:text="@string/boyaa_kefu_back_dialog_cancel" />
+        <Button android:id="@id/boyaa_kefu_back_confirm" android:background="@drawable/boyaa_kefu_submit_click" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:text="@string/boyaa_kefu_back_dialog_ok" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+bottom_menu=
+{
+	name="bottom_menu",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bottom_menu",type=0,typeName="View",time=96797141,x=0,y=0,width=720,height=180,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,
+		{
+			name="Image2",type=1,typeName="Image",time=100080448,x=0,y=0,width=240,height=175,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="hall/tab_normal.png"
+		},
+		{
+			name="btn_bg",type=1,typeName="Image",time=100078093,x=0,y=0,width=240,height=179,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="hall/tab_chose.png"
+		},
+		{
+			name="game_model_btn",type=2,typeName="Button",time=96797142,x=0,y=0,width=240,height=175,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="hall/game_normal.png",
+			{
+				name="choose_img",type=1,typeName="Image",time=96797143,x=0,y=0,width=240,height=179,visible=0,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="hall/game_btn_choose.png"
+			},
+			{
+				name="Image1",type=1,typeName="Image",time=96797144,x=-1,y=0,width=2,height=130,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="common/line_2.png"
+			}
+		},
+		{
+			name="find_model_btn",type=2,typeName="Button",time=96797145,x=0,y=0,width=240,height=175,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="hall/find_normal.png",
+			{
+				name="choose_img",type=1,typeName="Image",time=96797146,x=0,y=0,width=240,height=179,visible=0,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="hall/find_btn_choose.png"
+			},
+			{
+				name="Image1",type=1,typeName="Image",time=96797147,x=-1,y=0,width=2,height=130,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="common/line_2.png"
+			}
+		},
+		{
+			name="own_model_btn",type=2,typeName="Button",time=96797148,x=0,y=0,width=240,height=175,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="hall/own_normal.png",
+			{
+				name="choose_img",type=1,typeName="Image",time=96797149,x=0,y=0,width=240,height=179,visible=0,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="hall/mine_btn_choose.png"
+			},
+			{
+				name="tip",type=1,typeName="Image",time=105617674,x=68,y=44,width=22,height=26,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dailytask/redPoint.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+test=
+{
+	name="test",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,
+	{
+		name="imm",type=1,typeName="Image",time=24738533,x=9,y=222,width=0,height=0,visible=1,file="drawable/custom_room_list_item_view_bg.png",
+		{
+			name="ddd",type=1,typeName="Image",time=24738642,x=31,y=-15,width=0,height=0,visible=1,file="drawable/pwd_lock_icon.png"
+		},
+		{
+			name="status",type=1,typeName="Image",time=24738703,x=298,y=20,width=0,height=0,visible=1,file="drawable/room_game_status.png",
+			{
+				name="room_status_text",type=4,typeName="Text",time=24739001,x=13,y=6,width=0,height=0,visible=1,fontSize=22,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[1/2 等待中]]
+			}
+		},
+		{
+			name="antes_view",type=0,typeName="View",time=24738831,x=0,y=0,width=0,height=0,visible=1,
+			{
+				name="coin_icon",type=1,typeName="Image",time=24738869,x=310,y=67,width=0,height=0,visible=1,file="drawable/money_texture.png"
+			},
+			{
+				name="antes_text",type=4,typeName="Text",time=24738944,x=194,y=65,width=0,height=0,visible=1,fontSize=24,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[底注：500]]
+			}
+		},
+		{
+			name="room_name_text",type=4,typeName="Text",time=24739063,x=19,y=20,width=0,height=0,visible=1,fontSize=34,align=kTextAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[小鸟乱飞的房间]]
+		},
+		{
+			name="id_text",type=4,typeName="Text",time=24739364,x=20,y=65,width=0,height=0,visible=1,fontSize=20,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[ID:1234567890]]
+		},
+		{
+			name="tet",type=4,typeName="Text",time=24739679,x=352,y=66,width=0,height=0,visible=1,fontSize=20,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[10分钟场]]
+		}
+	}
+}

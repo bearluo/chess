@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="200"
+    width="450" >
+
+    <Item
+        background="mmiap/01/infobg.9.png"
+        content="ProgressDialog"
+        height="fill_parent"
+        orientation="vertical"
+        stytle="LinearLayout"
+        width="fill_parent" >
+
+        <Item
+            content="ProgressInfo"
+            height="fill_parent"
+            gravity="center"
+            paddingLeft="10"
+            paddingRight="10"
+            stytle="TextView"
+            text="支付处理中，请稍候..."
+            textsize="20"
+            width="wrap_content" >
+        </Item>
+    </Item>
+
+</Dialog>

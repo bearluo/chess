@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WheelView">
+        <attr name="boyaa_kefu_normalTextColor" format="color" />
+        <attr name="boyaa_kefu_normalTextSize" format="dimension" />
+        <attr name="boyaa_kefu_selectedTextColor" format="color" />
+        <attr name="boyaa_kefu_selectedTextSize" format="dimension" />
+        <attr name="boyaa_kefu_unitHight" format="dimension" />
+        <attr name="boyaa_kefu_itemNumber" format="integer"/>
+        <attr name="boyaa_kefu_lineColor" format="color" />
+        <attr name="boyaa_kefu_lineHeight" format="dimension" />
+        <attr name="boyaa_kefu_maskHight" format="dimension"/>
+        <attr name="boyaa_kefu_noEmpty" format="boolean"/>
+        <attr name="boyaa_kefu_isEnable" format="boolean"/>
+    </declare-styleable>
+
+</resources>

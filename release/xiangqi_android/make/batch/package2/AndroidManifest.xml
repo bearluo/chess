@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.boyaa.chinesechess.platform91">
+    <uses-feature android:glEsVersion="0x00010001"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="getui.permission.GetuiService.com.boyaa.chinesechess.platform91"/>
+    <permission android:name="getui.permission.GetuiService.com.boyaa.chinesechess.platform91" android:protectionLevel="normal"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.boyaa.godsdk.core.MutiUnipayApplication">
+        <meta-data android:name="UMENG_APPKEY" android:value="521ec0e556240ba897046b08"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="360"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.boyaa.chinesechess.platform91.Game" android:screenOrientation="portrait" android:theme="@style/Theme.Start" android:windowSoftInputMode="adjustPan|stateHidden|stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="boyaachess"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.boyaa.chinesechess.platform91.HuoDongActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:name=".wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name=".wxapi.WXPayEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.boyaa.pointwall.PointWallActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.boyaa.gamedetails.GameDetailActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.boyaa.chinesechess.platform91.SinaAuthActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="appkey" android:value="1362118110"/>
+        <meta-data android:name="appsecret" android:value="ASD123!@#zS9_=a*ASD123!@#zS9_=a*"/>
+        <meta-data android:name="appname" android:value="博雅中国象棋"/>
+        <meta-data android:name="applogo" android:value="http://usspuc01.static.17c.cn/icon/app/xq.jpg"/>
+        <meta-data android:name="language" android:value="zh_CN"/>
+        <activity android:name="com.boyaa.pass.PassActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="cpId" android:value="cpid:86006161"/>
+        <meta-data android:name="AppId" android:value="appid:90234616120120921431100"/>
+        <meta-data android:name="fid" android:value="fid:00012243"/>
+        <meta-data android:name="BOYAA_GODSDK_VERSION_CODE" android:value="2"/>
+        <meta-data android:name="BOYAA_GODSDK_VERSION_NAME" android:value="0.0.0.2beta"/>
+        <activity android:exported="false" android:name="com.boyaa.godsdk.core.TestLoginActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.boyaa.godsdk.core.TestPayActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.boyaa.godsdk.core.TestUserCenterActivity" android:screenOrientation="landscape"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100748287"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="CHANNELID" android:value="100316"/>
+        <meta-data android:name="PUSH_APPID" android:value="Wq4cld7Ii17VohdzVew2h7"/>
+        <meta-data android:name="PUSH_APPKEY" android:value="kvQiMeoRj46Sv8yFmIcDh8"/>
+        <meta-data android:name="PUSH_APPSECRET" android:value="L1iYpD2oFe7PGVqOF71ty2"/>
+        <receiver android:exported="false" android:name="com.boyaa.receiver.PushMsgDlgReceiver">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.Wq4cld7Ii17VohdzVew2h7"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:label="NotificationCenter" android:name="com.igexin.sdk.PushService" android:process=":pushservice"/>
+        <service android:exported="true" android:label="NotificationCenterUser" android:name="com.igexin.sdk.PushServiceUser"/>
+        <receiver android:name="com.igexin.sdk.PushReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="com.igexin.sdk.action.refreshls"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.igexin.sdk.PushManagerReceiver">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.pushmanager"/>
+            </intent-filter>
+        </receiver>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.igexin.sdk.PushActivity" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.igexin.download.DownloadService" android:process=":pushservice"/>
+        <receiver android:name="com.igexin.download.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="downloads.com.boyaa.chinesechess.platform91" android:exported="true" android:name="com.igexin.download.DownloadProvider" android:process=":pushservice"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:exported="false" android:name="com.igexin.getuiext.activity.GetuiExtActivity" android:process=":pushservice" android:taskAffinity="android.task.myServicetask" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" android:name="com.igexin.getuiext.service.PayloadReceiver">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.Wq4cld7Ii17VohdzVew2h7"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.igexin.getuiext.service.GetuiExtService" android:process=":pushservice"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.boyaa.customer.service.activity.VipChatActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.boyaa.customer.service.complain.BoyaaKefuComlainActivity" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.boyaa.customer.service.inform.BoyaaKefuInformActivity" android:theme="@style/boyaa_kefu_theme_no_titlebar" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.boyaa.customer.service.comments.BoyaaKefuCommentsActivity" android:theme="@style/boyaa_kefu_theme_no_titlebar" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.boyaa.customer.service.activity.IMRateActivity" android:screenOrientation="portrait" android:theme="@style/boyaa_kefu_rate_activity_theme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.boyaa.customer.service.activity.NormalChatActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.boyaa.customer.service.activity.BoyaaImageBrowser"/>
+        <service android:exported="false" android:name="com.boyaa.customer.service.service.MqttService"/>
+        <service android:exported="false" android:name="com.boyaa.customer.service.record.BoyaaKefuIMRecorderService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.egame.terminal.paysdk.EgamePayActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <receiver android:name="cn.egame.terminal.sdk.EgameCoreReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.egame.terminal.sdk.RECEIVER_CMD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="cn.egame.terminal.sdk.EgameCoreService" android:process=":egameCore">
+            <intent-filter>
+                <action android:name="cn.egame.terminal.sdk.SERVICE_CMD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.egame.terminal.sdk.EgameCoreActivity" android:process=":egameCore" android:screenOrientation="behind" android:taskAffinity=":egameCore" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="EGAME_CHANNEL" android:value="41040446"/>
+        <meta-data android:name="EGAME_SDK_DEBUG" android:value="true"/>
+        <meta-data android:name="EGAME_UNINS" android:value="false"/>
+        <meta-data android:name="EGAME_ALIPAY" android:value="false"/>
+        <meta-data android:name="EGAME_UNIPAY" android:value="false"/>
+        <meta-data android:name="EGAME_IAPPPAY" android:value="false"/>
+        <meta-data android:name="EGAME_NOWWECHATPAY" android:value="false"/>
+        <meta-data android:name="EGAME_BESTPAY" android:value="false"/>
+        <meta-data android:name="EGAME_CARDPSWD" android:value="false"/>
+        <meta-data android:name="EGAME_HUAFEI_CARD" android:value="false"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.auth.AuthActivity" android:screenOrientation="behind"/>
+        <meta-data android:name="wostore_billing_chinaunicom" android:value="true"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.unicom.wostore.unipay.paysecurity.SecurityActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <service android:name="com.unicom.wostore.unipay.paysecurity.SecurityServiceFramework"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.unionpay.uppay.PayActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

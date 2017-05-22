@@ -1,0 +1,43 @@
+first_login_guide_dialog=
+{
+	name="first_login_guide_dialog",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="back_view",type=0,typeName="View",time=97725167,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+		{
+			name="Image1",type=1,typeName="Image",time=97750544,x=164,y=71,width=1,height=1,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank_black.png"
+		},
+		{
+			name="bg",type=1,typeName="Image",time=97725251,x=0,y=30,width=256,height=904,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_3.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+		},
+		{
+			name="content_line",type=1,typeName="Image",time=97725527,x=0,y=13,width=622,height=555,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="icon_bg",type=1,typeName="Image",time=97725663,x=0,y=283,width=161,height=161,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/head_bg_160.png",
+			{
+				name="icon_mask",type=1,typeName="Image",time=97725718,x=0,y=0,width=151,height=151,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/head_mask_bg_150.png"
+			}
+		},
+		{
+			name="content",type=4,typeName="Text",time=97725758,x=0,y=-160,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[欢迎来到博雅象棋，请领取]]
+		},
+		{
+			name="reward_icon",type=1,typeName="Image",time=97725850,x=0,y=-77,width=400,height=76,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="register_guide/first_reward.png"
+		},
+		{
+			name="reward_line",type=1,typeName="Image",time=97726014,x=0,y=11,width=527,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/decoration/line_4.png",
+			{
+				name="text",type=4,typeName="Text",time=97726181,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[礼包内容]]
+			}
+		},
+		{
+			name="reward_item_view",type=0,typeName="ListView",time=97726222,x=0,y=135,width=591,height=200,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=97726301,x=0,y=233,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="text",type=4,typeName="Text",time=97726372,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[领取]]
+			}
+		}
+	}
+}

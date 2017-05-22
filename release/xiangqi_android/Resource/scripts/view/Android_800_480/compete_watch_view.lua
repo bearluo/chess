@@ -1,0 +1,37 @@
+compete_watch_view=
+{
+	name="compete_watch_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="img_bg",type=1,typeName="Image",time=127671262,x=0,y=0,width=745,height=1080,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_2.png",gridLeft=80,gridRight=80,gridTop=80,gridBottom=80
+	},
+	{
+		name="top_view",type=0,typeName="View",time=127671516,x=0,y=-438,width=745,height=180,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="txt_name",type=4,typeName="Text",time=127671224,x=0,y=20,width=300,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=48,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[精彩对局]]
+		},
+		{
+			name="btn_close",type=2,typeName="Button",time=127671228,x=40,y=20,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/btn_close.png",file2="common/button/btn_close.png"
+		},
+		{
+			name="img_line",type=1,typeName="Image",time=128711867,x=0,y=90,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="txt_desc",type=4,typeName="Text",time=127671788,x=-80,y=20,width=200,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=36,textAlign=kAlignCenter,colorRed=100,colorGreen=100,colorBlue=100,string=[[距结束]]
+		},
+		{
+			name="txt_time",type=4,typeName="Text",time=128711924,x=80,y=20,width=200,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=36,textAlign=kAlignCenter,colorRed=165,colorGreen=80,colorBlue=55,string=[[00:00]]
+		}
+	},
+	{
+		name="scroll_view",type=0,typeName="View",time=129349392,x=0,y=74,width=640,height=840,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter
+	},
+	{
+		name="empty_view",type=0,typeName="View",time=129348958,x=0,y=0,width=200,height=250,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="Image1",type=1,typeName="Image",time=129349003,x=0,y=0,width=206,height=364,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="drawable/sad_chess.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=129349044,x=0,y=-133,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=32,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[暂时没有可观战的对局]]
+		}
+	}
+}

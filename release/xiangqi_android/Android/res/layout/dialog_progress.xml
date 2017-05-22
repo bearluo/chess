@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<ImageView
+		android:id="@+id/imgAnim"
+			android:layout_width="72px"
+		android:layout_height="72px"
+		android:layout_marginLeft="15px"
+		android:src="@drawable/spinner_black_48" />
+	<TextView
+		android:id="@+id/tips"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:singleLine="false"
+		android:layout_gravity="center_vertical"
+		android:layout_marginLeft="15px" />
+</LinearLayout>

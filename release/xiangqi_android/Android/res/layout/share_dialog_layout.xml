@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_resize_bg"
+    android:orientation="vertical"
+    android:padding="0dip" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:padding="0dip" >
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/share_chess"
+            android:textColor="#505050"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/line_img"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chess_line" 
+            android:contentDescription="@string/share_chess"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/content_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="@string/share_chess_content_title"
+            android:textColor="#505050"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/share_content_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/transparent"
+        android:columnWidth="85dip"
+        android:horizontalSpacing="20dp"
+        android:numColumns="auto_fit"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:verticalSpacing="10dp" >
+
+    </GridView>
+
+</LinearLayout>

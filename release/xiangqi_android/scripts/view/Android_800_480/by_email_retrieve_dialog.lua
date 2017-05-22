@@ -1,0 +1,34 @@
+by_email_retrieve_dialog=
+{
+	name="by_email_retrieve_dialog",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=91855107,x=0,y=0,width=480,height=296,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+		{
+			name="title_bg",type=1,typeName="Image",time=91855156,x=0,y=-16,width=480,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/dialog_title_bg.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="close_btn",type=2,typeName="Button",time=91855196,x=21,y=40,width=36,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close_up.png"
+			},
+			{
+				name="Text1",type=4,typeName="Text",time=91855240,x=0,y=-7,width=0,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=250,colorGreen=230,colorBlue=180,string=[[博雅通行证]]
+			},
+			{
+				name="back_btn",type=2,typeName="Button",time=91856025,x=15,y=33,width=95,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="friends/friends_pop_dialog_cancel_btn.png",
+				{
+					name="Text3",type=4,typeName="Text",time=91856118,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=30,textAlign=kAlignLeft,colorRed=250,colorGreen=180,colorBlue=130,string=[[返回]]
+				}
+			}
+		},
+		{
+			name="edit_bg",type=1,typeName="Image",time=91855310,x=56,y=122,width=374,height=61,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="edit/edit_bg_0.png",
+			{
+				name="email",type=6,typeName="EditText",time=91855672,x=0,y=0,width=349,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=105,colorGreen=65,colorBlue=20,string=[[输入邮箱地址]]
+			}
+		},
+		{
+			name="confirm_btn",type=2,typeName="Button",time=91855836,x=0,y=-14,width=163,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="dialog/btn_pos_up.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="Text2",type=4,typeName="Text",time=91855942,x=-1,y=-2,width=64,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignLeft,colorRed=25,colorGreen=25,colorBlue=25,string=[[确认]]
+			}
+		}
+	}
+}

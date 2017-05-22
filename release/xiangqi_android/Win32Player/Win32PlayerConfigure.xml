@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PlayerManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <KeyItems>
+    <KeyEventItem KeyValue="P" Type="print_frame" />
+    <KeyEventItem KeyValue="D" Type="print_res_anim_prop_drawing" />
+    <KeyEventItem KeyValue="B" Type="show_image_rect" />
+    <KeyEventItem KeyValue="C" Type="ClearLog" />
+    <KeyEventItem KeyValue="F5" Type="StartEngine" />
+    <KeyEventItem KeyValue="F4" Type="StopEngine" />
+  </KeyItems>
+  <AboutText>
+    快捷键说明：
+    P键：在日志窗口上显示:按绘制次序显示当前帧的所有Drawing
+    D键：说明：在日志窗口上显示:四类对象的详细信息
+    B键：在引擎窗口上显示Drawing的边框
+    C键：清除日志窗口的全部内容
+    F5：启动或重启（引擎）；
+    F4：关闭（引擎）;
+  </AboutText>
+  <AboutAnalysisHelp>
+【降帧分析】
+引擎的画面在极限的情况下会每秒绘制60次,也就是60帧；
+当画面内容没有变化时,引擎为了节电就不进行绘制,而采取跳过的做法,忽略一帧,这一技术叫做自动降帧；
+导致画面发生变化的原因一般是：drawing的坐标、颜色的改变等等；
+启动降帧分析功能后,日志窗口中会显示一个profiling_redraw标签页,输出引擎绘制的总帧数（redraw num),跳过的帧数（skip num）,以及导致绘制的原因。
+降帧分析功能用于分析导致绘制的原因,然后可进行必要的优化,最终达到节电的目的；
+
+【Lua耗时分析】
+启动Lua耗时分析功能后,日志窗口中会显示一个profiling_call_lua标签页,输出日志如下：
+call anim event xxxx 725us
+含义是：Lua响应anim xxxx事件耗时725微秒；
+此日志用于Lua性能分析,找出耗时的Lua代码,性能不佳的Lua代码,会导致帧数不稳定,游戏画面卡顿；
+在Win32Player上使用此功能意义不大,因为PC机的CPU性能强劲,建议在Android真机上启用此功能。
+要在android真机上显示这样的日志,请调用：
+sys_set_int("profiling_frame",60);
+
+
+【每帧耗时分析】
+启动每帧耗时分析功能后,日志窗口中会显示一个profiling_frame标签页,每60帧输出一行日志如下：
+call lua:39ms (anim:27, touch:0, native call:0) render:155ms
+其中call lua是lua代码执行的耗时（单位为毫秒）,anim:27说明lua响应了27次anim事件(touch、native call同理),render：155ms是画面绘制耗时155毫秒
+此日志用于性能分析,比如lua的瓶颈是CPU,绘制的瓶颈是GPU,lua事件的数量对性能也有影响等等；
+要在android真机上显示这样的日志,请调用：
+sys_set_int("profiling_call_lua",200);
+
+【Lua和贴图内存分析】
+启动Lua和贴图内存分析功能后,日志窗口中会显示一个profiling_memory标签页,每60帧输出一行日志：
+lua alloc 3036k, texture commit 12171k
+lua虚拟机占用的内存,贴图占用的内存；  
+  </AboutAnalysisHelp>
+  <Items>
+    <EngineStartUpItem Name="1280*720(16:9)" Width="1280" Height="720" SWidth="1280" SHeight="720" />
+    <EngineStartUpItem Name="1280*800(16:10)" Width="1280" Height="800" SWidth="1280" SHeight="800" />
+    <EngineStartUpItem Name="800*480(16:10)" Width="800" Height="480" SWidth="800" SHeight="480" />
+    <EngineStartUpItem Name="854*480(16:9)" Width="854" Height="480" SWidth="854" SHeight="480" />
+    <EngineStartUpItem Name="480*320(4:3)" Width="480" Height="320" SWidth="480" SHeight="320" />
+    <EngineStartUpItem Name="960*540(16:9)" Width="960" Height="540" SWidth="960" SHeight="540" />
+    <EngineStartUpItem Name="960*640(3:2) iPhone4/4S" Width="960" Height="640" SWidth="960" SHeight="640" />
+    <EngineStartUpItem Name="1024*600(17:10)" Width="1024" Height="600" SWidth="1024" SHeight="600" />
+    <EngineStartUpItem Name="1024*768(4:3 iPad1/2/mini" Width="1024" Height="768" SWidth="1024" SHeight="768" />
+    <EngineStartUpItem Name="1134*750(3:2) iPhone6" Width="1134" Height="750" SWidth="1134" SHeight="750" />
+    <EngineStartUpItem Name="1136*640(16:9) iPhone5" Width="1136" Height="640" SWidth="1136" SHeight="640" />
+    <EngineStartUpItem Name="1152*864(4:3)" Width="1152" Height="864" SWidth="1152" SHeight="864" />
+    <EngineStartUpItem Name="1280*768(16:10)" Width="1280" Height="768" SWidth="1280" SHeight="768" />
+    <EngineStartUpItem Name="1920*1080(16:9)" Width="1920" Height="1080" SWidth="1920" SHeight="1080" />
+    <EngineStartUpItem Name="1920*1152(15:9)" Width="1920" Height="1152" SWidth="1920" SHeight="1152" />
+    <EngineStartUpItem Name="1920*1200(16:10)" Width="1920" Height="1200" SWidth="1920" SHeight="1200" />
+    <EngineStartUpItem Name="2048*1536(4:3) iPad4/Air" Width="2048" Height="1536" SWidth="2048" SHeight="1536" />
+    <EngineStartUpItem Name="720*1280(9:16)" Width="720" Height="1280" SWidth="720" SHeight="1280" />
+    <EngineStartUpItem Name="800*1280(10:16)" Width="800" Height="1280" SWidth="800" SHeight="1280" />
+    <EngineStartUpItem Name="480*800(10:16)" Width="480" Height="800" SWidth="480" SHeight="800" />
+    <EngineStartUpItem Name="480*854(9:16)" Width="480" Height="854" SWidth="480" SHeight="854" />
+    <EngineStartUpItem Name="320*480(3:4)" Width="320" Height="480" SWidth="320" SHeight="480" />
+    <EngineStartUpItem Name="540*960(9:16)" Width="540" Height="960" SWidth="540" SHeight="960" />
+    <EngineStartUpItem Name="640*960(2:3) iPhone4/4S" Width="640" Height="960" SWidth="640" SHeight="960" />
+    <EngineStartUpItem Name="600*1024(10:17)" Width="600" Height="1024" SWidth="600" SHeight="1024" />
+    <EngineStartUpItem Name="768*1024(3:4) iPad1/2/mini" Width="768" Height="1024" SWidth="768" SHeight="1024" />
+    <EngineStartUpItem Name="750*1134(2:3) iPhone6" Width="750" Height="1134" SWidth="750" SHeight="1134" />
+    <EngineStartUpItem Name="640*1136(9:16) iPhone5" Width="640" Height="1136" SWidth="640" SHeight="1136" />
+    <EngineStartUpItem Name="864*1152(3:4)" Width="864" Height="1152" SWidth="864" SHeight="1152" />
+    <EngineStartUpItem Name="768*1280(10:16)" Width="768" Height="1280" SWidth="768" SHeight="1280" />
+    <EngineStartUpItem Name="1080*1920(9:16)" Width="1080" Height="1920" SWidth="1080" SHeight="1920" />
+    <EngineStartUpItem Name="1152*1920(9:15)" Width="1152" Height="1920" SWidth="1152" SHeight="1920" />
+    <EngineStartUpItem Name="1200*1920(10:16)" Width="1200" Height="1920" SWidth="1200" SHeight="1920" />
+    <EngineStartUpItem Name="1536*2048(3:4) iPad4/Air" Width="1536" Height="2048" SWidth="1536" SHeight="2048" />
+  </Items>
+  <Paths>
+    <EngineStartUpPath Path="scripts" />
+    <EngineStartUpPath Path="scripts1" />
+  </Paths>
+  <EngineBackground>#FF9C9898</EngineBackground>
+  <TagsColors>
+    <TagsColor Background="#00000000" Foreground="#FF800080" Tags="socket"/>
+  </TagsColors>
+</PlayerManager>

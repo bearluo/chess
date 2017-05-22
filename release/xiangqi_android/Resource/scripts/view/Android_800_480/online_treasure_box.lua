@@ -1,0 +1,19 @@
+online_treasure_box=
+{
+	name="online_treasure_box",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=3,nodeAlign=kAlignTopLeft,
+	{
+		name="chest_btn",type=2,typeName="Button",time=140255694,x=0,y=0,width=91,height=91,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="online/room/chest_bg.png",file2="common/decoration/chest_3.png",
+		{
+			name="chest_anim_bg",type=1,typeName="Image",time=140255695,x=0,y=0,width=260,height=260,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="animation/chest/chest_anim_bg.png"
+		},
+		{
+			name="chest",type=1,typeName="Image",time=140255696,x=0,y=0,width=83,height=79,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/decoration/chest_1.png"
+		},
+		{
+			name="chest_open_time_bg",type=1,typeName="Image",time=140255697,x=0,y=-3,width=70,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/info_bg_7.png",
+			{
+				name="online_time_text",type=4,typeName="Text",time=140255698,x=0,y=0,width=70,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=20,textAlign=kAlignCenter,colorRed=230,colorGreen=200,colorBlue=125,string=[[00:00]]
+			}
+		}
+	}
+}

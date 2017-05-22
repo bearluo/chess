@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/game_detail_bolck" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageButton android:id="@id/game_detail_title_left_btn" android:background="@drawable/back_click" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/free_getpoints_titile_left_btn" />
+        <FrameLayout android:background="@drawable/free_getpoints" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/game_detail_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/free_getPoints_title_text" style="@style/TextAppearance_PointWall_Head_Title" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/free_getpoints" android:layout_width="60.0dip" android:layout_height="fill_parent">
+            <TextView android:layout_gravity="center" android:id="@id/game_detail_title_dl_points" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="0" style="@style/TextAppearance_points_num_label" />
+            <TextView android:layout_gravity="center" android:id="@id/game_detail_title_dl_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/free_getPoints_title_points_text" style="@style/TextAppearance_points_text_label" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/boyaa_games_title" android:background="@drawable/boyaa_games_label_focus" android:layout_width="wrap_content" android:layout_height="42.0dip" />
+        <ImageView android:id="@id/suggest_games_title" android:background="@drawable/suggest_games_label" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="20.0dip" android:baselineAlignBottom="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/all_games_separator" android:background="@drawable/all_games_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v4.view.ViewPager android:id="@id/games_pager" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" />
+</LinearLayout>

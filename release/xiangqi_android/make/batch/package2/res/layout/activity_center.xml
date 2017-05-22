@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/state_texture_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titleLayout" android:background="@drawable/activity_center_top_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/backBtn" android:background="@drawable/back_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/btn_back_texture" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/activity_title_texture" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/nextBtn" android:background="@drawable/right_flag_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/preBtn" android:background="@drawable/left_flag_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_toLeftOf="@id/nextBtn" />
+    </RelativeLayout>
+    <ImageView android:id="@id/noContentView" android:background="@drawable/more_activity_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/titleLayout" android:layout_centerHorizontal="true" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="-16.0dip" android:layout_marginRight="5.0dip" android:max="100" android:layout_below="@id/titleLayout" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/progressBar" />
+</RelativeLayout>

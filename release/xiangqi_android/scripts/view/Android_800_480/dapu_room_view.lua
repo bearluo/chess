@@ -1,0 +1,43 @@
+dapu_room_view=
+{
+	name="dapu_room_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=13,fillParentHeight=119,nodeAlign=kAlignTopLeft,
+	{
+		name="room_bg",type=1,typeName="Image",time=1351133460,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=64,fillParentHeight=4,nodeAlign=kAlignTopLeft,file="drawable/state_texture_bg.png"
+	},
+	{
+		name="dapu_room_title",type=0,typeName="View",time=16275838,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="dapu_title",type=4,typeName="Text",time=16275866,x=166,y=31,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=34,textAlign=kAlignCenter,colorRed=255,colorGreen=222,colorBlue=155,string=[[棋谱名称1]]
+		}
+	},
+	{
+		name="room_menu",type=0,typeName="View",time=1351735563,x=0,y=714,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="chess_step_text",type=4,typeName="Text",time=16683426,x=281,y=-63,width=140,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=222,colorBlue=155,string=[[步数：1/50]]
+		},
+		{
+			name="loadChess_btn",type=2,typeName="Button",time=24832623,x=29,y=-18,width=175,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_neg_up.png",file2="dialog/btn_neg_down.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="loadChess_texture",type=4,typeName="Text",time=24832694,x=0,y=0,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=30,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[载入棋谱]]
+			}
+		},
+		{
+			name="pre_step_btn",type=2,typeName="Button",time=24832805,x=206,y=-18,width=128,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_pos_up.png",file2="dialog/btn_pos_down.png",
+			{
+				name="pre_step_texture",type=4,typeName="Text",time=24832908,x=0,y=0,width=120,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=30,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[上一步]]
+			}
+		},
+		{
+			name="next_step_btn",type=2,typeName="Button",time=24832851,x=344,y=-18,width=128,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="dialog/btn_pos_up.png",file2="dialog/btn_pos_down.png",
+			{
+				name="next_step_texture",type=4,typeName="Text",time=24833002,x=0,y=0,width=120,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=30,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[下一步]]
+			}
+		}
+	},
+	{
+		name="board",type=0,typeName="View",time=1350614405,x=0,y=95,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="board_bg",type=1,typeName="Image",time=1350614428,x=0,y=0,width=480,height=544,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/board.png"
+		}
+	}
+}

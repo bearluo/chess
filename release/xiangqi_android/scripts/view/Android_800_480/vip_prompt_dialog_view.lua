@@ -1,0 +1,37 @@
+vip_prompt_dialog_view=
+{
+	name="vip_prompt_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="content_view",type=0,typeName="View",time=106054297,x=9,y=278,width=646,height=665,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="dialog_bg",type=1,typeName="Image",time=106054298,x=0,y=0,width=646,height=374,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignBottom,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+		},
+		{
+			name="cancel_btn",type=2,typeName="Button",time=106054300,x=60,y=55,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="text",type=4,typeName="Text",time=106054301,x=0,y=0,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[返回]]
+			}
+		},
+		{
+			name="sure_btn",type=2,typeName="Button",time=106054302,x=63,y=55,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="text",type=4,typeName="Text",time=106054303,x=0,y=0,width=170,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[立即加入]]
+			}
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=106227479,x=0,y=154,width=562,height=336,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+			{
+				name="message",type=5,typeName="TextView",time=106054299,x=0,y=10,width=498,height=284,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignTopLeft,colorRed=25,colorGreen=115,colorBlue=40,string=[[]]
+			}
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=106227608,x=0,y=115,width=566,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="title",type=4,typeName="Text",time=106227694,x=0,y=56,width=200,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=40,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[会员尊享特权]]
+		},
+		{
+			name="Image4",type=1,typeName="Image",time=106227780,x=42,y=-10,width=188,height=332,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="common/decoration/vip_dialog_bg.png"
+		}
+	}
+}

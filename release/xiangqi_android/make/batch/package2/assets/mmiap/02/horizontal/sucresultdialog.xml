@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="wrap_content"
+    width="wrap_content" >
+
+    <Item
+        background="mmiap/02/bg.png"
+        content="MainTitle"
+        height="wrap_content"
+        orientation="vertical"
+        paddingBottom="10"
+        stytle="LinearLayout"
+        width="wrap_content" >
+
+        <Item
+            background="mmiap/02/title1_bg.png"
+            content="MainTitle"
+            height="60"
+            paddingLeft="20"
+            paddingRight="20"
+            stytle="RelativeLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/02/logo1.png"
+                content="logoView"
+                gravity="center_in_parent"
+                height="50"
+                stytle="TextView"
+                width="140" >
+            </Item>
+
+            <Item
+                background="mmiap/02/close.png"
+                clickable="true"
+                content="backbutton"
+                gravity="align_parent_right|r_center_vertical"
+                height="30"
+                pressedBG="mmiap/02/close_click.png"
+                stytle="ImageView"
+                width="30" >
+            </Item>
+        </Item>
+
+        <Item
+            content="ProductView"
+            gravity="center_horizontal"
+            height="wrap_content"
+            orientation="vertical"
+            paddingLeft="10"
+            paddingRight="10"
+            stytle="LinearLayout"
+            width="wrap_content" >
+
+            <Item
+                content="ProductView"
+                gravity="center"
+                height="wrap_content"
+                margingBottom="20"
+                orientation="horizontal"
+                paddingTop="40"
+                stytle="LinearLayout"
+                width="wrap_content" >
+
+                <Item
+                    background="mmiap/02/icon_success.png"
+                    content="warnicon"
+                    height="76"
+                    margingRight="10"
+                    stytle="TextView"
+                    width="76" >
+                </Item>
+
+                <Item
+                    content="Result"
+                    gravity="left"
+                    height="wrap_content"
+                    paddingLeft="10"
+                    paddingRight="10"
+                    stytle="TextView"
+                    text="支 付  成  功"
+                    textcolor="#ff57964a"
+                    textsize="30"
+                    width="wrap_content" >
+                </Item>
+            </Item>
+
+            <Item
+                background="mmiap/02/line.png"
+                content="line"
+                height="2"
+                margingRight="10"
+                stytle="TextView"
+                width="480" >
+            </Item>
+
+            <Item
+                content="ResultMSG"
+                gravity="left"
+                gravity="center"
+                height="wrap_content"
+                paddingLeft="10"
+                paddingRight="10"
+                stytle="TextView"
+                text="尊敬的用户，商品购买成功"
+                textcolor="#ff818181"
+                textsize="18"
+                width="600" >
+            </Item>
+
+            <Item
+                content="buttonView"
+                height="wrap_content"
+                paddingBottom="20"
+                paddingLeft="20"
+                paddingRight="20"
+                paddingTop="20"
+                stytle="LinearLayout"
+                width="fill_parent" >
+
+                <Item
+                    background="mmiap/02/btn_orange.9.png"
+                    content="confirmButton"
+                    height="70"
+                    paddingBottom="10"
+                    paddingTop="10"
+                    pressedBG="mmiap/02/btn_orange_click.9.png"
+                    stytle="Button"
+                    text="确  认"
+                    textsize="20"
+                    width="fill_parent" >
+                </Item>
+            </Item>
+        </Item>
+
+        <Item
+            content="bottominfo"
+            gravity="center"
+            height="wrap_content"
+            paddingLeft="10"
+            paddingRight="10"
+            stytle="TextView"
+            text="欢迎您使用中国移动手机话费支付功能，您可登陆a.10086.cn或拨打10086查询购买记录。"
+            textcolor="#ff818181"
+            textsize="15"
+            width="fill_parent" >
+        </Item>
+    </Item>
+
+</Dialog>

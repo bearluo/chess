@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 留言页面相关开始 -->
+    <string name="boyaa_kefu_picker_dialog_comment_type_title">留言類型</string>
+    <string name="boyaa_kefu_picker_dialog_comment_type1">無法登陸</string>
+    <string name="boyaa_kefu_picker_dialog_comment_type2">儲值問題</string>
+    <string name="boyaa_kefu_picker_dialog_comment_type3">故障問題</string>
+    <string name="boyaa_kefu_picker_dialog_comment_type4">遊戲問題</string>
+    <string name="boyaa_kefu_picker_dialog_comment_type5">其他</string>
+     
+    <string name="boyaa_kefu_comment_phone_tips">手機號碼</string>
+    <string name="boyaa_kefu_commemnt_phone_hints">請輸入手機號碼</string>
+    <string name="boyaa_kefu_comment_type_tips">留言類型</string>
+    <string name="boyaa_kefu_commemnt_type_hints">請選擇留言類型</string>
+    <string name="boyaa_kefu_commemnt_content_hints">留言內容</string>
+    <string name="boyaa_kefu_comment_submit">提交</string>
+    <string name="boyaa_kefu_commemnt_content_callback">回復客服:</string>
+    
+    <string name="boyaa_kefu_comment_tips1">我要留言</string>
+    <string name="boyaa_kefu_comment_tips2">留言回復</string>
+    
+    <string name="boyaa_kefu_expand_blank_tips">暫無任何記錄</string>
+    
+    <string name="boyaa_kefu_empty_reply">客服人員正在處理中,將在三個工作日內給予答復。</string>
+    
+    <string name="boyaa_kefu_comment_history_title_number">編號:</string>
+    <string name="boyaa_kefu_comment_history_type_title">類型:</string>
+    <string name="boyaa_kefu_comment_history_phone_number">手機號碼:</string>
+    <string name="boyaa_kefu_comment_history_context_title">內容:</string>
+    <string name="boyaa_kefu_comment_history_feedback_ask">請問是否解決您的問題?</string>
+    <string name="boyaa_kefu_comment_history_callback_title">客服回復:</string>
+    <string name="boyaa_kefu_comment_history_feedback_fix"><u>已解決</u></string>
+    <string name="boyaa_kefu_comment_history_feedback_unfix"><u>未解決</u></string>
+    <string name="boyaa_kefu_comment_history_feedback_rate_describe1">非常滿意</string>
+    
+    <string name="boyaa_kefu_comment_history_feedback_rate_submit">提交</string>
+    <string name="boyaa_kefu_comment_history_feedback_addtional_comment_text">很抱歉，沒有解決您的問題。您可以選擇</string>
+    <string name="boyaa_kefu_comment_history_feedback_addtional_comment_click"><u>追加回復</u></string>
+    
+    <string name="boyaa_kefu_comment_back_dialog_cancel">取消</string>
+    <string name="boyaa_kefu_comment_back_dialog_submit">提交</string>
+    										
+    <string name="boyaa_kefu_rate_content1">非常不滿意</string>
+    <string name="boyaa_kefu_rate_content2">不滿意</string>
+    <string name="boyaa_kefu_rate_content3">一般</string>
+    <string name="boyaa_kefu_rate_content4">滿意</string>
+    <string name="boyaa_kefu_rate_content5">非常滿意</string>
+    
+    <string name="boyaa_kefu_contentdescrip_comment">上傳留言截圖圖片</string>
+    <string name="boyaa_kefu_picker_picture_describe_comment">(可上傳截圖)</string>
+    
+    
+    <!-- 留言页面相关结束 -->
+</resources>

@@ -1,0 +1,34 @@
+mall_shop_item=
+{
+	name="mall_shop_item",type=0,typeName="View",time=0,x=0,y=0,width=678,height=170,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="bg_img",type=1,typeName="Image",time=119760341,x=0,y=0,width=678,height=156,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/background/list_item_bg.png"
+	},
+	{
+		name="btn",type=2,typeName="Button",time=121425205,x=0,y=0,width=660,height=210,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank.png"
+	},
+	{
+		name="icon_view",type=0,typeName="View",time=119760412,x=39,y=0,width=100,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft
+	},
+	{
+		name="type_icon",type=1,typeName="Image",time=119760859,x=18,y=10,width=30,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/promotion_icon.png"
+	},
+	{
+		name="name_view",type=0,typeName="View",time=119761179,x=-85,y=34,width=150,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="price_view",type=0,typeName="View",time=119761254,x=224,y=64,width=100,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="bg",type=1,typeName="Image",time=141382196,x=0,y=4,width=174,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/button/small_yello_btn.png",gridLeft=83,gridRight=83,gridTop=0,gridBottom=0
+		}
+	},
+	{
+		name="desc_view",type=0,typeName="View",time=119764152,x=-16,y=75,width=292,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="desc_view_2",type=0,typeName="View",time=141816822,x=224,y=19,width=205,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	},
+	{
+		name="exchange_over_img",type=1,typeName="Image",time=144498188,x=224,y=50,width=174,height=64,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/exchange_over_btn.png"
+	}
+}

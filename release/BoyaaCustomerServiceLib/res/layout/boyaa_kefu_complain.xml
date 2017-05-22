@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/complain_step1"
+                layout="@layout/boyaa_kefu_complain_step1" />
+
+            <include
+                android:id="@+id/complain_step2"
+                layout="@layout/boyaa_kefu_complain_step2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/complain_step3"
+                layout="@layout/boyaa_kefu_complain_step3"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#fefefe"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/boyaa_kefu_voice_rcd_btn_pressed"
+        android:text="@string/boyaa_kefu_next"/>
+
+</RelativeLayout>

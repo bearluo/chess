@@ -1,0 +1,28 @@
+modify_info_dialog=
+{
+	name="modify_info_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=91018394,x=0,y=-55,width=646,height=372,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="append_info_btn",type=2,typeName="Button",time=90555580,x=153,y=46,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+			{
+				name="btn_content",type=4,typeName="Text",time=90555581,x=-1,y=-1,width=128,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[完善信息]]
+			}
+		},
+		{
+			name="later_append_btn",type=2,typeName="Button",time=90555578,x=-153,y=46,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="btn_content",type=4,typeName="Text",time=90555579,x=-2,y=-1,width=128,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[以后再说]]
+			}
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=91020557,x=15,y=25,width=36,height=36,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close_dow.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=96101553,x=0,y=90,width=352,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[是否完善您的帐号信息，]]
+		},
+		{
+			name="Text11",type=4,typeName="Text",time=96101634,x=0,y=140,width=384,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[给其他棋友留下深刻印象？]]
+		}
+	}
+}

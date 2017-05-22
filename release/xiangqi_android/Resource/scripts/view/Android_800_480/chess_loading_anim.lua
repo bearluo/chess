@@ -1,0 +1,13 @@
+chess_loading_anim=
+{
+	name="chess_loading_anim",type=0,typeName="View",time=0,x=0,y=0,width=171,height=207,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="loading_bg",type=1,typeName="Image",time=129116208,x=0,y=0,width=156,height=156,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/loading_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32,
+		{
+			name="loading_view",type=1,typeName="Image",time=129116209,x=0,y=0,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/icon/king_1.png"
+		},
+		{
+			name="loading_txt",type=1,typeName="Image",time=129116210,x=0,y=-48,width=171,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="animation/loading/loading_4.png"
+		}
+	}
+}

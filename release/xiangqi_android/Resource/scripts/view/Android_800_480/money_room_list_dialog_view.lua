@@ -1,0 +1,34 @@
+money_room_list_dialog_view=
+{
+	name="money_room_list_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=121858950,x=0,y=212,width=720,height=880,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="help_btn",type=2,typeName="Button",time=121859535,x=44,y=48,width=78,height=78,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/help_nor3.png",file2="common/button/help_pre3.png",
+			{
+				name="Image1",type=1,typeName="Image",time=121859317,x=0,y=-24,width=2,height=39,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line_8.png"
+			}
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=121859435,x=0,y=115,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=121859469,x=0,y=50,width=126,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=42,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[速战赛]]
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=121859535,x=52,y=39,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/btn_close.png"
+		},
+		{
+			name="room_list",type=0,typeName="ListView",time=121859705,x=0,y=166,width=650,height=666,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="tip_txt",type=4,typeName="Text",time=121955305,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=30,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="share_btn",type=2,typeName="Button",time=125054833,x=0,y=-118,width=680,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_6_normal.png",file2="common/button/dialog_btn_6_press.png",
+			{
+				name="Text2",type=4,typeName="Text",time=125054979,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=42,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[邀请好友来参赛]]
+			}
+		}
+	}
+}

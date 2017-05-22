@@ -1,0 +1,46 @@
+gift_dialog_view=
+{
+	name="gift_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="bg",type=1,typeName="Image",time=120301323,x=0,y=0,width=720,height=1046,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/dialog_bg_1.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="line",type=1,typeName="Image",time=120301391,x=0,y=116,width=630,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="title",type=4,typeName="Text",time=120301441,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=40,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[收到互动物品]]
+		},
+		{
+			name="list_view",type=0,typeName="View",time=120301509,x=0,y=300,width=648,height=716,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="bg_line",type=1,typeName="Image",time=129092985,x=0,y=8,width=640,height=700,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+			},
+			{
+				name="top_title_view",type=0,typeName="View",time=129093349,x=0,y=0,width=600,height=86,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+				{
+					name="Image5",type=1,typeName="Image",time=129093080,x=3,y=0,width=134,height=2,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="relation/cloud_line.png"
+				},
+				{
+					name="Image51",type=1,typeName="Image",time=129093474,x=3,y=0,width=134,height=2,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="relation/cloud_line.png"
+				},
+				{
+					name="Image6",type=1,typeName="Image",time=129093624,x=136,y=0,width=28,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="relation/l_cloud.png"
+				},
+				{
+					name="Image61",type=1,typeName="Image",time=129093672,x=136,y=0,width=28,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="relation/r_cloud.png"
+				},
+				{
+					name="title",type=4,typeName="Text",time=129093684,x=0,y=28,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignCenter,colorRed=135,colorGreen=100,colorBlue=95,string=[[本周最活跃互动棋友]]
+				}
+			},
+			{
+				name="rank_view",type=0,typeName="View",time=129093814,x=0,y=54,width=604,height=641,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+			},
+			{
+				name="tips",type=4,typeName="Text",time=129799339,x=0,y=-16,width=200,height=0,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=30,textAlign=kAlignCenter,colorRed=120,colorGreen=120,colorBlue=120,string=[[大侠，您本周还没有收到互动道具哦~]]
+			}
+		},
+		{
+			name="item_view",type=0,typeName="View",time=129091447,x=-30,y=130,width=560,height=136,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		}
+	}
+}

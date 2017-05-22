@@ -1,0 +1,19 @@
+room_double_prop_prefab=
+{
+	name="room_double_prop_prefab",type=0,typeName="View",time=0,x=0,y=0,width=242,height=190,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="show_tips_btn",type=2,typeName="Button",time=140856065,x=21,y=0,width=44,height=76,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/icon/double_icon.png"
+	},
+	{
+		name="tips_bg",type=1,typeName="Image",time=140856145,x=0,y=0,width=231,height=106,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/common_black_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+		{
+			name="count_down_handler",type=0,typeName="View",time=140856382,x=0,y=21,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="use_time_handler",type=0,typeName="View",time=140857425,x=0,y=62,width=200,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=140856216,x=28,y=-14,width=30,height=14,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/background/tips_up_dec.png"
+		}
+	}
+}

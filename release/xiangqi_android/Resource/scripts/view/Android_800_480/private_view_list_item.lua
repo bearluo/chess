@@ -1,0 +1,37 @@
+private_view_list_item=
+{
+	name="private_view_list_item",type=0,typeName="View",time=0,x=0,y=0,width=660,height=172,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="item_btn",type=2,typeName="Button",time=95247241,x=0,y=0,width=660,height=172,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/qipu_item_btn.png",file2="common/button/qipu_item_btn_press.png",
+		{
+			name="room_name",type=4,typeName="Text",time=95247317,x=59,y=35,width=275,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=38,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="vip_logo",type=1,typeName="Image",time=100625765,x=59,y=35,width=46,height=38,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="vip/vip_logo.png"
+		},
+		{
+			name="lock_icon",type=1,typeName="Image",time=95247502,x=347,y=31,width=48,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/lock_icon.png"
+		},
+		{
+			name="info_bg",type=1,typeName="Image",time=95247544,x=411,y=32,width=188,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/info_bg_5.png",
+			{
+				name="player_num",type=4,typeName="Text",time=95247593,x=23,y=0,width=0,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=28,textAlign=kAlignLeft,colorRed=140,colorGreen=50,colorBlue=15,string=[[0/0]]
+			},
+			{
+				name="status_text",type=4,typeName="Text",time=95247676,x=19,y=0,width=84,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=28,textAlign=kAlignLeft,colorRed=15,colorGreen=99,colorBlue=15,string=[[等待中]]
+			}
+		},
+		{
+			name="room_tid",type=4,typeName="Text",time=95247775,x=60,y=91,width=224,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[ID:]]
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=95247912,x=289,y=91,width=60,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[底注:]]
+		},
+		{
+			name="bottom_note_num",type=4,typeName="Text",time=95247864,x=354,y=91,width=125,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=183,colorGreen=53,colorBlue=53,string=[[]]
+		},
+		{
+			name="room_time",type=4,typeName="Text",time=95248003,x=491,y=91,width=108,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=140,colorGreen=50,colorBlue=15,string=[[]]
+		}
+	}
+}

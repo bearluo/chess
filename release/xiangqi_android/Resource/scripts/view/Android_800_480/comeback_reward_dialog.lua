@@ -1,0 +1,25 @@
+comeback_reward_dialog=
+{
+	name="comeback_reward_dialog",type=0,typeName="View",time=0,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="closeBtn",type=0,typeName="View",time=141031051,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+		{
+			name="bg",type=1,typeName="Image",time=141031747,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/blank_black.png"
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=141013541,x=0,y=-269,width=370,height=76,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="dialog/comeback_reward.png"
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=141014175,x=0,y=0,width=492,height=510,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="animation/unlock_head_sunshine.png"
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=141014691,x=0,y=0,width=395,height=340,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="dailytask/vip_bg.png"
+		},
+		{
+			name="Image4",type=1,typeName="Image",time=141016125,x=0,y=-18,width=224,height=230,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="mall/mall_list_gold3.png"
+		},
+		{
+			name="GoldenNum",type=4,typeName="Text",time=141016601,x=0,y=123,width=284,height=74,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=55,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[2000金币]]
+		}
+	}
+}

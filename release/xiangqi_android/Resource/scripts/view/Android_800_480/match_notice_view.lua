@@ -1,0 +1,22 @@
+match_notice_view=
+{
+	name="match_notice_view",type=0,typeName="View",time=0,x=0,y=0,width=720,height=81,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,
+	{
+		name="bg",type=1,typeName="Image",time=131854482,x=0,y=0,width=720,height=81,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignBottom,file="drawable/transparent_blank.png",
+		{
+			name="content_view",type=0,typeName="View",time=131858016,x=160,y=14,width=370,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+		},
+		{
+			name="sure_btn",type=2,typeName="Button",time=132723426,x=32,y=15,width=128,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/dialog_btn_3_normal.png",file2="common/button/dialog_btn_4_normal.png",
+			{
+				name="title",type=4,typeName="Text",time=132992047,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[入场]]
+			}
+		},
+		{
+			name="icon_view",type=1,typeName="Image",time=133000144,x=59,y=-22,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/background/head_bg_92.png"
+		},
+		{
+			name="cancel_btn",type=2,typeName="Button",time=132992114,x=-6,y=-4,width=80,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/btn_close_2.png"
+		}
+	}
+}

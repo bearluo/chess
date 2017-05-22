@@ -1,0 +1,40 @@
+city_locate_pop_dialog=
+{
+	name="city_locate_pop_dialog",type=0,typeName="View",time=0,x=0,y=0,width=480,height=653,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignBottom,
+	{
+		name="bg",type=1,typeName="Image",time=94701116,x=0,y=0,width=720,height=610,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/dialog_bg_1.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="confirm",type=2,typeName="Button",time=94702361,x=0,y=30,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="confirm_text",type=4,typeName="Text",time=94702445,x=0,y=0,width=100,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=240,colorBlue=240,string=[[确 定]]
+			}
+		},
+		{
+			name="area_view",type=0,typeName="View",time=97138136,x=-174,y=119,width=330,height=294,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="city_view",type=0,typeName="View",time=97138223,x=174,y=119,width=330,height=294,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image4",type=1,typeName="Image",time=97329192,x=0,y=287,width=677,height=125,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/item_down_mas.png"
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=97329080,x=0,y=119,width=678,height=125,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/item_up_mask.png"
+		},
+		{
+			name="Image2",type=1,typeName="Image",time=97138351,x=0,y=32,width=2,height=418,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line_3.png"
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=97138384,x=0,y=448,width=688,height=2,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line_2.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=97138464,x=-169,y=52,width=92,height=46,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=46,textAlign=kAlignLeft,colorRed=135,colorGreen=100,colorBlue=95,string=[[地区]]
+		},
+		{
+			name="Text11",type=4,typeName="Text",time=97138502,x=178,y=52,width=92,height=46,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=46,textAlign=kAlignLeft,colorRed=135,colorGreen=100,colorBlue=95,string=[[城市]]
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=102138659,x=32,y=34,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/btn_close.png"
+		}
+	}
+}

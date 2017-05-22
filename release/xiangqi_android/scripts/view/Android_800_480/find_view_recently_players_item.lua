@@ -1,0 +1,28 @@
+find_view_recently_players_item=
+{
+	name="find_view_recently_players_item",type=0,typeName="View",time=0,x=0,y=0,width=200,height=300,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="head_view",type=0,typeName="View",time=111728370,x=0,y=18,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="Image1",type=1,typeName="Image",time=111743604,x=0,y=0,width=92,height=92,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/head_bg_92.png"
+		}
+	},
+	{
+		name="name",type=4,typeName="Text",time=111728473,x=0,y=123,width=165,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=32,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+	},
+	{
+		name="score",type=4,typeName="Text",time=111728584,x=0,y=170,width=105,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=26,textAlign=kAlignCenter,colorRed=125,colorGreen=80,colorBlue=65,string=[[]]
+	},
+	{
+		name="follow_btn",type=2,typeName="Button",time=111728653,x=0,y=215,width=128,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_3_normal.png",file2="common/button/dialog_btn_3_press.png",
+		{
+			name="follow_btn_text",type=4,typeName="Text",time=111728736,x=0,y=0,width=100,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[关注]]
+		}
+	},
+	{
+		name="unfollow_btn",type=2,typeName="Button",time=111740215,x=0,y=215,width=128,height=58,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_7_normal.png",file2="common/button/dialog_btn_7_press.png",
+		{
+			name="unfollow_btn_text",type=4,typeName="Text",time=111740216,x=0,y=0,width=100,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[已关注]]
+		}
+	}
+}

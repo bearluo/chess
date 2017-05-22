@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension"/>
+        <attr name="emojiconTextStart" format="integer"/>
+        <attr name="emojiconTextLength" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="validited">
+        <attr name="enabled" format="boolean"/>
+        <attr name="tipText" format="string"/>
+        <attr name="isShowPic" format="boolean"/>
+        <attr name="errorText" format="string"/>
+        <attr name="editTextHint" format="string"/>
+        <attr name="indicatorBackgroud" format="reference"/>
+        <attr name="editTextId" format="reference"/>
+        <attr name="inputType" format="integer">
+	        <flag name="boyaa_kefu_none" value="0x00000000" />
+	        <flag name="boyaa_kefu_text" value="0x00000001" />
+	        <flag name="boyaa_kefu_textCapCharacters" value="0x00001001" />
+	        <flag name="boyaa_kefu_textCapWords" value="0x00002001" />
+	        <flag name="boyaa_kefu_textCapSentences" value="0x00004001" />
+	        <flag name="boyaa_kefu_textAutoCorrect" value="0x00008001" />
+	        <flag name="boyaa_kefu_textAutoComplete" value="0x00010001" />
+	        <flag name="boyaa_kefu_textMultiLine" value="0x00020001" />
+	        <flag name="boyaa_kefu_textImeMultiLine" value="0x00040001" />
+	        <flag name="boyaa_kefu_textNoSuggestions" value="0x00080001" />
+	        <flag name="boyaa_kefu_textUri" value="0x00000011" />
+	        <flag name="boyaa_kefu_textEmailAddress" value="0x00000021" />
+	        <flag name="boyaa_kefu_textEmailSubject" value="0x00000031" />
+	        <flag name="boyaa_kefu_textShortMessage" value="0x00000041" />
+	        <flag name="boyaa_kefu_textLongMessage" value="0x00000051" />
+	        <flag name="boyaa_kefu_textPersonName" value="0x00000061" />
+	        <flag name="boyaa_kefu_textPostalAddress" value="0x00000071" />
+	        <flag name="boyaa_kefu_textPassword" value="0x00000081" />
+	        <flag name="boyaa_kefu_textVisiblePassword" value="0x00000091" />
+	        <flag name="boyaa_kefu_textWebEditText" value="0x000000a1" />
+	        <flag name="boyaa_kefu_textFilter" value="0x000000b1" />
+	        <flag name="boyaa_kefu_textPhonetic" value="0x000000c1" />
+	        <flag name="boyaa_kefu_textWebEmailAddress" value="0x000000d1" />
+	        <flag name="boyaa_kefu_textWebPassword" value="0x000000e1" />
+	        <flag name="boyaa_kefu_number" value="0x00000002" />
+	        <flag name="boyaa_kefu_numberSigned" value="0x00001002" />
+	        <flag name="boyaa_kefu_numberDecimal" value="0x00002002" />
+	        <flag name="boyaa_kefu_numberPassword" value="0x00000012" />
+	        <flag name="boyaa_kefu_phone" value="0x00000003" />
+	        <flag name="boyaa_kefu_datetime" value="0x00000004" />
+	        <flag name="boyaa_kefu_date" value="0x00000014" />
+	        <flag name="boyaa_kefu_time" value="0x00000024" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="boyaa_kefu_BadgeView">
+        <attr name="badge_padding_top" format="dimension" />
+        <attr name="badge_padding_right" format="dimension" />
+        <attr name="badge_count" format="integer" />
+        <attr name="badge_none_show" format="boolean" />
+        <attr name="badge_color" format="color" />
+    </declare-styleable>
+</resources>

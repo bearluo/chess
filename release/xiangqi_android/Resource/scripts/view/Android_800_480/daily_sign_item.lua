@@ -1,0 +1,25 @@
+daily_sign_item=
+{
+	name="daily_sign_item",type=0,typeName="View",time=0,x=0,y=0,width=150,height=226,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+	{
+		name="item_bg",type=1,typeName="Image",time=136176174,x=0,y=0,width=134,height=226,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/unable_sign_bg.png"
+	},
+	{
+		name="receive_bg",type=1,typeName="Image",time=136179131,x=0,y=0,width=80,height=80,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/prop_lbg.png"
+	},
+	{
+		name="reward_img",type=1,typeName="Image",time=136175676,x=0,y=0,width=160,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="mall/mall_list_gold1.png"
+	},
+	{
+		name="desc",type=4,typeName="Text",time=136175740,x=0,y=23,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=205,colorBlue=75,string=[[10000]]
+	},
+	{
+		name="title",type=4,typeName="Text",time=136175634,x=0,y=13,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignLeft,colorRed=95,colorGreen=15,colorBlue=15,string=[[第2天]]
+	},
+	{
+		name="get_status",type=1,typeName="Image",time=136175820,x=0,y=0,width=134,height=226,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/icon/signed_icon.png"
+	},
+	{
+		name="Button1",type=2,typeName="Button",time=136189646,x=0,y=0,width=2,height=2,visible=0,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/blank.png"
+	}
+}

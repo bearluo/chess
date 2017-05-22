@@ -1,0 +1,25 @@
+find_own_create_endgate_view=
+{
+	name="find_own_create_endgate_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=114754428,x=206,y=382,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="common/background/model_bg.png"
+	},
+	{
+		name="Image3",type=1,typeName="Image",time=114754679,x=0,y=0,width=78,height=163,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/decoration/bamboo_left.png"
+	},
+	{
+		name="Image4",type=1,typeName="Image",time=114754697,x=0,y=0,width=77,height=137,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/decoration/bamboo_right.png"
+	},
+	{
+		name="Image2",type=1,typeName="Image",time=114754471,x=0,y=70,width=584,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line_4.png",gridLeft=263,gridRight=263,gridTop=0,gridBottom=0,
+		{
+			name="Text1",type=4,typeName="Text",time=114754495,x=0,y=0,width=168,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=42,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[我创建的]]
+		}
+	},
+	{
+		name="back_btn",type=2,typeName="Button",time=114754606,x=20,y=20,width=86,height=91,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/back_btn.png",file2="common/button/back_btn_press.png"
+	},
+	{
+		name="view_handler",type=0,typeName="View",time=114754726,x=0,y=0,width=674,height=1140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom
+	}
+}

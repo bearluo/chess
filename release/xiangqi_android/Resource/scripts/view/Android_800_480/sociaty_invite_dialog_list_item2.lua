@@ -1,0 +1,28 @@
+sociaty_invite_dialog_list_item2=
+{
+	name="sociaty_invite_dialog_list_item2",type=0,typeName="View",time=0,x=0,y=0,width=600,height=140,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="share_btn",type=2,typeName="Button",time=125220425,x=206,y=303,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank.png",file2="drawable/blank.png"
+	},
+	{
+		name="head_bg",type=1,typeName="Image",time=125220261,x=32,y=0,width=92,height=92,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/background/head_bg_92.png"
+	},
+	{
+		name="name",type=4,typeName="Text",time=125220382,x=155,y=-19,width=75,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=30,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+	},
+	{
+		name="level_icon",type=1,typeName="Image",time=125220464,x=155,y=24,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/icon/level_1.png"
+	},
+	{
+		name="score_txt",type=4,typeName="Text",time=125220516,x=225,y=24,width=60,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=24,textAlign=kAlignLeft,colorRed=140,colorGreen=80,colorBlue=60,string=[[Text1]]
+	},
+	{
+		name="Image2",type=1,typeName="Image",time=125223700,x=0,y=0,width=580,height=1,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/line_6.png"
+	},
+	{
+		name="vip_frame",type=1,typeName="Image",time=125223700,x=23,y=0,width=110,height=110,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="vip/vip_110.png"
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=136719780,x=0,y=-5,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/view_item_cut_line.png"
+	}
+}

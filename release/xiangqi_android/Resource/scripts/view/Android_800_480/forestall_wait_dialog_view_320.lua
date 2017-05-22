@@ -1,0 +1,31 @@
+forestall_wait_dialog_view_320=
+{
+	name="forestall_wait_dialog_view_320",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=86872826,x=0,y=0,width=720,height=343,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/bottom_bg.png",gridLeft=0,gridRight=0,gridTop=35,gridBottom=35,
+		{
+			name="title_view",type=0,typeName="View",time=144818586,x=0,y=67,width=186,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=144819077,x=-149,y=119,width=160,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="mall/mall_list_gold3.png"
+		},
+		{
+			name="Image11",type=1,typeName="Image",time=144819104,x=149,y=119,width=160,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="mall/mall_list_gold3.png"
+		},
+		{
+			name="first_icon",type=1,typeName="Image",time=144819145,x=-242,y=164,width=50,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/icon/first_icon.png"
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=144819964,x=-236,y=256,width=162,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignRight,colorRed=240,colorGreen=230,colorBlue=210,string=[[自己:]]
+		},
+		{
+			name="my_add_money",type=4,typeName="Text",time=144820734,x=-73,y=256,width=162,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignLeft,colorRed=40,colorGreen=200,colorBlue=65,string=[[]]
+		},
+		{
+			name="Text11",type=4,typeName="Text",time=144820062,x=65,y=256,width=162,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignRight,colorRed=240,colorGreen=230,colorBlue=210,string=[[对手:]]
+		},
+		{
+			name="opp_add_money",type=4,typeName="Text",time=144820790,x=228,y=256,width=162,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignLeft,colorRed=40,colorGreen=200,colorBlue=65,string=[[]]
+		}
+	}
+}

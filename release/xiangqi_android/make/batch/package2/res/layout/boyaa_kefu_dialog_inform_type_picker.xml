@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/boyaa_kefu_dialog_picker_header" />
+    <View android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="320.0dip" android:layout_height="195.0dip" android:layout_marginLeft="20.0dip">
+        <com.boyaa.customer.service.widget.WheelView android:id="@id/boyaa_kefu_dialog_inform_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="43.0dip" android:layout_weight="1.0" app:normalTextColor="#ff666666" app:normalTextSize="15.0sp" app:selectedTextColor="#ff000000" app:selectedTextSize="20.0sp" app:unitHight="30.0dip" app:itemNumber="5" app:lineColor="#ff666666" app:maskHight="50.0dip" app:noEmpty="true" />
+    </LinearLayout>
+</LinearLayout>

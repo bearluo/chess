@@ -1,0 +1,43 @@
+relationship_dialog_follow_item=
+{
+	name="relationship_dialog_follow_item",type=0,typeName="View",time=0,x=0,y=0,width=650,height=160,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=136632019,x=0,y=-16,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/new_line.png"
+	},
+	{
+		name="head_bg",type=1,typeName="Image",time=136710097,x=14,y=0,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/background/head_bg_92.png"
+	},
+	{
+		name="name",type=4,typeName="Text",time=136632110,x=126,y=25,width=80,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=40,colorBlue=30,string=[[]]
+	},
+	{
+		name="level",type=1,typeName="Image",time=136632180,x=126,y=70,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/level_1.png"
+	},
+	{
+		name="score",type=4,typeName="Text",time=136632216,x=185,y=72,width=80,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=130,colorGreen=100,colorBlue=55,string=[[]]
+	},
+	{
+		name="pk",type=0,typeName="View",time=136632316,x=126,y=109,width=200,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="icon",type=1,typeName="Image",time=136632277,x=0,y=0,width=24,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/pk.png"
+		},
+		{
+			name="txt",type=4,typeName="Text",time=136632350,x=31,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=185,colorGreen=140,colorBlue=120,string=[[]]
+		}
+	},
+	{
+		name="relationship_view",type=0,typeName="View",time=136633970,x=395,y=-2,width=50,height=88,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,
+		{
+			name="icon",type=1,typeName="Image",time=136634018,x=0,y=0,width=50,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/icon/follow_icon.png"
+		},
+		{
+			name="status_txt",type=4,typeName="Text",time=136635204,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		}
+	},
+	{
+		name="action_btn",type=2,typeName="Button",time=136635259,x=480,y=2,width=166,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/button/button_1.png",
+		{
+			name="txt",type=4,typeName="Text",time=136635461,x=0,y=-2,width=12,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		}
+	}
+}

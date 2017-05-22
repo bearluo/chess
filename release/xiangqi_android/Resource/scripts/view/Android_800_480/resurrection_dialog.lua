@@ -1,0 +1,25 @@
+resurrection_dialog=
+{
+	name="resurrection_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=128593450,x=0,y=0,width=700,height=400,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="sure_btn",type=2,typeName="Button",time=128593516,x=143,y=67,width=310,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",gridLeft=122,gridRight=122,gridTop=0,gridBottom=0,
+			{
+				name="title",type=4,typeName="Text",time=128595645,x=-27,y=0,width=160,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[立即复活]]
+			},
+			{
+				name="time",type=4,typeName="Text",time=128595650,x=221,y=0,width=60,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=30,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[]]
+			}
+		},
+		{
+			name="msg",type=5,typeName="TextView",time=128593548,x=0,y=55,width=500,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=128593755,x=-143,y=67,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_8_normal.png",file2="common/button/dialog_btn_8_press.png",
+			{
+				name="Text1",type=4,typeName="Text",time=128941841,x=0,y=0,width=160,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[放弃比赛]]
+			}
+		}
+	}
+}

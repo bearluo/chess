@@ -1,0 +1,34 @@
+pay_confirm_dialog=
+{
+	name="pay_confirm_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=85808008,x=0,y=0,width=480,height=390,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+		{
+			name="title_bg",type=1,typeName="Image",time=85808080,x=0,y=-23,width=480,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/dialog_title_bg.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="title_content",type=4,typeName="Text",time=85808118,x=0,y=-9,width=200,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=250,colorGreen=230,colorBlue=180,string=[[快捷购买]]
+			},
+			{
+				name="cancel",type=2,typeName="Button",time=85808232,x=24,y=41,width=36,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close_up.png"
+			}
+		},
+		{
+			name="content_bg",type=1,typeName="Image",time=85813087,x=0,y=-23,width=434,height=134,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="drawable/boyaa_func_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32,
+			{
+				name="goods_icon",type=1,typeName="Image",time=85816857,x=30,y=0,width=127,height=105,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="drawable/mall_list_gold1.png"
+			},
+			{
+				name="get_coin",type=4,typeName="Text",time=85816924,x=51,y=22,width=200,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,fontSize=36,textAlign=kAlignLeft,colorRed=250,colorGreen=230,colorBlue=180,string=[[0金币]]
+			},
+			{
+				name="cost_money",type=4,typeName="Text",time=85817027,x=51,y=22,width=200,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,fontSize=26,textAlign=kAlignLeft,colorRed=215,colorGreen=175,colorBlue=95,string=[[0元]]
+			}
+		},
+		{
+			name="confirm",type=2,typeName="Button",time=85817097,x=0,y=50,width=195,height=65,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="drawable/daily_normal_btn_up.png",
+			{
+				name="Text1",type=4,typeName="Text",time=85817268,x=-3,y=-7,width=112,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=85,colorGreen=40,colorBlue=15,string=[[立即购买]]
+			}
+		}
+	}
+}

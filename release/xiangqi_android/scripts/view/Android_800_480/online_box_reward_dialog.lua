@@ -1,0 +1,10 @@
+online_box_reward_dialog=
+{
+	name="online_box_reward_dialog",type=0,typeName="View",time=0,x=0,y=60,width=720,height=122,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,
+	{
+		name="pop_image_bg",type=1,typeName="Image",time=38819877,x=0,y=0,width=720,height=122,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignBottom,file="drawable/box_pop_up_bg.png",
+		{
+			name="msg_tips_text",type=5,typeName="TextView",time=40477180,x=25,y=10,width=435,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=26,textAlign=kAlignCenter,colorRed=214,colorGreen=151,colorBlue=12,string=[[恭喜你获得：]]
+		}
+	}
+}

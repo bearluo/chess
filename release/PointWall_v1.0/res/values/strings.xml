@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">博雅棋牌大厅</string>
+    <string name="hall_hot_game_text">热门游戏</string>
+    <string name="hall_new_game_text">新游推荐</string>
+    <string name="hall_recent_play_text">最近常玩</string>
+    <string name="hall_recent_complete_download"> %1$s已经下载完成</string>
+    <string name="back">返回</string>
+    <string name="online_count">当前 %1$d 人在线</string>
+    
+    <string name="package_version">版本</string>
+
+    <string name="download_doing">下载中</string>
+	<string name="contact_phone">联系方式（Email\u0026手机号）</string>
+	<string name="confirm">确定</string>
+	<string name="cancel">取消</string>
+	<string name="network_unavailable">无法链接网络，请检查网络设置</string>
+	<string name="network_available">网络已恢复</string>
+    <string name="user_feed_back_contacts_not_null">联系方式不能为空</string>
+    <string name="user_feed_back_contacts_format_error">联系方式格式错误</string>
+    <string name="user_feed_back_content_not_null">反馈内容不能为空</string>
+    <string name="user_feed_back_waiting">正在处理请稍等...</string>
+    <string name="user_feed_back_suc">反馈成功</string>
+    <string name="user_back_submit">提交反馈</string>
+    <string name="user_feed_back_server_fail">服务器处理失败</string>
+	<string-array name="feedback_type_texts">
+	    <item>下载</item>
+	    <item>功能</item>
+	    <item>其他</item>
+	</string-array>
+	
+	<string name="login">登  录</string>
+	<string name="login_success">登录成功</string>
+	<string name="logout">退出登录</string>
+	<string name="about_us_update">版本更新</string>
+	<string name="about_us_game_guide">游戏指南</string>
+	<string name="all_game_foot">显示下20条</string>
+	<string name="detail_game_instruction">游戏简介:</string>
+	<string name="detail_more">更多</string>
+	<string name="detail_you_like">猜你喜欢:</string>
+	<string name="head_title">修改标题</string>
+	<string name="settings_message_send">消息推送</string>
+	<string name="settings_about_platform">关于平台</string>
+	<string name="settings_common_problem">常见问题</string>
+	<string name="settings_user_back">用户反馈</string>
+	<string name="settings_pw_change">密码修改</string>
+	<string name="problem_type">问题类型</string>
+	<string name="user_back_content_hint">在此输入内容</string>
+	<string name="user_back_error">输入错误!</string>
+	<string name="sure_quit_hall">一定要离开大厅吗?</string>
+	<string name="all_game_downloading">下载中</string>
+	<string name="all_game_download">下载</string>
+	<string name="all_game_install">"安装"</string>
+	<string name="all_game_getpoints">"领取"</string>
+	<string name="all_game_hasinstall">已安装</string>
+	<string name="all_game_try">"点击重试"</string>
+	<string name="all_game_start">"开始游戏"</string>
+	<string name="all_game_continu">继续</string>
+	<string name="all_game_update">更新</string>
+	<string name="all_game_download_fail">下载失败</string>
+	
+	<string name="detail_title">"游戏详情"</string>
+	<string name="detail_type">"类别："</string>
+	<string name="detail_pause">暂停</string>
+	<string name="detail_del">删除</string>
+	<string name="detail_del_sure">下载文件将全部丢失，确定要删除下载文件吗？</string>
+	<string name="detail_hide">"收起"</string>
+	<string name="settings_title">"设置"</string>
+	<string name="about_us_title">"关于平台"</string>
+	<string name="all_game_title">"全部游戏"</string>
+	<string name="download_apk_size_fail">哎呀，网络不给力，请稍后重新下载！</string>
+	<string name="exit_app_text">再按一次退出大厅</string>
+	<string name="download_creat_file_fail">下载失败，sd卡未挂载或空间已满</string>
+	<string name="download_unknow_error">哎呀，网络不给力，请稍后重新下载（未知网络错误）！</string>
+	<string name="download_fail">下载失败了，请重试！</string>
+	<string name="download_waiting">下载中</string>
+	
+	<string name="update_hint_title">检测到新版本</string>
+	<string name="update_hint_msg">您是否要更新到最新版本?</string>
+	<string name="update_downloading_title">正在下载</string>
+	<string name="update_downloading_msg">请稍等...</string>
+	<string name="update_quit_title" >放弃更新？</string>
+	<string name="update_quit_msg">新版本在下载中，您确定放弃下载最新版本？</string>
+	<string name="btn_yes">是</string>
+	<string name="btn_no">否</string>
+	<string name="install_fail_sdcard">SD卡未挂载</string>
+	<string name="install_fail_file">文件已经被意外删除，是否重新下载？</string>
+	
+	<string name="cpright2">Copyright 2008 - 2013 博雅互动(Boyaa Interactive).</string>
+	<string name="cpright1">使用条款和隐私政策</string>
+	<string name="version_info_msg">博雅游戏平台 %1$s for Android</string>
+	<string name="version_code">版本号： %1$s</string>
+	<string name="update_package_size">安装包大小： </string>
+	<string name="language">cn</string>
+	<string name="game_list">游戏列表</string>
+	
+	<!-- 2.0新增字符 -->
+	<string name="title_edit_password">修改密码</string>
+	<string name="edit_pw_format_error">请输入6-16位数字或字母</string>
+	<string name="edit_pw_diff_error">两次输入密码不一致</string>
+	<string name="user_center">用户中心</string>
+	<string name="user_back_contact_error">您似乎忘记填写联系方式了</string>
+	<string name="user_back_type_error">您似乎忘记选择类型问题了</string>
+	<string name="user_back_content_error">您似乎忘记输入正文内容了</string>
+	<string name="user_back_title">用户反馈</string>
+	<string name="saved">已经保存</string>
+	<string name="save">保存</string>
+	<string name="edit_pw_hint">输入新的密码，新密码设置成功后将自动清除旧的密码。</string>
+	<string name="edit_pw_new_hint">新 密 码</string>
+	<string name="edit_pw_confirm_hint">确认密码</string>
+	<string name="btn_save">保  存</string>
+	<string name="update_title">软件更新</string>
+	<string name="update_resent_newest">目前使用的为最新版本，暂时不需要更新。</string>
+	<string name="update_item_info">版本信息</string>
+	<string  name="update_download">下载并安装</string>
+	<string name="update_downloading">正在下载</string>
+	<string name="user_back_item1">使用反馈</string>
+	<string name="user_back_item1_info">感谢您使用博雅游戏大厅，如果您在使用过程中遇到任何不便，或有意见都欢迎您反馈给我们。</string>
+	<string name="user_back_item2">联系方式（Email/手机号）</string>
+	<string name="user_back_btn_sbmit">提交反馈</string>
+	<string name="common_problem_q1">Q：为什么要注册博雅账号?</string>
+	<string name="common_problem_a1"> 您好，为保证您的账号安全和账号的使用统一，全部游戏间无需多次登录，随意切换游戏。</string>
+	<string name="common_problem_q2">Q：手机号注册博雅号如何收费?</string>
+	<string name="common_problem_a2">免费注册博雅账号。</string>
+	<string name="common_problem_q3">Q：忘记密码如何找回?</string>
+	<string name="common_problem_a3">您可以通过手机/邮箱找回博雅账号密码。</string>
+	<string name="common_problem_q4">Q：怎么修改密码?</string>
+	<string name="common_problem_a4">您可以通过大厅，进入密码修改页面，输入旧密码、6-16位字母或数字的新密码，确认修改即可。</string>
+	<string name="common_problem_q5">Q：我该怎么反馈游戏内遇到的问题?</string>
+	<string name="common_problem_a5">您可以点击棋牌大厅中的“设置”按钮，进入“用户反馈”界面提交想要反馈的问题及意见，我们会有工作人员处理您的问题。</string>
+	<string name="boyaa_word2">无处不在</string>
+	<string name="boyaa_word1">分享快乐</string>
+	<string name="boyaa_login">登录博雅帐号</string>
+	<string name="sina_login">新浪微博</string>
+	<string name="qq_login">QQ登录</string>
+	<string name="qq_weibo_login">腾讯微博</string>
+	<string name="register">注册</string>
+	<string name="register_success">注册成功</string>
+	<string name="complete">完成</string>
+	<string name="user_input_hint_account">手机或邮箱</string>
+	<string name="user_input_hint_username">请输入用户名</string>
+	<string name="user_input_hint_password">请输入密码</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="free_getPoints_title_text">免费赚金币</string>
+	<string name="free_getPoints_title_points_text">金币</string>
+	<string name="free_getpoints_title_dl_text">下载</string>
+	<string name="free_getpoints_title_dling_text">下载中</string>
+	<string name="boyaa_games_label">博雅专区</string>
+	<string name="suggest_games_label">精品推荐</string>
+	
+	
+	<string name="all_games_item_dl_points_text">金币</string>
+	<string name="all_games_item_gamedesc_text">博雅重磅推出的休闲游戏，根本停不下来。</string>
+	
+	
+	
+	<string name="package_size">大小</string>
+	<string name="unit_mb">MB</string>
+    <string name="semicolon">：</string>
+	
+	<string name="loading">正在加载...</string>
+	
+	<string name="getpoints">领取成功！</string>
+	
+	<string name="downloadTaskIsFull">已存在下载项，请稍候继续</string>
+	
+	
+	
+	
+	<string name="user_input_hint_confirm_password">再次输入密码</string>
+	<string name="user_real_name">请输入真实姓名</string>
+	<string name="user_input_hint_verify">4位数验证码</string>
+	<string name="user_id_card">请输入18位身份证号</string>
+	<string name="user_input_get_verify">获取验证码</string>
+	<string name="user_input_verify_wait">验证码(%1$d秒)</string>
+	<string name="error_input_verify">请输入4验证码</string>
+	<string name="verify_error">验证码输入有误</string>
+	<string name="logout_suc">您已经安全退出登录！</string>
+	<string name="user_nickname">用户昵称（选填）</string>
+	<string name="error_email">该邮箱不存在</string>
+	<string name="error_phone">该手机号码不存在</string>
+	<string name="error_email_phone_null">请输入手机或邮箱</string>
+	<string name="error_nick_null">请输入用户名</string>
+	<string name="error_email_phone_format">手机或邮箱格式不正确</string>
+	<string name="error_password">密码错误</string>
+	<string name="error_password_null">请输入密码</string>
+	<string name="error_password_format">密码必需是6-16位</string>
+	<string name="error_password_contain_blank">密码不能包含空格</string>
+	<string name="error_password_all_number">密码不能是10位以下纯数字</string>
+	<string name="error_confirm_password_null">请输入确认密码</string>
+	<string name="error_confirm_name_null">名字不能为空</string>
+	<string name="error_confirm_password_format">确认密码必需是6-16位</string>
+	<string name="error_password_not_same">两个密码不一致</string>
+	<string name="error_verify_null">请输入验证码</string>
+	<string name="error_idcard_null">身份证号码不能为空</string>
+	<string name="error_verify_need_account">请先输入帐号</string>
+	<string name="error_verify">验证码输入错误</string>
+	<string name="error_idcard">请输入正确的身份证号</string>
+	<string name="error_name">请输入正确的姓名</string>
+	<string name="error_save_fail">保存失败！</string>
+	<string name="user_forget_pw">忘记密码</string>
+	<string name="reset_pw_title">重置密码</string>
+	<string name="send">发送</string>
+	<string name="login_suc">成功登录</string>
+	<string name="login_fail">登录失败，请重试</string>
+	<string name="login_checking">正在验证...</string>
+	<string name="waiting">请稍等...</string>
+	<string name="toast_only_boyaa_login_do">只有用博雅通行证登录才能操作此项！</string>
+	<string name="coming_soon">敬请期待！</string>
+	<string name="alert_qq_weibo_uninstall">您没有安装腾讯微博客户端或者微博客户端版本过旧，请先安装或更新腾讯微博！</string>
+	<string name="starting_game">正在启动游戏...</string>
+	<string name="handing">正在处理...</string>
+	<string name="upload_head_fail">头像上传失败，请重试</string>
+	<string name="upload_head_suc">头像上传成功</string>
+	<string name="update_name_suc">昵称修改成功</string>
+	<string name="update_name_fail">昵称修改失败</string>
+	<string name="update_pw_fail">密码修改失败，请尝试重新登录再修改！</string>
+	<string name="update_pw_suc">密码修改成功</string>
+	<string name="reset_pw_fail"> 重置密码失败！</string>
+	<string name="reset_pw_suc">密码重置成功</string>
+	<string name="requesting_veritycode">正在请求验证码，请稍等</string>
+	<string name="bind_account">绑定帐号：</string>
+	<string name="server_name">客服</string>
+	<string name="feedback_welcome">曾经有个女纸叫bug和我擦肩而过，消失在茫茫的代码中，如果你遇到她请告诉我。</string>
+	<string name="error_get_verify_code">获取验证码失败，请重试</string>
+	<string name="error_email_exist">该邮箱已经注册过了</string>
+	<string name="error_phone_exist">该手机号码已经注册过了</string>
+	<string name="send_verify_code_to_email">验证码即将以邮件方式发送至您的邮箱</string>
+	<string name="send_verify_code_to_phone">验证码即将以短信方式发送至您的手机</string>
+	<string name="requesting_register">正在请求注册，请稍等</string>
+	<string name="register_fail">注册失败，请重试</string>
+	<string name="requesting_login">正在请求登录，请稍等</string>
+	<string name="free_register_tip">免费注册博雅帐号</string>
+	<string name="invalidate_image_type">不合法的图片类型</string>
+	<string name="invalidate_image_size">图片过大</string>
+	<string name="select_photo">选择相片</string>
+	<string name="album">相册</string>
+	<string name="camera">相机</string>
+	<string name="select_input_below">以下选填</string>
+	<string name="common_loading">加载中...</string>
+	
+</resources>

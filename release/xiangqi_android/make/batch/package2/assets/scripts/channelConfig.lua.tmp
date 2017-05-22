@@ -1,0 +1,5 @@
+kAppid = PhpConfig.APPID_360
+kAppkey = PhpConfig.APPKEY_360
+kBid = PhpConfig.BID_360
+kSid = PhpConfig.SID_GOOGLEPLAY
+kTypePar = PhpConfig.TYPE_YOUKE

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hall_hot_title">#95DEFA</color>
+    <color name="hall_hot_title_shadow">#233144</color>
+    <color name="hall_hot_list">#A8C8DA</color>
+    <color name="hall_hot_list_big">#DAF5FF</color>
+    <color name="hall_new_title">#95defa</color>
+    <color name="hall_new_list">#DAF5FF</color>
+    <color name="hall_new_list_shadow">#030D13</color>
+    <color name="hall_resent_title">#f4bf63</color>
+    
+    <color name="all_game_head_back">#e7a47f</color>
+    <color name="all_game_head_title">#3a0d00</color>
+    <color name="all_game_head_title_shadow">#9a614b</color>
+    <color name="all_game_list_title">#daf5ff</color>
+    <color name="all_game_list_title_shadow">#062b42</color>
+    <color name="all_game_list_info">#6bb2ce</color>
+    
+    <color name="detail_top_title">#c8e3ee</color>
+    <color name="detail_top_title_shadow">#073450</color>
+    <color name="detail_top_info">#62a9c6</color>
+    <color name="detail_top_pro">#96eb39</color>
+    <color name="detail_mid_title">#ffffff</color>
+    <color name="detail_mid_content">#a3c7de</color>
+    
+    <color name="setting_about_version">#5689ab</color>
+    <color name="setting_about_update_shadow">#052539</color>
+    <color name="setting_about_update">#ffffff</color>
+    <color name="setting_about_cpright">#73a8c9</color>
+    
+    <color name="setting_item">#FFFFFF</color>
+    <color name="setting_item_shadow">#03131E</color>
+    <color name="setting_login_shadow">#071A28</color>
+    
+    
+    
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#101010</color>
+    <color name="gray">#707070</color>
+    <color name="red">#FF0000</color>
+    <color name="red_plus">#FF2800</color>
+    
+</resources>

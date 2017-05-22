@@ -1,0 +1,58 @@
+help_view=
+{
+	name="help_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=96809865,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="common/background/model_bg.png"
+	},
+	{
+		name="top_view",type=0,typeName="View",time=96812809,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="version_text",type=4,typeName="Text",time=96810710,x=0,y=172,width=168,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=135,colorGreen=100,colorBlue=95,string=[[ ]]
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=96810611,x=0,y=98,width=291,height=55,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="hall/logo.png"
+		}
+	},
+	{
+		name="bottom_view",type=0,typeName="View",time=96812907,x=0,y=31,width=200,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,
+		{
+			name="Text4",type=4,typeName="Text",time=96812456,x=0,y=0,width=204,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[博雅互动 版权所有]]
+		},
+		{
+			name="Text5",type=4,typeName="Text",time=96812541,x=0,y=0,width=560,height=20,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=20,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[Copyright(C)2015 Boyaa Interactive,All Rights Reserverd.]]
+		}
+	},
+	{
+		name="bamboo_left",type=1,typeName="Image",time=96865913,x=0,y=0,width=78,height=163,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/decoration/bamboo_left.png"
+	},
+	{
+		name="bamboo_right",type=1,typeName="Image",time=96867560,x=0,y=0,width=77,height=137,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/decoration/bamboo_right.png"
+	},
+	{
+		name="teapot_dec",type=1,typeName="Image",time=96866078,x=0,y=321,width=85,height=252,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/decoration/teapot_dec.png"
+	},
+	{
+		name="stone_dec",type=1,typeName="Image",time=96867577,x=0,y=210,width=26,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/decoration/stone_dec.png"
+	},
+	{
+		name="back_btn",type=2,typeName="Button",time=96809921,x=20,y=20,width=86,height=91,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/button/back_btn.png"
+	},
+	{
+		name="content_view",type=0,typeName="View",time=96810805,x=0,y=52,width=650,height=879,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+		{
+			name="Image41",type=1,typeName="Image",time=96810786,x=0,y=-20,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="Image4",type=1,typeName="Image",time=96810754,x=0,y=-20,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/line.png"
+		}
+	},
+	{
+		name="title_icon",type=1,typeName="Image",time=98511828,x=0,y=0,width=110,height=290,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/decoration/bookmark_bg.png",
+		{
+			name="Text2",type=4,typeName="Text",time=98511829,x=20,y=-67,width=40,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[帮]]
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=98511830,x=20,y=3,width=40,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[助]]
+		}
+	}
+}

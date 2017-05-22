@@ -1,0 +1,40 @@
+share_chioce_dialog_view=
+{
+	name="share_chioce_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,
+	{
+		name="share_chioce_full_screen",type=1,typeName="Image",time=5306330,x=0,y=0,width=480,height=800,visible=1,file="drawable/transparent_blank.png"
+	},
+	{
+		name="share_chioce_content_view",type=0,typeName="View",time=5306385,x=0,y=210,width=0,height=0,visible=1,
+		{
+			name="share_chioce_content_bg",type=1,typeName="Image",time=5306409,x=0,y=0,width=480,height=330,visible=1,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="share_chioce_title_bg",type=1,typeName="Image",time=22675278,x=0,y=-15,width=480,height=128,visible=1,file="dialog/dialog_title_bg.png",gridLeft=32,gridRight=32,gridTop=0,gridBottom=0,
+			{
+				name="share_chioce_title_text",type=4,typeName="Text",time=22675966,x=180,y=34,width=0,height=0,visible=1,fontSize=40,align=kTextAlignCenter,colorRed=253,colorGreen=228,colorBlue=176,string=[[分享]]
+			}
+		},
+		{
+			name="share_chioce_friend_btn",type=2,typeName="Button",time=1734122,x=32,y=97,width=412,height=75,visible=1,file="dialog/btn_neg_up.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="share_chioce_friend_texture",type=4,typeName="Text",time=22065005,x=144,y=16,width=0,height=0,visible=1,fontSize=30,align=kTextAlignCenter,colorRed=32,colorGreen=32,colorBlue=32,string=[[分享给朋友]]
+			},
+			{
+				name="share_friend_texture",type=1,typeName="Image",time=22675692,x=82,y=8,width=0,height=0,visible=1,file="drawable/share_weixin_texture.png"
+			}
+		},
+		{
+			name="share_chioce_timeline_btn",type=2,typeName="Button",time=1736479,x=32,y=197,width=412,height=75,visible=1,file="dialog/btn_neg_up.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="share_chioce_timeline_texture",type=4,typeName="Text",time=22065074,x=144,y=16,width=0,height=0,visible=1,fontSize=30,align=kTextAlignCenter,colorRed=32,colorGreen=32,colorBlue=32,string=[[分享到朋友圈]]
+			},
+			{
+				name="share_timeline_texture",type=1,typeName="Image",time=22675882,x=82,y=10,width=0,height=0,visible=1,file="drawable/share_friend_texture.png"
+			}
+		},
+		{
+			name="share_chioce_close_btn",type=3,typeName="Button2",time=24824294,x=426,y=26,width=0,height=0,visible=1,file="dialog/btn_close_up.png",file2="dialog/btn_close_dow.png"
+		}
+	}
+}

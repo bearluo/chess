@@ -1,0 +1,10 @@
+toast=
+{
+	name="toast",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="toast_bg",type=1,typeName="Image",time=79167270,x=0,y=0,width=375,height=66,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/chat_show_bg_3.png",gridLeft=64,gridRight=64,gridTop=33,gridBottom=33,
+		{
+			name="tip",type=4,typeName="Text",time=79168419,x=0,y=0,width=332,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[1]]
+		}
+	}
+}

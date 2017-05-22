@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:boyaaKefu="http://schemas.android.com/apk/res-auto">
+    <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout android:id="@id/bvitem_phone_id" android:layout_width="fill_parent" android:layout_height="wrap_content" boyaaKefu:enabled="true" boyaaKefu:tipText="@string/boyaa_kefu_comment_phone_tips" boyaaKefu:isShowPic="true" boyaaKefu:errorText="@string/boyaa_kefu_input_error_phone" boyaaKefu:editTextHint="@string/boyaa_kefu_commemnt_phone_hints" boyaaKefu:indicatorBackgroud="@drawable/boyaa_kefu_input_indicator" boyaaKefu:inputType="number" />
+    <com.boyaa.customer.service.widget.BoyaaValiditedItemLayout android:id="@id/bvitem_type_id" android:layout_width="fill_parent" android:layout_height="wrap_content" boyaaKefu:enabled="false" boyaaKefu:tipText="@string/boyaa_kefu_comment_type_tips" boyaaKefu:isShowPic="true" boyaaKefu:errorText="@string/boyaa_kefu_input_error" boyaaKefu:editTextHint="@string/boyaa_kefu_commemnt_type_hints" boyaaKefu:indicatorBackgroud="@drawable/boyaa_kefu_more_select_btn" boyaaKefu:editTextId="@id/boyaa_kefu_id_comment_type_value" boyaaKefu:inputType="none" />
+    <RelativeLayout android:id="@id/boyaa_kefu_id_comment_content_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textColor="#ff000000" android:gravity="center|left|top" android:id="@id/boyaa_kefu_id_content_value" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:hint="@string/boyaa_kefu_commemnt_content_hints" android:minLines="4" android:ems="10" android:textCursorDrawable="@null" />
+    </RelativeLayout>
+    <View android:id="@id/boyaa_kefu_separate_line3" android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

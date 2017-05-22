@@ -1,0 +1,43 @@
+phone_login_dialog_view=
+{
+	name="phone_login_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=81480757,x=0,y=221,width=480,height=340,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+		{
+			name="title",type=1,typeName="Image",time=81480807,x=0,y=-26,width=480,height=128,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/dialog_title_bg.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="close",type=2,typeName="Button",time=81585626,x=21,y=40,width=36,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close_up.png"
+			},
+			{
+				name="titleText",type=4,typeName="Text",time=81480887,x=0,y=-6,width=200,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=250,colorGreen=240,colorBlue=220,string=[[手机登录]]
+			}
+		},
+		{
+			name="centerView",type=0,typeName="View",time=81481012,x=0,y=81,width=450,height=223,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="edit_code_bg",type=1,typeName="Image",time=81481529,x=0,y=66,width=354,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="userinfo/editBg.png",
+				{
+					name="edit_code",type=6,typeName="EditText",time=81482124,x=5,y=0,width=341,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=105,colorGreen=65,colorBlue=20,string=[[]]
+				}
+			},
+			{
+				name="edit_phoneNum_bg",type=1,typeName="Image",time=81481463,x=0,y=2,width=354,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="userinfo/editBg.png",
+				{
+					name="edit_phoneNum",type=6,typeName="EditText",time=81481964,x=6,y=0,width=200,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=105,colorGreen=65,colorBlue=20,string=[[]]
+				},
+				{
+					name="get_code_btn",type=2,typeName="Button",time=81481998,x=-2,y=0,width=128,height=52,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="userinfo/sendSMS.png"
+				},
+				{
+					name="second",type=4,typeName="Text",time=81491993,x=-59,y=0,width=59,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,fontSize=30,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[60]]
+				}
+			},
+			{
+				name="confirm",type=2,typeName="Button",time=81481543,x=0,y=131,width=170,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="dialog/btn_neg_up.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+				{
+					name="Text2",type=4,typeName="Text",time=81481737,x=0,y=-2,width=70,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=85,colorGreen=40,colorBlue=15,string=[[确 定]]
+				}
+			}
+		}
+	}
+}

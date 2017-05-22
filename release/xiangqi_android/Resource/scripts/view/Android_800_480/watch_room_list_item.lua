@@ -1,0 +1,25 @@
+watch_room_list_item=
+{
+	name="watch_room_list_item",type=0,typeName="View",time=0,x=0,y=0,width=663,height=114,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="rank_view",type=0,typeName="View",time=141038264,x=22,y=0,width=50,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft
+	},
+	{
+		name="Image6",type=1,typeName="Image",time=141038270,x=0,y=-16,width=580,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/new_line.png"
+	},
+	{
+		name="rank_num",type=4,typeName="Text",time=141038269,x=550,y=0,width=60,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=26,textAlign=kAlignLeft,colorRed=85,colorGreen=70,colorBlue=40,string=[[]]
+	},
+	{
+		name="model_txt",type=4,typeName="Text",time=141038268,x=430,y=0,width=117,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=26,textAlign=kAlignLeft,colorRed=130,colorGreen=100,colorBlue=55,string=[[魅力贡献:]]
+	},
+	{
+		name="level",type=1,typeName="Image",time=141038267,x=182,y=20,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/icon/level_9.png"
+	},
+	{
+		name="name",type=4,typeName="Text",time=141038266,x=182,y=-20,width=175,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=28,textAlign=kAlignLeft,colorRed=70,colorGreen=70,colorBlue=70,string=[[]]
+	},
+	{
+		name="head_bg",type=1,typeName="Image",time=141038265,x=99,y=0,width=68,height=68,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="common/background/head_bg_92.png"
+	}
+}

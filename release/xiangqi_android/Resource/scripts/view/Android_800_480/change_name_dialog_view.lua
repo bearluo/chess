@@ -1,0 +1,46 @@
+change_name_dialog_view=
+{
+	name="change_name_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=141450764,x=0,y=460,width=530,height=401,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/common_black_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+		{
+			name="Image2",type=1,typeName="Image",time=141450969,x=0,y=20,width=528,height=77,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/common_tips_icon.png",gridLeft=100,gridRight=70,gridTop=22,gridBottom=22,
+			{
+				name="Text1",type=4,typeName="Text",time=141451502,x=0,y=-8,width=112,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=250,colorGreen=225,colorBlue=200,string=[[更改昵称]]
+			}
+		},
+		{
+			name="content_view",type=1,typeName="Image",time=141451545,x=1,y=104,width=490,height=141,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/common_white_bg.png",gridLeft=30,gridRight=30,gridTop=30,gridBottom=30,
+			{
+				name="edit_bg",type=1,typeName="Image",time=141451939,x=0,y=0,width=472,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/input_bg_2.png",gridLeft=33,gridRight=33,gridTop=0,gridBottom=0,
+				{
+					name="edit",type=6,typeName="EditText",time=141452121,x=13,y=0,width=439,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=32,textAlign=kAlignLeft,colorRed=130,colorGreen=95,colorBlue=55,string=[[]]
+				}
+			}
+		},
+		{
+			name="cancel_btn",type=2,typeName="Button",time=141459172,x=-111,y=28,width=166,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/button_1.png",
+			{
+				name="Text21",type=4,typeName="Text",time=141459334,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=115,colorGreen=65,colorBlue=35,string=[[取消]]
+			}
+		},
+		{
+			name="confirm_btn",type=2,typeName="Button",time=141459254,x=113,y=28,width=166,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/button_2.png",
+			{
+				name="Text2",type=4,typeName="Text",time=141459290,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignLeft,colorRed=95,colorGreen=15,colorBlue=15,string=[[更改]]
+			}
+		},
+		{
+			name="tips_view",type=0,typeName="View",time=141459619,x=316,y=273,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+			{
+				name="Text3",type=4,typeName="Text",time=141459402,x=0,y=0,width=48,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=185,colorGreen=175,colorBlue=150,string=[[消耗]]
+			},
+			{
+				name="Image3",type=1,typeName="Image",time=141459478,x=55,y=-6,width=42,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/bccoin_icon_2.png"
+			},
+			{
+				name="bccoin",type=4,typeName="Text",time=141459526,x=102,y=0,width=60,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+			}
+		}
+	}
+}

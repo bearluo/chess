@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="boyaa_kefu_AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="boyaa_kefu_AppBaseThemeAppTheme" parent="@style/boyaa_kefu_AppBaseTheme" />
+    <style name="appkefu_pulltofresh_top_loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">21.0dip</item>
+        <item name="android:layout_height">21.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/boyaa_kefu_appkefu_loading</item>
+    </style>
+    <style name="appkefu_chat_content_date_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">#ffbfbfbf</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minHeight">50.0dip</item>
+        <item name="android:lineSpacingExtra">2.0dip</item>
+    </style>
+    <style name="appkefuInteractionPositiveButton">
+        <item name="android:textSize">@dimen/appkefu_dialog_button_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/appkefu_dialog_positive_button_text</item>
+        <item name="android:background">@drawable/appkefu_dialog_positive_button</item>
+    </style>
+    <style name="appkefuInteractionNegativeButton">
+        <item name="android:textSize">@dimen/appkefu_dialog_button_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/appkefu_dialog_negative_button_text</item>
+        <item name="android:background">@drawable/appkefu_dialog_negative_button</item>
+    </style>
+    <style name="appkefuInteractionDialogTitle">
+        <item name="android:textSize">@dimen/appkefu_dialog_title_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/appkefu_dialog_title_text</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="appkefuInteractionDialogTitleNoBody">
+        <item name="android:textSize">@dimen/appkefu_dialog_title_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/appkefu_dialog_title_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="appkefuInteractionDialogBody">
+        <item name="android:textSize">@dimen/appkefu_dialog_body_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/appkefu_dialog_body_text</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:autoLink">all</item>
+    </style>
+    <style name="boyaa_kefu_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/boyaa_kefu_white</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="boyaa_kefu_timer_picker">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_anim_bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_anim_top_to_bottom</item>
+    </style>
+    <style name="boyaa_kefu_theme_no_titlebar" parent="@android:style/Theme.NoTitleBar" />
+    <style name="boyaa_kefu_ptr_headerContainer">
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0px</item>
+    </style>
+    <style name="boyaa_kefu_ptr_header">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="boyaa_kefu_ptr_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25.0dip</item>
+        <item name="android:src">@drawable/boyaa_kefu_swipe_refresh_arrow_down</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="boyaa_kefu_ptr_spinner" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25.0dip</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="boyaa_kefu_ptr_textwrapper">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="boyaa_kefu_ptr_text">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffc3c3c3</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="boyaa_kefu_ptr_last_updated" parent="@style/boyaa_kefu_ptr_text">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_below">@id/ptr_id_text</item>
+    </style>
+    <style name="boyaa_kefu_chat_content_date_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ffbfbfbf</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minHeight">50.0dip</item>
+        <item name="android:lineSpacingExtra">2.0dip</item>
+    </style>
+    <style name="boyaa_kefu_chat_text_name_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff818181</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="boyaa_kefu_chat_text_date_style">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/btn_gray_normal</item>
+        <item name="android:background">@drawable/boyaa_kefu_timestampe_bg</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="boyaa_kefu_AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/boyaa_kefu_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/boyaa_kefu_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/boyaa_kefu_fade_out</item>
+    </style>
+    <style name="boyaa_kefu_AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/boyaa_kefu_slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/boyaa_kefu_slide_out_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/boyaa_kefu_slide_in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/boyaa_kefu_slide_out_to_right</item>
+    </style>
+    <style name="boyaa_kefu_AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_push_bottom_out</item>
+    </style>
+    <style name="boyaa_kefu_AnimTop" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_push_top_out</item>
+    </style>
+    <style name="boyaa_kefu_AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_push_top_out2</item>
+    </style>
+    <style name="boyaa_kefu_AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/boyaa_kefu_head_in</item>
+        <item name="android:windowExitAnimation">@anim/boyaa_kefu_head_out</item>
+    </style>
+    <style name="boyaa_kefu_Anim_style" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimFade</item>
+    </style>
+    <style name="boyaa_kefu_Anim_style2" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimFade</item>
+    </style>
+    <style name="boyaa_kefu_horizontal_slide" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimFade2</item>
+    </style>
+    <style name="boyaa_kefu_nornal_style" parent="@android:style/Theme.NoTitleBar" />
+    <style name="boyaa_kefu_MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="boyaa_kefu_MyAlertDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="boyaa_kefu_MyDialogStyleBottom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimBottom</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="boyaa_kefu_MyDialogStyleTop" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimTop2</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="boyaa_kefu_HeadScale" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_AnimHead</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="boyaa_kefu_devide_line_eee">
+        <item name="android:background">#ffeeeeee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.5dip</item>
+    </style>
+    <style name="boyaa_kefu_bottom_line_edit_text_style" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/boyaa_kefu_edit_text_bg</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="boyaa_kefu_lay_complain_sytle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">45.0dip</item>
+    </style>
+    <style name="boyaa_kefu_common_text">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/appkefu_black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="boyaa_kefu_common_edittext">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/appkefu_black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="boyaa_kefu_chat_hint_tips">
+        <item name="android:background">@drawable/boyaa_kefu_hint_tips_bg</item>
+    </style>
+    <style name="boyaa_kefu_rate_animation">
+        <item name="android:activityOpenEnterAnimation">@anim/boyaa_kefu_pulltorefresh_slide_in_from_bottom</item>
+        <item name="android:activityCloseExitAnimation">@anim/boyaa_kefu__pulltorefresh_slide_out_to_bottom</item>
+    </style>
+    <style name="boyaa_kefu_rate_activity_theme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/rate_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/boyaa_kefu_rate_animation</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
+    <style name="TextAppearance_PointWall_Head_Title">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_all_games_label">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_points_num_label">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_points_text_label">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_GameList_GameItem_GameName">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff101010</item>
+        <item name="android:shadowColor">#ff00253d</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_GameList_GameItem_GameDesc">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ff707070</item>
+    </style>
+    <style name="TextAppearance_GameList_GameItem_GameSize" parent="@style/TextAppearance_GameList_GameItem_GameDesc" />
+    <style name="TextAppearance_GameList_dl_img_text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff00253d</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_GameList_download_point_text">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">#ff101010</item>
+        <item name="android:shadowColor">#ff00253d</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="TextAppearance_Common_Head_Title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ff3a0d00</item>
+        <item name="android:shadowColor">#ffb57966</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Common_TabText">
+        <item name="android:textSize">6.0sp</item>
+        <item name="android:textColor">#ff391706</item>
+        <item name="android:shadowColor">#ffa76136</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="TextAppearance_Common_Head_ButtonText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff3a0d00</item>
+        <item name="android:shadowColor">#ffb76c43</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Common_GreenButtonText">
+        <item name="android:textSize">17.099976sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff073300</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Common_SmallBlueButtonText">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff003354</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Hall_GameName">
+        <item name="android:textSize">11.399994sp</item>
+        <item name="android:textColor">#ffdaf5ff</item>
+        <item name="android:shadowColor">#ff0a2841</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Hall_Category_LightBlue">
+        <item name="android:textSize">13.599976sp</item>
+        <item name="android:textColor">#ff95defa</item>
+        <item name="android:shadowColor">#ff021b3a</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Hall_Category_Yellow">
+        <item name="android:textSize">13.599976sp</item>
+        <item name="android:textColor">#fff4bf63</item>
+        <item name="android:shadowColor">#ff021b3a</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_GameList_GameItem_ButtonText">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance_UserCenter_NickName">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff8e8e8e</item>
+    </style>
+    <style name="TextAppearance_UserCenter_BoundAccount">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff5b9ec9</item>
+    </style>
+    <style name="TextAppearance_UserCenter_Name">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance_UserCenter_IconArea_Title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ff2079b2</item>
+        <item name="android:shadowColor">#ff001623</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="TextAppearance_Login_FreeRegisterTip">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance_Login_EditText_Hint">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff8e8e8e</item>
+        <item name="android:shadowColor">#fff5f5f5</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_Login_EditText_Content">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff292929</item>
+    </style>
+    <style name="TextAppearance_Register_EditText_Content" parent="@style/TextAppearance_Login_EditText_Content" />
+    <style name="TextAppearance_ResetPassword_EditText_Content" parent="@style/TextAppearance_Login_EditText_Content" />
+    <style name="TextAppearance_ResetPassword_TipText">
+        <item name="android:textSize">11.399994sp</item>
+        <item name="android:textColor">#ffdedede</item>
+    </style>
+    <style name="TextAppearance_Settings_SettingEntryText_Normal">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff013555</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="TextAppearance_Settings_SettingEntryText_Disabled">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff5198c6</item>
+        <item name="android:shadowColor">#ff013555</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="TextAppearance_FAQ_QuestionText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff5198c6</item>
+    </style>
+    <style name="TextAppearance_FAQ_AnswerText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance_UserFeedback_FeedbackContent">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff292929</item>
+    </style>
+    <style name="TextAppearance_UserFeedback_FeedbackTimeStamp">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff62a7d3</item>
+    </style>
+    <style name="TextAppearance_UserFeedback_UserNickName">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ff8fc8f4</item>
+    </style>
+    <style name="TextAppearance_GameDetail__Top_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffdaf5ff</item>
+        <item name="android:shadowColor">#ff00253d</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_GameDetail__Top_GameInfo">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ff6bb2ce</item>
+    </style>
+    <style name="TextAppearance_GameDetail__Top_Pro">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ff96eb39</item>
+    </style>
+    <style name="TextAppearance_GameDetail__Middle_Title">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff00253d</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance_GameDetail__Guess_Item">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff00253d</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Start" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/start_screen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="CustomDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="DataSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/wechat_push_up_in</item>
+    </style>
+    <style name="MMTheme.DataSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/wechat_mm_trans</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+        <item name="android:background">@drawable/wechat_mm_trans</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MMTheme.DataSheet2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

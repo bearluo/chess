@@ -1,0 +1,31 @@
+match_rank_dialog_item=
+{
+	name="match_rank_dialog_item",type=0,typeName="View",time=0,x=0,y=0,width=640,height=122,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="my_bg",type=1,typeName="Image",time=129267688,x=0,y=0,width=638,height=1,visible=0,fillParentWidth=0,fillParentHeight=1,nodeAlign=kAlignCenter,file="common/background/rank_hint_bg.png"
+	},
+	{
+		name="rank_view",type=0,typeName="View",time=129179591,x=43,y=0,width=50,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft
+	},
+	{
+		name="btn_head",type=1,typeName="Image",time=127578672,x=142,y=0,width=70,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="drawable/blank.png",
+		{
+			name="head_bg",type=1,typeName="Image",time=129180764,x=0,y=0,width=70,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/head_mask_bg_86.png",
+			{
+				name="level",type=1,typeName="Image",time=129180766,x=0,y=-15,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/icon/level_1.png"
+			}
+		},
+		{
+			name="rank_icon",type=1,typeName="Image",time=133162163,x=-12,y=-11,width=44,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/rank_icon_1.png"
+		}
+	},
+	{
+		name="txt_name",type=4,typeName="Text",time=127578657,x=236,y=-16,width=140,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=30,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+	},
+	{
+		name="txt_life",type=4,typeName="Text",time=127578659,x=236,y=26,width=100,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=28,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=45,string=[[]]
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=133162706,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/line_6.png"
+	}
+}

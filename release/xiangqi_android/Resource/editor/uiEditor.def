@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIControl>
+	<Base>
+		<Properties>
+			<name type="string"/>
+			<type type="int"/>
+			<typeName type="string"/>
+			<time type="int"/>
+			<x type="int" typeViewName="X"/>
+			<y type="int" typeViewName="Y"/>
+			<width type="int" typeViewName="宽度"/>
+			<height type="int" typeViewName="高度"/>
+			<nodeAlign type="enum" defaultValue="8" typeViewName="对齐" valueViewName="Center,Top,TopRight,Right,BottomRight,Bottom,BottomLeft,Left,TopLeft" valueLuaName="kAlignCenter,kAlignTop,kAlignTopRight,kAlignRight,kAlignBottomRight,kAlignBottom,kAlignBottomLeft,kAlignLeft,kAlignTopLeft"/>
+			<visible type="bool" defaultValue="1" typeViewName="可见" typeValueName="隐藏,显示" valueLuaName="0,1"/>
+			<fillTopLeftX type="int" must="0" typeViewName="填充 左上角X"/>
+			<fillTopLeftY type="int" must="0" typeViewName="填充 左上角Y"/>
+			<fillBottomRightX type="int" must="0" typeViewName="填充 右下角X"/>
+			<fillBottomRightY type="int" must="0" typeViewName="填充 右下角Y"/>
+			<fillParentWidth type="bool" typeViewName="父节点宽" typeValueName="否,是"/>
+			<fillParentHeight type="bool" typeViewName="父节点高" typeValueName="否,是"/>
+		</Properties>
+	</Base>
+	<Image cursor="ui/image.png">
+		<Properties>
+			<file type="image" defaultValue="ui/image.png" res="packFile" typeViewName="图片1"/>
+			<packFile type="packfile" must="0" typeViewName="拼图"/>
+			<gridLeft type="int" must="0" typeViewName="9Grid 左"/>
+			<gridRight type="int" must="0" typeViewName="9Grid 右"/>
+			<gridTop type="int" must="0" typeViewName="9Grid 上"/>
+			<gridBottom type="int" must="0" typeViewName="9Grid 下"/>
+			<effect type="effect" effectName="shader" must="0" typeViewName="shader">
+				<blur typeViewName="模糊特效">
+					<intensity type="int" typeViewName="模糊强度" defaultValue="2" maxValue="12" minValue="0" valueRangeMsg="(取值范围[0,12])"/>
+				</blur>
+				<flash typeViewName="扫光特效">
+					<position type="double" typeViewName="位置" defaultValue="0.5" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+					<color type="color32" typeViewName="颜色"/>
+					<scale type="double" typeViewName="光线粗细" defaultValue="1" maxValue="2" minValue="1" valueRangeMsg="(取值范围[1.0,2.0])"/>
+					<animType type="enum" typeViewName="动画类型" valueViewName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" valueLuaName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" />
+					<count type="int" typeViewName="扫光次数" minValue="-999999999" maxValue="999999999"/>
+					<duration type="int" typeViewName="时长" defaultValue="1000"  minValue="0" maxValue="999999999" valueRangeMsg="(取值范围[0,+∞])"/>
+					<direction type="enum" typeViewName="扫光方向" valueViewName="从左下到右上,从右上到左下" valueLuaName="0,1"/>
+				</flash>
+				<frost typeViewName="冰冻特效">
+					<offset type="double" typeViewName="冰冻噪点大小" defaultValue="1" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+				</frost>
+				<mirror typeViewName="镜像特效">
+					<mirrorType type="enum" typeViewName="镜像类型" valueViewName="水平并垂直翻转,水平翻转,垂直翻转" valueLuaName="0,1,2"/>
+				</mirror>
+			</effect>
+		</Properties>
+	</Image>
+	<Button cursor="ui/button.png">
+		<Properties>
+			<file type="image" defaultValue="ui/button.png" res="packFile" typeViewName="图片1"/>
+			<file2 type="image" must="0" res="packFile" typeViewName="图片2"/>
+			<packFile type="packfile" must="0" typeViewName="拼图"/>
+			<gridLeft type="int" must="0" typeViewName="9Grid 左"/>
+			<gridRight type="int" must="0" typeViewName="9Grid 右"/>
+			<gridTop type="int" must="0" typeViewName="9Grid 上"/>
+			<gridBottom type="int" must="0" typeViewName="9Grid 下"/>
+			<effect type="effect" effectName="shader" must="0" typeViewName="shader">
+				<blur typeViewName="模糊特效">
+					<intensity type="int" typeViewName="模糊强度" defaultValue="2" maxValue="12" minValue="0" valueRangeMsg="(取值范围[0,12])"/>
+				</blur>
+				<flash typeViewName="扫光特效">
+					<position type="double" typeViewName="位置" defaultValue="0.5" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+					<color type="color32" typeViewName="颜色"/>
+					<scale type="double" typeViewName="光线粗细" defaultValue="1" maxValue="2" minValue="1" valueRangeMsg="(取值范围[1.0,2.0])"/>
+					<animType type="enum" typeViewName="动画类型" valueViewName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" valueLuaName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" />
+					<count type="int" typeViewName="扫光次数" minValue="-999999999" maxValue="999999999"/>
+					<duration type="int" typeViewName="时长" defaultValue="1000"  minValue="0" maxValue="999999999" valueRangeMsg="(取值范围[0,+∞])"/>
+					<direction type="enum" typeViewName="扫光方向" valueViewName="从左下到右上,从右上到左下" valueLuaName="0,1"/>
+				</flash>
+				<frost typeViewName="冰冻特效">
+					<offset type="double" typeViewName="冰冻噪点大小" defaultValue="1" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+				</frost>
+				<mirror typeViewName="镜像特效">
+					<mirrorType type="enum" typeViewName="镜像类型" valueViewName="水平并垂直翻转,水平翻转,垂直翻转" valueLuaName="0,1,2"/>
+				</mirror>
+			</effect>
+		</Properties>
+	</Button>
+	<CheckBoxGroup>
+	</CheckBoxGroup>
+	<CheckBox cursor="ui/checkBox2.png">
+	</CheckBox>
+	<RadioButtonGroup>
+	</RadioButtonGroup>
+	<RadioButton cursor="ui/radioButton2.png">
+	</RadioButton>
+	<TextView>
+		<Properties>
+			<string type="text" typeViewName="文字内容"/>
+			<fontName type="font" typeViewName="字体名称"/>
+			<fontSize type="int" defaultValue="24" typeViewName="字体大小"/>
+			<textAlign type="enum" defaultValue="0" typeViewName="对齐" valueViewName="Center,Top,TopRight,Right,BottomRight,Bottom,BottomLeft,Left,TopLeft" valueLuaName="kAlignCenter,kAlignTop,kAlignTopRight,kAlignRight,kAlignBottomRight,kAlignBottom,kAlignBottomLeft,kAlignLeft,kAlignTopLeft"/>
+			<color type="color" colorType="BGR" defaultValue="0xFFFFFF" typeViewName="文字颜色" typeLuaName="colorRed,colorGreen,colorBlue"/>
+		</Properties>
+	</TextView>
+	<Text>
+		<Properties>
+			<string type="text" typeViewName="文字内容"/>
+			<fontName type="font" typeViewName="字体名称"/>
+			<fontSize type="int" defaultValue="24" typeViewName="字体大小"/>
+			<textAlign type="enum" defaultValue="0" typeViewName="对齐" valueViewName="Center,Top,TopRight,Right,BottomRight,Bottom,BottomLeft,Left,TopLeft" valueLuaName="kAlignCenter,kAlignTop,kAlignTopRight,kAlignRight,kAlignBottomRight,kAlignBottom,kAlignBottomLeft,kAlignLeft,kAlignTopLeft"/>
+			<color type="color" colorType="BGR" defaultValue="0xFFFFFF" typeViewName="文字颜色" typeLuaName="colorRed,colorGreen,colorBlue"/>
+			<effect type="effect" effectName="shader" must="0" typeViewName="shader">
+				<blur typeViewName="模糊特效">
+					<intensity type="int" typeViewName="模糊强度" defaultValue="2" maxValue="12" minValue="0" valueRangeMsg="(取值范围[0,12])"/>
+				</blur>
+				<flash typeViewName="扫光特效">
+					<position type="double" typeViewName="位置" defaultValue="0.5" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+					<color type="color32" typeViewName="颜色"/>
+					<scale type="double" typeViewName="光线粗细" defaultValue="1" maxValue="2" minValue="1" valueRangeMsg="(取值范围[1.0,2.0])"/>
+					<animType type="enum" typeViewName="动画类型" valueViewName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" valueLuaName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" />
+					<count type="int" typeViewName="扫光次数" minValue="-999999999" maxValue="999999999"/>
+					<duration type="int" typeViewName="时长" defaultValue="1000"  minValue="0" maxValue="999999999" valueRangeMsg="(取值范围[0,+∞])"/>
+					<direction type="enum" typeViewName="扫光方向" valueViewName="从左下到右上,从右上到左下" valueLuaName="0,1"/>
+				</flash>
+				<frost typeViewName="冰冻特效">
+					<offset type="double" typeViewName="冰冻噪点大小" defaultValue="1" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+				</frost>
+				<mirror typeViewName="镜像特效">
+					<mirrorType type="enum" typeViewName="镜像类型" valueViewName="水平并垂直翻转,水平翻转,垂直翻转" valueLuaName="0,1,2"/>
+				</mirror>
+			</effect>
+		</Properties>
+	</Text>
+	<EditTextView>
+		<Properties>
+			<string type="text" typeViewName="文字内容"/>
+			<fontName type="font" typeViewName="字体名称"/>
+			<fontSize type="int" defaultValue="24" typeViewName="字体大小"/>
+			<textAlign type="enum" defaultValue="0" typeViewName="对齐" valueViewName="Center,Top,TopRight,Right,BottomRight,Bottom,BottomLeft,Left,TopLeft" valueLuaName="kAlignCenter,kAlignTop,kAlignTopRight,kAlignRight,kAlignBottomRight,kAlignBottom,kAlignBottomLeft,kAlignLeft,kAlignTopLeft"/>
+			<color type="color" colorType="BGR" defaultValue="0xFFFFFF" typeViewName="文字颜色" typeLuaName="colorRed,colorGreen,colorBlue"/>
+		</Properties>
+	</EditTextView>
+	<EditText>
+		<Properties>
+			<string type="text" typeViewName="文字内容"/>
+			<fontName type="font" typeViewName="字体名称"/>
+			<fontSize type="int" defaultValue="24" typeViewName="字体大小"/>
+			<textAlign type="enum" defaultValue="0" typeViewName="对齐" valueViewName="Center,Top,TopRight,Right,BottomRight,Bottom,BottomLeft,Left,TopLeft" valueLuaName="kAlignCenter,kAlignTop,kAlignTopRight,kAlignRight,kAlignBottomRight,kAlignBottom,kAlignBottomLeft,kAlignLeft,kAlignTopLeft"/>
+			<color type="color" colorType="BGR" defaultValue="0xFFFFFF" typeViewName="文字颜色" typeLuaName="colorRed,colorGreen,colorBlue"/>
+			<effect type="effect" effectName="shader" must="0" typeViewName="shader">
+				<blur typeViewName="模糊特效">
+					<intensity type="int" typeViewName="模糊强度" defaultValue="2" maxValue="12" minValue="0" valueRangeMsg="(取值范围[0,12])"/>
+				</blur>
+				<flash typeViewName="扫光特效">
+					<position type="double" typeViewName="位置" defaultValue="0.5" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+					<color type="color32" typeViewName="颜色"/>
+					<scale type="double" typeViewName="光线粗细" defaultValue="1" maxValue="2" minValue="1" valueRangeMsg="(取值范围[1.0,2.0])"/>
+					<animType type="enum" typeViewName="动画类型" valueViewName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" valueLuaName="nil,kAnimNormal,kAnimRepeat,kAnimLoop" />
+					<count type="int" typeViewName="扫光次数" minValue="-999999999" maxValue="999999999"/>
+					<duration type="int" typeViewName="时长" defaultValue="1000"  minValue="0" maxValue="999999999" valueRangeMsg="(取值范围[0,+∞])"/>
+					<direction type="enum" typeViewName="扫光方向" valueViewName="从左下到右上,从右上到左下" valueLuaName="0,1"/>
+				</flash>
+				<frost typeViewName="冰冻特效">
+					<offset type="double" typeViewName="冰冻噪点大小" defaultValue="1" maxValue="1" minValue="0" valueRangeMsg="(取值范围[0,1.0])"/>
+				</frost>
+				<mirror typeViewName="镜像特效">
+					<mirrorType type="enum" typeViewName="镜像类型" valueViewName="水平并垂直翻转,水平翻转,垂直翻转" valueLuaName="0,1,2"/>
+				</mirror>
+			</effect>
+		</Properties>
+	</EditText>
+	<View>
+	</View>
+	<AutoScrollView>
+	</AutoScrollView>
+	<ScrollView>
+	</ScrollView>
+	<Slider cursor="ui/sliderFg.png">
+	</Slider>
+	<Switch>
+	</Switch>
+	<ListView>
+	</ListView>
+	<ViewPager>
+	</ViewPager>
+</UIControl>

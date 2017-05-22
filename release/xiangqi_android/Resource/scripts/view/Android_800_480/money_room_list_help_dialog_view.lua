@@ -1,0 +1,19 @@
+money_room_list_help_dialog_view=
+{
+	name="money_room_list_help_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=122695196,x=0,y=230,width=685,height=828,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/dialog_bg_2.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+	},
+	{
+		name="Image2",type=1,typeName="Image",time=122696352,x=0,y=289,width=575,height=608,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+	},
+	{
+		name="close_btn",type=2,typeName="Button",time=122696416,x=0,y=918,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+		{
+			name="Text1",type=4,typeName="Text",time=122696545,x=0,y=0,width=80,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[知道了]]
+		}
+	},
+	{
+		name="scroll_view",type=0,typeName="ScrollView",time=122696470,x=0,y=301,width=547,height=582,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+	}
+}

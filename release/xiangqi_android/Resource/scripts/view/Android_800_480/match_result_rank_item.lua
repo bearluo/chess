@@ -1,0 +1,25 @@
+match_result_rank_item=
+{
+	name="match_result_rank_item",type=0,typeName="View",time=0,x=0,y=0,width=200,height=160,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="rank_icon",type=0,typeName="View",time=128067602,x=10,y=11,width=50,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	},
+	{
+		name="name",type=4,typeName="Text",time=128067889,x=17,y=98,width=118,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+	},
+	{
+		name="life",type=4,typeName="Text",time=128067915,x=17,y=131,width=119,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[]]
+	},
+	{
+		name="head_bg",type=1,typeName="Image",time=128067648,x=48,y=12,width=68,height=68,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/background/head_mask_bg_86.png",
+		{
+			name="vip",type=1,typeName="Image",time=128067829,x=0,y=0,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="vip/vip_90.png"
+		},
+		{
+			name="level_icon",type=1,typeName="Image",time=128067747,x=0,y=-8,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/icon/level_1.png"
+		}
+	},
+	{
+		name="Image1",type=1,typeName="Image",time=128866967,x=0,y=0,width=0,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="common/decoration/line_7.png"
+	}
+}

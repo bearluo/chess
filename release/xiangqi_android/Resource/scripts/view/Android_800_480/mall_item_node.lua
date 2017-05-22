@@ -1,0 +1,28 @@
+mall_item_node=
+{
+	name="mall_item_node",type=0,typeName="View",time=0,x=0,y=0,width=630,height=185,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,
+	{
+		name="item_node",type=0,typeName="View",time=110006447,x=0,y=0,width=630,height=185,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+		{
+			name="Image2",type=1,typeName="Image",time=110006520,x=0,y=0,width=620,height=176,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="item_img",type=1,typeName="Image",time=110006626,x=26,y=12,width=160,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="mall/mall_list_gold3.png"
+		},
+		{
+			name="money_text",type=4,typeName="Text",time=110006721,x=192,y=15,width=200,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=38,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[50000金币]]
+		},
+		{
+			name="originmoney_text",type=4,typeName="Text",time=110006924,x=192,y=62,width=200,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=32,textAlign=kAlignLeft,colorRed=120,colorGreen=120,colorBlue=120,string=[[50000金币]]
+		},
+		{
+			name="Image3",type=1,typeName="Image",time=110007007,x=455,y=69,width=38,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/icon/sale_icon.png"
+		},
+		{
+			name="price_text",type=4,typeName="Text",time=110007071,x=508,y=36,width=100,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=38,textAlign=kAlignLeft,colorRed=125,colorGreen=80,colorBlue=65,string=[[5元]]
+		},
+		{
+			name="discount_line",type=1,typeName="Image",time=110007157,x=189,y=109,width=170,height=7,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="mall/mall_discount_line.png"
+		}
+	}
+}

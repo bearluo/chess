@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/boyaa_kefu_comment_head" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/boyaa_kefu_id_comment_layout" layout="@layout/boyaa_kefu_comment_details" />
+    </RelativeLayout>
+    <Button android:textSize="17.0sp" android:textColor="#fffefefe" android:id="@id/boyaa_kefu_id_comment_submit" android:background="@drawable/boyaa_kefu_voice_rcd_btn_pressed" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/boyaa_kefu_comment_submit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

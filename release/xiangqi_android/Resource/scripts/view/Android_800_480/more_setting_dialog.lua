@@ -1,0 +1,22 @@
+more_setting_dialog=
+{
+	name="more_setting_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="blank_bg",type=1,typeName="Image",time=97149501,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="drawable/transparent_blank.png"
+	},
+	{
+		name="share_btn",type=2,typeName="Button",time=97150039,x=2,y=850,width=162,height=230,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="hall/share_nor.png",file2="hall/share_pre.png"
+	},
+	{
+		name="feedback_btn",type=2,typeName="Button",time=97150560,x=1,y=499,width=160,height=195,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="hall/feedback_nor.png",file2="hall/feedback_pre.png"
+	},
+	{
+		name="setting_btn",type=2,typeName="Button",time=97150626,x=0,y=169,width=152,height=210,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="hall/setting_normal.png",file2="hall/setting_press.png"
+	},
+	{
+		name="Text1",type=4,typeName="Text",time=117700870,x=0,y=102,width=360,height=24,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[批准号码：新出审字[2013]1094号]]
+	},
+	{
+		name="Text2",type=4,typeName="Text",time=117700892,x=0,y=59,width=276,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=22,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[批准号码：新出审字[2013]1094号   批准日期：2013年8月27日]]
+	}
+}

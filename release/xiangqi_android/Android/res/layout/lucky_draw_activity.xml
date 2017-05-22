@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/state_texture_bg" >
+    
+
+    <!-- 标题 -->
+
+    <ImageView
+        android:id="@+id/huodong_title_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+         />
+
+    <!--ImageView
+        android:id="@+id/huodong_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/normal_title" /-->
+
+    <Button
+        android:id="@+id/huodong_back_btn"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        />
+    
+    <WebView
+        android:id="@+id/huodong_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/huodong_title_bg"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+watcher_node=
+{
+	name="watcher_node",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="watcher_node",type=0,typeName="View",time=110629183,x=0,y=0,width=155,height=250,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="icon",type=0,typeName="View",time=110629184,x=0,y=0,width=120,height=120,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="icon_frame",type=1,typeName="Image",time=110629185,x=0,y=0,width=84,height=84,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="userinfo/icon_9090_frame.png"
+			},
+			{
+				name="level",type=1,typeName="Image",time=110629186,x=0,y=9,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/icon/level_1.png"
+			}
+		},
+		{
+			name="name_score",type=0,typeName="View",time=110629187,x=0,y=20,width=155,height=50,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignCenter,
+			{
+				name="name",type=4,typeName="Text",time=110629188,x=0,y=0,width=96,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[我勒个去]]
+			},
+			{
+				name="score",type=4,typeName="Text",time=110629189,x=0,y=0,width=72,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=24,textAlign=kAlignCenter,colorRed=125,colorGreen=80,colorBlue=65,string=[[123456]]
+			}
+		},
+		{
+			name="add_btn",type=2,typeName="Button",time=110629190,x=0,y=13,width=120,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_3_normal.png",file2="common/button/dialog_btn_3_press.png",
+			{
+				name="add_txt",type=4,typeName="Text",time=110629191,x=0,y=-2,width=72,height=24,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=245,colorGreen=235,colorBlue=210,string=[[加关注]]
+			}
+		},
+		{
+			name="line",type=1,typeName="Image",time=110645230,x=0,y=0,width=200,height=2,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/name_line.png"
+		}
+	}
+}

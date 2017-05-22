@@ -1,0 +1,46 @@
+match_end_dialog=
+{
+	name="match_end_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=128938181,x=0,y=210,width=680,height=784,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/tucker_bg.png",
+		{
+			name="head_bg",type=1,typeName="Image",time=128938632,x=-68,y=159,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/head_bg_92.png",
+			{
+				name="vip",type=1,typeName="Image",time=129015106,x=0,y=0,width=110,height=110,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="vip/sliver_110.png"
+			},
+			{
+				name="level_icon",type=1,typeName="Image",time=128939096,x=0,y=-12,width=52,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/icon/level_1.png"
+			}
+		},
+		{
+			name="name",type=4,typeName="Text",time=128939260,x=341,y=-189,width=80,height=33,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+		},
+		{
+			name="match_name",type=5,typeName="TextView",time=128943337,x=0,y=304,width=520,height=89,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=215,colorGreen=110,colorBlue=60,string=[[]]
+		},
+		{
+			name="Text1",type=4,typeName="Text",time=128943947,x=0,y=393,width=216,height=72,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=72,textAlign=kAlignCenter,colorRed=205,colorGreen=40,colorBlue=0,string=[[优秀奖]]
+		},
+		{
+			name="max_win",type=4,typeName="Text",time=128944316,x=0,y=483,width=200,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=180,colorGreen=40,colorBlue=20,string=[[]]
+		},
+		{
+			name="max_life",type=4,typeName="Text",time=128946037,x=0,y=538,width=235,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=30,textAlign=kAlignLeft,colorRed=25,colorGreen=115,colorBlue=45,string=[[]]
+		},
+		{
+			name="piaozhang",type=4,typeName="Text",time=128946037,x=0,y=103,width=300,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=30,textAlign=kAlignLeft,colorRed=180,colorGreen=120,colorBlue=100,string=[[特此表彰，以资鼓励！]]
+		}
+	},
+	{
+		name="share_btn",type=2,typeName="Button",time=128946608,x=-153,y=99,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+		{
+			name="Text2",type=4,typeName="Text",time=129014913,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[分享]]
+		}
+	},
+	{
+		name="watch_btn",type=2,typeName="Button",time=128946612,x=153,y=99,width=244,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/dialog_btn_4_normal.png",file2="common/button/dialog_btn_4_press.png",
+		{
+			name="Text3",type=4,typeName="Text",time=129014987,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=40,textAlign=kAlignLeft,colorRed=240,colorGreen=230,colorBlue=210,string=[[前去观战]]
+		}
+	}
+}

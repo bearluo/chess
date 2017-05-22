@@ -1,0 +1,34 @@
+promotion_sale_goods_dialog_view=
+{
+	name="promotion_sale_goods_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="mask",type=1,typeName="Image",time=142420339,x=162,y=93,width=1,height=1,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank_black.png"
+	},
+	{
+		name="bg",type=1,typeName="Image",time=141636060,x=0,y=246,width=720,height=752,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/promotion_bg.png",
+		{
+			name="Text1",type=4,typeName="Text",time=141636175,x=0,y=163,width=70,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=140,colorGreen=45,colorBlue=15,string=[[超值限时礼包，每人仅限1次]]
+		},
+		{
+			name="time",type=4,typeName="Text",time=141636273,x=0,y=237,width=14,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignLeft,colorRed=255,colorGreen=180,colorBlue=165,string=[[]]
+		},
+		{
+			name="goods_1",type=0,typeName="View",time=141636336,x=-153,y=343,width=104,height=106,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="goods_2",type=0,typeName="View",time=141636396,x=154,y=344,width=104,height=106,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="goods_1_txt",type=4,typeName="Text",time=141636409,x=-148,y=462,width=235,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=0,string=[[]]
+		},
+		{
+			name="goods_2_txt",type=4,typeName="Text",time=141636453,x=148,y=462,width=235,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=0,string=[[]]
+		},
+		{
+			name="confirm_btn",type=2,typeName="Button",time=141636476,x=0,y=589,width=444,height=96,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/long_yellow_btn.png",
+			{
+				name="txt",type=4,typeName="Text",time=141636749,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[]]
+			}
+		}
+	}
+}

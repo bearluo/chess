@@ -1,0 +1,19 @@
+http_loading_dialog=
+{
+	name="http_loading_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="Image1",type=1,typeName="Image",time=98706244,x=245,y=171,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/transparent_blank.png"
+	},
+	{
+		name="loading_bg",type=1,typeName="Image",time=78983214,x=0,y=0,width=200,height=145,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="drawable/loading_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32,
+		{
+			name="loading_view",type=1,typeName="Image",time=78983298,x=0,y=0,width=100,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="drawable/loading.png"
+		},
+		{
+			name="tip",type=4,typeName="Text",time=78983340,x=0,y=0,width=163,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+		},
+		{
+			name="cancel",type=2,typeName="Button",time=78983409,x=0,y=0,width=32,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="drawable/loading_cancel.png"
+		}
+	}
+}

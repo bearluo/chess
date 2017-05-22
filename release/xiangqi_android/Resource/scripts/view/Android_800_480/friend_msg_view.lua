@@ -1,0 +1,37 @@
+friend_msg_view=
+{
+	name="friend_msg_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=86854386,x=0,y=13,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/state_texture_bg.png"
+	},
+	{
+		name="tittle_view",type=0,typeName="View",time=86855429,x=0,y=0,width=480,height=100,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="tittle_bg",type=1,typeName="Image",time=86858261,x=0,y=0,width=480,height=95,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/activity_center_top_title_bg.png",
+			{
+				name="back",type=2,typeName="Button",time=86858636,x=0,y=0,width=62,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/ending_back.png"
+			},
+			{
+				name="send",type=2,typeName="Button",time=86859371,x=3,y=8,width=54,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/tittle_right_btn.png",
+				{
+					name="send_tips",type=1,typeName="Image",time=86859466,x=1,y=-2,width=40,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="friends/send_msg.png"
+				}
+			},
+			{
+				name="tittle",type=1,typeName="Image",time=86859640,x=0,y=0,width=372,height=65,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/ending_bg.png",
+				{
+					name="tittle_tips",type=1,typeName="Image",time=86859831,x=0,y=8,width=135,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="friends/message_title.png"
+				}
+			}
+		}
+	},
+	{
+		name="content_view",type=0,typeName="View",time=86855366,x=0,y=35,width=480,height=730,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignCenter
+	},
+	{
+		name="load_view",type=0,typeName="View",time=87028632,x=0,y=68,width=480,height=50,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="loading",type=1,typeName="Image",time=87026829,x=10,y=0,width=50,height=50,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="drawable/loading.png"
+		}
+	}
+}

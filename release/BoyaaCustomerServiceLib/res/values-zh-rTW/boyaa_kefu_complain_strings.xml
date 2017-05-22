@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boyaa_kefu_complain">我要申訴</string>
+    <string name="boyaa_kefu_complain_history">申訴歷史</string>
+    <string name="boyaa_kefu_next">下一步</string>
+    <string name="boyaa_kefu_commit">提交</string>
+
+    <string name="boyaa_kefu_stolen_id">被盜ID</string>
+    <string name="boyaa_kefu_stolen_date">被盜時間</string>
+    <string name="boyaa_kefu_stolen_amount">被盜金額</string>
+
+    <string name="boyaa_kefu_common_login_ip">請輸入登錄遊戲的常用IP及地區</string>
+    <string name="boyaa_kefu_last_amount">請輸入最後一次下線時間的遊戲幣數量</string>
+    <string name="boyaa_kefu_first_login_date">請輸入第一次加入遊戲的時間</string>
+    <string name="boyaa_kefu_last_login_date">請輸入最後一次登錄遊戲的時間</string>
+    <string name="boyaa_kefu_safe_box_amount">請輸入保險箱存款數</string>
+    <string name="boyaa_kefu_complain_agreement_title">申訴協議</string>
+    <string name="boyaa_kefu_complain_agreement_part1">如果金幣找回，您的金幣將補還至</string>
+    <string name="boyaa_kefu_complain_agreement_part2">，具體找回金額以實際情況為準, 還請您確認該賬號的安全，如果該賬號兩星期內再次發生被盜，將不予找回。</string>
+
+    <string name="boyaa_kefu_agree">同意</string>
+    <string name="boyaa_kefu_disagree">不同意</string>
+
+    <string name="boyaa_kefu_complain_stolen">盜號申訴</string>
+    <string name="boyaa_kefu_number">編號:</string>
+    <string name="boyaa_kefu_reply">客服回復:</string>
+
+    <string name="boyaa_kefu_ok">確定</string>
+    <string name="boyaa_kefu_input_id">請輸入需要申訴的ID</string>
+    <string name="boyaa_kefu_select_stolen_date">請選擇被盜時間</string>
+    <string name="boyaa_kefu_input_stolen_ammount">請輸入被盜金額</string>
+    
+     <string name="boyaa_kefu_input_error">請輸入正確的值</string>
+     <string name="boyaa_kefu_input_error_phone">請輸入正確的手機號碼</string>
+     <string name="boyaa_kefu_input_error_date">不能超過當前時間</string>
+     <string name="boyaa_kefu_input_error_email">請輸入正確的信箱地址</string>
+     
+     <string name="boyaa_kefu_inform_wait_reply">您的舉報已經成功提交,請耐心等待。</string>
+     <string name="boyaa_kefu_appeal_wait_reply">您的申訴已經成功提交,請耐心等待。</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GodSDK backupInfo="{'extra': {'timestamp': 1476331609, 'version_key': '2.0.1', 'md5_info': '4e01c78fb33158a3c56d2675a3edf89f'}, 'sdkInfo': {'GodSDKMMBilling': {'version': '1.0.0.6', 'official_ver': 'v3.1.10'}, 'GodSDKUnionPay3.0': {'version': '1.0.0.2', 'official_ver': 'v3.1.0'}, 'AlipaySimpleStandard': {'version': '1.0.0', 'official_ver': 'v3.0.1(20150825)'}, 'GodSDKEgameSMS': {'version': '1.0.0.3', 'official_ver': 'v4.2.3'}, 'GodSDKUniPaySpecial': {'version': '1.0.1.1', 'official_ver': 'v4.0.2L2111B0825'}}}">
+  <Plugin versionCode="1" versionName="4.0.4.0" pluginType="2" className="com.boyaa.godsdk.core.EgameSMS" cardType="3">
+    <Params>
+      <EGAME_SDK_ORIENTATION>portrait</EGAME_SDK_ORIENTATION>
+      <EGAME_SDK_DEBUG>true</EGAME_SDK_DEBUG>
+      <EGAME_CHANNEL>41040446</EGAME_CHANNEL>
+    </Params>
+    <Files>
+      <file>None</file>
+    </Files>
+  </Plugin>
+  <Plugin versionCode="4" versionName="v20150825" pluginType="2" className="com.boyaa.godsdk.core.AlipaySimpleStandard">
+    <Params>
+    </Params>
+  </Plugin>
+  <Plugin versionCode="1" versionName="1.2.1" pluginType="2" className="com.boyaa.godsdk.core.UniPaySpecial">
+    <Files>
+      <file>None</file>
+    </Files>
+  </Plugin>
+  <Plugin versionCode="1" versionName="1.0" pluginType="2" className="com.boyaa.godsdk.core.UnionPay">
+    <Params>
+      <mode>1.正式环境</mode>
+    </Params>
+  </Plugin>
+  <Plugin versionCode="1" versionName="3.1.3" pluginType="2" className="com.boyaa.godsdk.core.MMBilling" cardType="1">
+    <Params>
+      <PurchaseSkin>1</PurchaseSkin>
+      <APP_ID>300008663119</APP_ID>
+      <APP_KEY>3F22927C633AF09AF1D943F169CCEA2C</APP_KEY>
+      <MM_STATISTICS>true</MM_STATISTICS>
+      <IS_SPALASH>false</IS_SPALASH>
+      <PRIORITY>1</PRIORITY>
+    </Params>
+  </Plugin>
+</GodSDK>

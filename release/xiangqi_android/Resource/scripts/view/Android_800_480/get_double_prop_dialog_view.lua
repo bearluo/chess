@@ -1,0 +1,28 @@
+get_double_prop_dialog_view=
+{
+	name="get_double_prop_dialog_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=140843956,x=0,y=209,width=580,height=580,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/light_dec.png"
+	},
+	{
+		name="double_prop_dec",type=1,typeName="Image",time=140842938,x=0,y=257,width=626,height=126,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/double_prop_dec.png"
+	},
+	{
+		name="double_prop_icon",type=1,typeName="Image",time=140843038,x=0,y=447,width=212,height=122,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/icon/double_prop_icon.png"
+	},
+	{
+		name="Text1",type=4,typeName="Text",time=140844054,x=0,y=605,width=180,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=0,string=[[双倍积分卡]]
+	},
+	{
+		name="tips_txt",type=4,typeName="Text",time=140844111,x=0,y=744,width=14,height=28,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=28,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[]]
+	},
+	{
+		name="quick_play_btn",type=2,typeName="Button",time=140844145,x=0,y=978,width=444,height=96,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/button/long_yellow_btn.png",
+		{
+			name="Text3",type=4,typeName="Text",time=140845533,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[快速开始]]
+		}
+	},
+	{
+		name="back_btn",type=2,typeName="Button",time=141837938,x=20,y=20,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="dialog/btn_close.png"
+	}
+}

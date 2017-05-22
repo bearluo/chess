@@ -1,0 +1,37 @@
+soul_introduction_view=
+{
+	name="soul_introduction_view",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="view_bg",type=1,typeName="Image",time=39253431,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/state_texture_bg.png"
+	},
+	{
+		name="title_view",type=0,typeName="View",time=39253770,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="title_view_bg",type=1,typeName="Image",time=39253809,x=0,y=0,width=480,height=95,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/activity_center_top_title_bg.png"
+		},
+		{
+			name="title_bg",type=1,typeName="Image",time=39253777,x=55,y=0,width=372,height=65,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/ending_bg.png",
+			{
+				name="soul_text_icon",type=1,typeName="Image",time=39255314,x=51,y=12,width=273,height=37,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/soul_title_icon.png"
+			}
+		},
+		{
+			name="back_btn",type=2,typeName="Button",time=39256293,x=0,y=3,width=62,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/ending_back.png"
+		}
+	},
+	{
+		name="introction_view_bg",type=1,typeName="Image",time=39254006,x=30,y=95,width=420,height=680,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/ending_reward_bg.png",gridLeft=32,gridRight=32,gridTop=32,gridBottom=32,
+		{
+			name="soul_icon",type=1,typeName="Image",time=39254178,x=140,y=40,width=138,height=170,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/soul_intro_icon.png"
+		},
+		{
+			name="divider",type=1,typeName="Image",time=39254381,x=5,y=240,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="drawable/soul_intro_divider.png"
+		},
+		{
+			name="introction_text1",type=5,typeName="TextView",time=39254866,x=30,y=260,width=370,height=200,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=23,textAlign=kAlignCenter,colorRed=250,colorGreen=255,colorBlue=180,string=[[       棋魂是游戏中的一种特殊道具，玩家可以在游戏中通过开启在线时长宝箱、玩联网游戏，或者挑战单机、残局游戏。完成任务、参加活动、成功充值后，都有机会获得棋魂。]]
+		},
+		{
+			name="introction_text2",type=5,typeName="TextView",time=39255173,x=30,y=480,width=370,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=23,textAlign=kAlignCenter,colorRed=250,colorGreen=255,colorBlue=180,string=[[      有了棋魂，就可以换取实物奖励哦，赶快行动吧！]]
+		}
+	}
+}

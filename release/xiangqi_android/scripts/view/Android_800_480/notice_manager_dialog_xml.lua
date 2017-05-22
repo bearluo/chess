@@ -1,0 +1,31 @@
+notice_manager_dialog_xml=
+{
+	name="notice_manager_dialog_xml",type=0,typeName="View",time=0,x=0,y=0,width=480,height=800,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="bg_view",type=0,typeName="View",time=96188697,x=0,y=0,width=200,height=150,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+		{
+			name="bg",type=1,typeName="Image",time=96178426,x=0,y=30,width=720,height=904,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/dialog_bg_3.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128
+		},
+		{
+			name="text",type=4,typeName="Text",time=77679475,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=28,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[暂无消息]]
+		},
+		{
+			name="tittle",type=4,typeName="Text",time=96179185,x=0,y=244,width=200,height=95,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=44,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[消息通知]]
+		},
+		{
+			name="tittle_line",type=1,typeName="Image",time=96180517,x=0,y=332,width=621,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="line_bg",type=1,typeName="Image",time=96180930,x=0,y=12,width=620,height=556,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/line_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64
+		},
+		{
+			name="confirm_btn",type=2,typeName="Button",time=96181467,x=0,y=356,width=571,height=97,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/button/dialog_btn_2_normal.png",file2="common/button/dialog_btn_2_press.png",
+			{
+				name="btn_text",type=4,typeName="Text",time=96181739,x=0,y=1,width=200,height=135,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=38,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[确定]]
+			}
+		},
+		{
+			name="content_view",type=0,typeName="ScrollView",time=76667449,x=10,y=380,width=603,height=544,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		}
+	}
+}

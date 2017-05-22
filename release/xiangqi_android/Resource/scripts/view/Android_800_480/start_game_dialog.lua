@@ -1,0 +1,19 @@
+start_game_dialog=
+{
+	name="start_game_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=144922967,x=0,y=230,width=429,height=429,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/money_dec.png",
+		{
+			name="Image1",type=1,typeName="Image",time=144925349,x=0,y=0,width=160,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="mall/mall_list_gold3.png"
+		},
+		{
+			name="money_bg",type=1,typeName="Image",time=144923771,x=0,y=69,width=420,height=70,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/decoration/ribbon_3.png",gridLeft=78,gridRight=78,gridTop=0,gridBottom=0,
+			{
+				name="txt",type=4,typeName="Text",time=144923858,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[]]
+			}
+		},
+		{
+			name="dec_txt_view",type=0,typeName="View",time=144923918,x=0,y=-60,width=594,height=54,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom
+		}
+	}
+}

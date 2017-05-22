@@ -1,0 +1,25 @@
+-- created with TexturePacker (http://www.texturepacker.com)
+local path = "swf_anim_pin/card_end_swf_pin.png"
+card_end_swf_pin_map = {
+	
+	["card_end_1.png"]={ 
+		file=path,
+		x=2,y=2,
+		width=453,height=612
+	},
+	["card_end_2.png"]={ 
+		file=path,
+		x=2,y=616,
+		width=158,height=215
+	},
+	["card_end_3.png"]={ 
+		file=path,
+		x=2,y=881,
+		width=64,height=40
+	},
+	["card_end_4.png"]={ 
+		file=path,
+		x=2,y=833,
+		width=68,height=46
+	},
+}

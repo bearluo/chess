@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="boyaa_kefu_pstsIndicatorColor" format="color" />
+        <attr name="boyaa_kefu_pstsUnderlineColor" format="color" />
+        <attr name="boyaa_kefu_pstsSelectedTxtColor" format="color" />
+        <attr name="boyaa_kefu_pstsUnselectedTxtColor" format="color" />
+        <attr name="boyaa_kefu_pstsDividerColor" format="color" />
+        <attr name="boyaa_kefu_pstsIndicatorHeight" format="dimension" />
+        <attr name="boyaa_kefu_pstsUnderlineHeight" format="dimension" />
+        <attr name="boyaa_kefu_pstsDividerPadding" format="dimension" />
+        <attr name="boyaa_kefu_pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="boyaa_kefu_pstsScrollOffset" format="dimension" />
+        <attr name="boyaa_kefu_pstsTabBackground" format="reference" />
+        <attr name="boyaa_kefu_pstsShouldExpand" format="boolean" />
+        <attr name="boyaa_kefu_pstsTextAllCaps" format="boolean" />
+        <attr name="boyaa_kefu_pstsTabMarginTop" format="dimension" />
+        <attr name="boyaa_kefu_pstsTabMarginBottom" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,22 @@
+watch_view_prefabs=
+{
+	name="watch_view_prefabs",type=0,typeName="View",time=0,x=0,y=0,width=108,height=550,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="Image1",type=1,typeName="Image",time=136192198,x=0,y=-10,width=108,height=550,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="common/decoration/watch_handler_bg.png"
+	},
+	{
+		name="watch_view",type=0,typeName="View",time=134981926,x=0,y=44,width=108,height=440,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft
+	},
+	{
+		name="show_watch_list_btn",type=2,typeName="Button",time=134982068,x=0,y=0,width=108,height=550,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="drawable/blank.png",
+		{
+			name="Image2",type=1,typeName="Image",time=138964130,x=0,y=0,width=106,height=54,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/open_master_btn.png"
+		}
+	},
+	{
+		name="Image3",type=1,typeName="Image",time=143103661,x=0,y=0,width=106,height=52,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/master_bg.png",
+		{
+			name="Text1",type=4,typeName="Text",time=143103662,x=0,y=0,width=106,height=52,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=36,textAlign=kAlignCenter,colorRed=255,colorGreen=220,colorBlue=170,string=[[大师]]
+		}
+	}
+}

@@ -1,0 +1,37 @@
+friend_chat_dialog=
+{
+	name="friend_chat_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=97936054,x=0,y=-100,width=720,height=1189,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/background/dialog_bg_1.png",gridLeft=128,gridRight=128,gridTop=128,gridBottom=128,
+		{
+			name="title",type=4,typeName="Text",time=97936150,x=0,y=-4,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=46,textAlign=kAlignCenter,colorRed=80,colorGreen=80,colorBlue=80,string=[[未知]]
+		},
+		{
+			name="bottom_edit",type=0,typeName="View",time=97936223,x=0,y=100,width=200,height=144,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,
+			{
+				name="Image2",type=1,typeName="Image",time=97936251,x=0,y=2,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+			},
+			{
+				name="input_bg",type=1,typeName="Image",time=97936299,x=-65,y=8,width=486,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="common/background/input_bg_2.png",gridLeft=33,gridRight=33,gridTop=31,gridBottom=31,
+				{
+					name="msg_edit",type=6,typeName="EditText",time=97950707,x=13,y=-1,width=458,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=32,textAlign=kAlignLeft,colorRed=80,colorGreen=80,colorBlue=80,string=[[]]
+				}
+			},
+			{
+				name="send_btn",type=2,typeName="Button",time=97936456,x=48,y=8,width=128,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="common/button/dialog_btn_3_normal.png",file2="common/button/dialog_btn_3_press.png",
+				{
+					name="text",type=4,typeName="Text",time=97936505,x=0,y=-1,width=200,height=150,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=32,textAlign=kAlignCenter,colorRed=240,colorGreen=230,colorBlue=210,string=[[发送]]
+				}
+			}
+		},
+		{
+			name="content_view",type=0,typeName="View",time=97936672,x=0,y=127,width=658,height=810,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		},
+		{
+			name="Image1",type=1,typeName="Image",time=98086088,x=0,y=105,width=640,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="common/decoration/line.png"
+		},
+		{
+			name="close_btn",type=2,typeName="Button",time=102139208,x=42,y=39,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/button/btn_close.png"
+		}
+	}
+}

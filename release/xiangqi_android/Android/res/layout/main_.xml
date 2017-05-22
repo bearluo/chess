@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:id="@+id/text_field"
+        android:imeOptions="actionDone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" />
+    
+    <com.boyaa.made.AppGLSurfaceView
+        android:id="@+id/gl_surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</merge>

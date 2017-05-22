@@ -1,0 +1,31 @@
+buy_level_msg_dialog=
+{
+	name="buy_level_msg_dialog",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,
+	{
+		name="msg_dialog_bg",type=1,typeName="Image",time=69211721,x=0,y=259,width=480,height=300,visible=1,file="dialog/dialog_resize_bg.png",gridLeft=64,gridRight=64,gridTop=64,gridBottom=64,
+		{
+			name="msg_dialog_close",type=2,typeName="Button",time=69222494,x=426,y=25,width=36,height=36,visible=1,file="dialog/btn_close_dow.png"
+		},
+		{
+			name="msg_dialog_content",type=5,typeName="TextView",time=69212285,x=35,y=59,width=400,height=150,visible=1,fontSize=20,align=kTextAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[开通本层关卡，更多精彩内容等你来体验！5000金币可直接开通，金币不足点击获取金币可免费赚金币。]]
+		},
+		{
+			name="msg_first_btn",type=2,typeName="Button",time=69214025,x=72,y=240,width=150,height=75,visible=1,file="dialog/btn_pos_down.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="text",type=4,typeName="Text",time=69214075,x=0,y=20,width=150,height=0,visible=1,fontSize=24,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[获取金币]]
+			}
+		},
+		{
+			name="msg_second_btn",type=2,typeName="Button",time=69214179,x=260,y=240,width=150,height=75,visible=1,file="dialog/btn_pos_up.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="text",type=4,typeName="Text",time=69214255,x=0,y=20,width=150,height=0,visible=1,fontSize=24,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[直接开通]]
+			}
+		},
+		{
+			name="msg_single_btn",type=2,typeName="Button",time=69219228,x=169,y=240,width=150,height=75,visible=0,file="dialog/btn_pos_up.png",gridLeft=64,gridRight=64,gridTop=0,gridBottom=0,
+			{
+				name="text",type=4,typeName="Text",time=69219286,x=0,y=20,width=150,height=0,visible=1,fontSize=24,align=kTextAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[直接开通]]
+			}
+		}
+	}
+}

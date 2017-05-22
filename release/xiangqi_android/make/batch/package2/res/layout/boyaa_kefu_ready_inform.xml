@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/boyaa_kefu_inform_item" layout="@layout/boyaa_kefu_ready_inform_input_item" />
+    <RelativeLayout android:id="@id/boyaa_kefu_id_inform_content_layout" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/boyaa_kefu_inform_item">
+        <EditText android:textSize="15.0sp" android:textColor="#ff000000" android:textColorHint="#ffc3c3c3" android:gravity="center|left|top" android:id="@id/boyaa_kefu_id_inform_content" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:hint="@string/boyaa_kefu_picker_informcontents_describe" android:minLines="4" android:ems="10" />
+    </RelativeLayout>
+    <View android:id="@id/boyaa_kefu_separate_line3" android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/boyaa_kefu_id_inform_content_layout" />
+    <RelativeLayout android:id="@id/boyaa_kefu_id_screenshot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/boyaa_kefu_separate_line3">
+        <ImageButton android:id="@id/boyaa_kefu_id_pick_picture_btn" android:background="@drawable/boyaa_kefu_panel_pic_icon_selector" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:contentDescription="@string/boyaa_kefu_imageview_content_description" />
+        <TextView android:textSize="15.0sp" android:gravity="center_vertical" android:id="@id/boyaa_kefu_id_pick_picture_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginBottom="36.0dip" android:text="@string/boyaa_kefu_picker_picture_describe" android:layout_toRightOf="@id/boyaa_kefu_id_pick_picture_btn" android:layout_alignBottom="@id/boyaa_kefu_id_pick_picture_btn" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/boyaa_kefu_id_screenshot_picture" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="282.0dip" android:layout_below="@id/boyaa_kefu_separate_line3">
+        <ImageView android:id="@id/boyaa_kefu_id_picture_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:contentDescription="@string/boyaa_kefu_contentdescrip_inform" />
+    </RelativeLayout>
+    <Button android:textSize="17.0sp" android:textColor="#fffefefe" android:id="@id/boyaa_kefu_id_inform_submit" android:background="@drawable/boyaa_kefu_submit_click" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/boyaa_kefu_picker_inform_submit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,34 @@
+new_style_chess_scene=
+{
+	name="new_style_chess_scene",type=0,typeName="View",time=0,x=0,y=0,width=0,height=0,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="new_style_view",type=0,typeName="View",time=143948048,x=171,y=245,width=200,height=150,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+		{
+			name="bg_img",type=1,typeName="Image",time=143805486,x=0,y=0,width=720,height=1280,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,file="drawable/blank_black.png"
+		},
+		{
+			name="title_view",type=0,typeName="View",time=143805615,x=0,y=0,width=480,height=95,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,
+			{
+				name="title_bg_img",type=1,typeName="Image",time=143805662,x=0,y=0,width=720,height=116,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="common/background/chat_title_bg.png"
+			},
+			{
+				name="title_tx",type=4,typeName="Text",time=143805787,x=0,y=0,width=96,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=48,textAlign=kAlignCenter,colorRed=225,colorGreen=200,colorBlue=160,string=[[]]
+			}
+		},
+		{
+			name="topright_btn",type=2,typeName="Button",time=143805964,x=34,y=21,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="common/icon/gift_icon.png"
+		},
+		{
+			name="back_btn",type=2,typeName="Button",time=143806053,x=27,y=36,width=60,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="common/button/hide_dialog_btn.png"
+		},
+		{
+			name="bottom_btn",type=2,typeName="Button",time=143806107,x=0,y=19,width=444,height=96,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="common/button/long_yellow_btn.png",
+			{
+				name="bottom_btn_tx",type=4,typeName="Text",time=143806200,x=0,y=0,width=144,height=36,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=36,textAlign=kAlignCenter,colorRed=95,colorGreen=15,colorBlue=15,string=[[]]
+			}
+		},
+		{
+			name="content_view",type=0,typeName="View",time=143806374,x=0,y=128,width=720,height=1025,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop
+		}
+	}
+}

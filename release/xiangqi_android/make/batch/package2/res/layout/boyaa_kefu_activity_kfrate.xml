@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/empty_cart_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/boyaa_kefu_top_title_backbar" layout="@layout/boyaa_kefu_activity_title_header" />
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="285.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/boyaa_kefu_rate_title" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="15.0dip">
+            <RelativeLayout android:id="@id/boyaa_kefu_rate_speed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.5dip">
+                <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:id="@id/boyaa_kefu_rate_speed_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/boyaa_kefu_rate_content_speed" />
+                <include android:id="@id/boyaa_kefu_rate_speed_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" layout="@layout/boyaa_kefu_activity_kfrate_heart" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/boyaa_kefu_rate_attitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/boyaa_kefu_rate_speed">
+                <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:id="@id/boyaa_kefu_rate_attitude_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/boyaa_kefu_rate_content_attitude" />
+                <include android:id="@id/boyaa_kefu_rate_attitude_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" layout="@layout/boyaa_kefu_activity_kfrate_heart" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/boyaa_kefu_rate_feel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/boyaa_kefu_rate_attitude">
+                <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:id="@id/boyaa_kefu_rate_feel_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/boyaa_kefu_rate_content_feel" />
+                <include android:id="@id/boyaa_kefu_rate_feel_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" layout="@layout/boyaa_kefu_activity_kfrate_heart" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/boyaa_kefu_rate_content_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/boyaa_kefu_rate_content_tips" android:layout_below="@id/boyaa_kefu_rate_feel" />
+            <Button android:textSize="17.0sp" android:textColor="#fffefefe" android:id="@id/boyaa_kefu_rate_submit" android:background="@drawable/boyaa_kefu_submit_click" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/boyaa_kefu_comment_submit" android:layout_below="@id/boyaa_kefu_rate_content_tips" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
